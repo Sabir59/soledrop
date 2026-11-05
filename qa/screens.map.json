@@ -1,0 +1,41 @@
+{
+  "$comment": "Designed screen → route mapping for pixel QA (qa/pixel.mjs). `setup` runs before the capture; `masks` may only list genuinely dynamic regions and must say why.",
+  "viewport": { "width": 1920 },
+  "screens": [
+    { "id": "01", "design": "design/screens/light/desktop/01 Home Page.png", "route": "/", "masks": [] },
+    { "id": "02", "design": "design/screens/light/desktop/02 Inside pages.png", "route": "/collections/new-arrivals?gender=men", "state": "Design shows the Men filter ticked", "masks": [] },
+    { "id": "03", "design": "design/screens/light/desktop/03 Pre Loved page.png", "route": "/pre-loved?gender=men", "state": "Design shows the Men filter ticked", "masks": [] },
+    { "id": "04", "design": "design/screens/light/desktop/04 Frame 195.png", "route": "/products/asics-gel-kayano-30-black-silver", "masks": [] },
+    { "id": "05", "design": "design/screens/light/desktop/05 Frame 194.png", "route": "/products/hoka-bondi-7-grey", "masks": [] },
+    { "id": "06", "design": "design/screens/light/desktop/06 Contact Us.png", "route": "/contact", "masks": [] },
+    { "id": "07", "design": "design/screens/light/desktop/07 FAQs.png", "route": "/faq", "masks": [] },
+    { "id": "08", "design": "design/screens/light/desktop/08 Size Guide.png", "route": "/size-guide", "masks": [] },
+    { "id": "09", "design": "design/screens/light/desktop/09 Empty Cart page.png", "route": "/cart", "masks": [] },
+    {
+      "id": "10",
+      "design": "design/screens/light/desktop/10 Cart page.png",
+      "route": "/cart",
+      "setup": {
+        "addToCart": [
+          { "slug": "asics-gel-kayano-30-black-silver", "size": "44", "quantity": 1 },
+          { "slug": "hoka-bondi-7-blue", "size": "40", "quantity": 1 },
+          { "slug": "adidas-ozweego-grey", "size": "40", "quantity": 1 }
+        ]
+      },
+      "masks": []
+    }
+  ],
+  "derived": {
+    "$comment": "Open-state panels the design does not show (design-decisions D-039–D-041, needs designer confirmation). No reference image exists, so they are not pixel-compared: each is captured by qa/panel-shots.mjs for review, audited for containment by e2e/overflow-audit.spec.ts and exercised by e2e/header.spec.ts. The closed header in every entry must stay identical to screen 01.",
+    "states": [
+      { "id": "mega-open", "decision": "D-039", "routes": ["/", "/collections/men", "/products/asics-gel-kayano-30-black-silver", "/search?q=nike"], "widths": [1024, 1280, 1440, 1920], "open": "focus a primary nav item, ArrowDown" },
+      { "id": "drawer-open", "decision": "D-039", "routes": ["/", "/collections/men", "/products/asics-gel-kayano-30-black-silver", "/search?q=nike"], "widths": [320, 360, 390, 640, 768], "open": "Open menu" },
+      { "id": "drawer-level", "decision": "D-039", "routes": ["/"], "widths": [390], "open": "Open menu, then Men" },
+      { "id": "search-open", "decision": "D-041", "routes": ["/", "/collections/men", "/products/asics-gel-kayano-30-black-silver", "/search?q=nike"], "widths": [320, 360, 390, 640, 768, 1024, 1280, 1440, 1920], "open": "Search button" },
+      { "id": "search-typing", "decision": "D-041", "routes": ["/", "/collections/men", "/products/asics-gel-kayano-30-black-silver", "/search?q=nike"], "widths": [320, 360, 390, 640, 768, 1024, 1280, 1440, 1920], "open": "Search button, type \"nike\"" },
+      { "id": "search-none", "decision": "D-041", "routes": ["/"], "widths": [390, 1440], "open": "Search button, type a query with no matches" },
+      { "id": "account-open", "decision": "D-040", "routes": ["/", "/collections/men", "/products/asics-gel-kayano-30-black-silver", "/search?q=nike"], "widths": [320, 360, 390, 640, 768, 1024, 1280, 1440, 1920], "open": "Account button" },
+      { "id": "cart-open", "decision": "D-040", "routes": ["/", "/collections/men", "/products/asics-gel-kayano-30-black-silver", "/search?q=nike"], "widths": [320, 360, 390, 640, 768, 1024, 1280, 1440, 1920], "open": "Bag button" }
+    ]
+  }
+}

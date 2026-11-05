@@ -92,6 +92,8 @@ const checkToken = (kind, value, where) => {
   if (value === undefined || value === null || value === 0 || value === 'image') return;
   if (isRawHex(value) || isRawNumber(value)) return bump(raw, `${kind}: ${value}`);
   const name = String(value).trim().split(/\s+/)[0];
+  // Strokes are exported as "<colour> <width>": a raw hex colour is a raw value, not a missing token.
+  if (isRawHex(name)) return bump(raw, `${kind}: ${name}`);
   if (!hasToken(name)) bump(unresolved, `G5|${kind} "${name}" is not a variable (${where})`);
 };
 
@@ -163,7 +165,7 @@ numbers.forEach((n, index) => {
 const pngs = (theme) => walkFiles(join(root, 'screens', theme)).filter((f) => f.endsWith('.png'));
 const lightPngs = pngs('light');
 const darkPngs = pngs('dark');
-const lightNumbers = new Set(lightPngs.map((f) => numberOf(relative(join(root, 'screens', 'light'), f).split('/').pop())));
+const lightNumbers = new Set(lightPngs.map((f) => numberOf(relative(join(root, 'screens', 'light'), f).split(/[\\/]/).pop())));
 for (const screen of screens) if (!lightNumbers.has(numberOf(screen.name))) fail('G7', `no light screenshot for "${screen.name}"`);
 if (darkPngs.length === 0) warn('G7', 'no dark screenshots');
 else if (darkPngs.length !== lightPngs.length) warn('G7', `${darkPngs.length} dark vs ${lightPngs.length} light screenshots (dark may be from an older revision)`);
@@ -179,7 +181,7 @@ for (const [screenName, taps] of Object.entries(prototype.screens ?? {})) {
     if (tap.action === 'change_to' && !componentNames.has(String(tap.to).replace(/\s*\{.*\}$/, ''))) warn('G8', `"${screenName}" › ${tap.on} changes to unknown component "${tap.to}"`);
   }
 }
-for (const tap of prototype.componentInteractions ?? []) interactions += 1;
+interactions += (prototype.componentInteractions ?? []).length;
 for (const screen of screens) if (!(prototype.screens?.[screen.name]?.length)) warn('G8', `screen "${screen.name}" has no prototype interactions`);
 
 // G9 — assets --------------------------------------------------------------------------------------

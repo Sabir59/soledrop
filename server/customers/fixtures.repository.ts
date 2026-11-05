@@ -1,0 +1,109 @@
+import "server-only"
+
+import type { CustomerRepository } from "@/server/customers/repository"
+import { db, transaction } from "@/server/fixtures/store"
+import { DomainError } from "@/server/shared/errors"
+import { newId, now } from "@/server/shared/ids"
+
+export function createFixturesCustomerRepository(): CustomerRepository {
+  return {
+    async findByEmail(storeId, email) {
+      return structuredClone(db().customers.find((row) => row.storeId === storeId && row.email === email.toLowerCase()) ?? null)
+    },
+    async findById(id) {
+      return structuredClone(db().customers.find((row) => row.id === id) ?? null)
+    },
+    async create(customer) {
+      return transaction((tables) => {
+        if (tables.customers.some((row) => row.storeId === customer.storeId && row.email === customer.email)) {
+          throw new DomainError("conflict", "An account with this email already exists.")
+        }
+        tables.customers.push(customer)
+        return structuredClone(customer)
+      })
+    },
+    async update(id, changes) {
+      return transaction((tables) => {
+        const customer = tables.customers.find((row) => row.id === id)
+        if (!customer) throw new DomainError("not_found", "Account not found.")
+        if (changes.email && tables.customers.some((row) => row.id !== id && row.storeId === customer.storeId && row.email === changes.email)) {
+          throw new DomainError("conflict", "An account with this email already exists.")
+        }
+        Object.assign(customer, changes)
+        return structuredClone(customer)
+      })
+    },
+
+    async createSession(session) {
+      db().sessions.push(session)
+    },
+    async findSession(tokenHash) {
+      const session = db().sessions.find((row) => row.tokenHash === tokenHash)
+      return session && Date.parse(session.expiresAt) > Date.now() ? structuredClone(session) : null
+    },
+    async deleteSession(tokenHash) {
+      const tables = db()
+      tables.sessions = tables.sessions.filter((row) => row.tokenHash !== tokenHash)
+    },
+    async deleteSessionsFor(customerId) {
+      const tables = db()
+      tables.sessions = tables.sessions.filter((row) => row.customerId !== customerId)
+    },
+
+    async createReset(reset) {
+      db().passwordResets.push(reset)
+    },
+    async consumeReset(tokenHash) {
+      return transaction((tables) => {
+        const reset = tables.passwordResets.find((row) => row.tokenHash === tokenHash)
+        if (!reset || reset.usedAt || Date.parse(reset.expiresAt) <= Date.now()) return null
+        reset.usedAt = now()
+        return structuredClone(reset)
+      })
+    },
+
+    async listAddresses(customerId) {
+      return structuredClone(db().addresses.filter((row) => row.customerId === customerId).sort((a, b) => Number(b.isDefault) - Number(a.isDefault)))
+    },
+    async saveAddress(customerId, address) {
+      return transaction((tables) => {
+        const mine = tables.addresses.filter((row) => row.customerId === customerId)
+        const isDefault = address.isDefault || mine.length === 0
+        if (isDefault) for (const row of mine) row.isDefault = false
+        const existing = address.id ? mine.find((row) => row.id === address.id) : undefined
+        if (address.id && !existing) throw new DomainError("not_found", "Address not found.")
+        const saved = { ...address, id: existing?.id ?? newId(), customerId, isDefault }
+        if (existing) Object.assign(existing, saved)
+        else tables.addresses.push(saved)
+        return structuredClone(saved)
+      })
+    },
+    async deleteAddress(customerId, addressId) {
+      transaction((tables) => {
+        const target = tables.addresses.find((row) => row.id === addressId && row.customerId === customerId)
+        if (!target) throw new DomainError("not_found", "Address not found.")
+        tables.addresses = tables.addresses.filter((row) => row !== target)
+        const next = tables.addresses.find((row) => row.customerId === customerId)
+        if (target.isDefault && next) next.isDefault = true
+      })
+    },
+
+    async scrub(customerId) {
+      transaction((tables) => {
+        const customer = tables.customers.find((row) => row.id === customerId)
+        if (!customer) return
+        Object.assign(customer, {
+          email: `deleted+${customer.id}@invalid`,
+          passwordHash: "",
+          fullName: "Deleted customer",
+          phone: null,
+          marketingOptIn: false,
+          deletionRequestedAt: customer.deletionRequestedAt ?? now(),
+        })
+        tables.addresses = tables.addresses.filter((row) => row.customerId !== customerId)
+        tables.sessions = tables.sessions.filter((row) => row.customerId !== customerId)
+        tables.passwordResets = tables.passwordResets.filter((row) => row.customerId !== customerId)
+      })
+    },
+  }
+}

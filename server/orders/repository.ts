@@ -1,0 +1,41 @@
+import type { EventTopic } from "@/server/platform/types"
+import type { Order, OrderStatus, Payment, Refund, ReturnRequest } from "@/server/orders/types"
+
+/** A fully priced order ready to persist; everything here was computed on the server. */
+export type OrderDraft = Omit<Order, "id" | "number" | "history" | "placedAt" | "updatedAt" | "refundedTotal">
+
+export type PlaceOrderInput = {
+  draft: OrderDraft
+  cartId: string
+  promotionIds: string[]
+  event: { topic: EventTopic; payload: Record<string, unknown> }
+}
+
+export interface OrderRepository {
+  /**
+   * place_order: in one transaction — replay by idempotency key, lock and decrement stock
+   * (never below zero), release the cart's reservations, redeem promotions within their
+   * limits, allocate the order number, convert the cart and write the outbox event.
+   */
+  placeOrder(input: PlaceOrderInput): Promise<{ order: Order; replayed: boolean }>
+  findByNumber(storeId: string, number: string): Promise<Order | null>
+  findById(id: string): Promise<Order | null>
+  findByIdempotencyKey(storeId: string, key: string): Promise<Order | null>
+  listByCustomer(storeId: string, customerId: string): Promise<Order[]>
+  listByEmail(storeId: string, email: string): Promise<Order[]>
+  /** transition_order: validates the state machine, restocks on cancellation, appends history. */
+  transition(orderId: string, to: OrderStatus, actor: string, note?: string, trackingNumber?: string): Promise<Order>
+  /** record_payment: idempotent on (order, idempotency key); confirms a pending order when fully paid. */
+  recordPayment(payment: Omit<Payment, "id" | "createdAt" | "refundedAmount">): Promise<Payment>
+  listPayments(orderId: string): Promise<Payment[]>
+  /** create_refund: never refunds more than was paid or more units than were bought. */
+  createRefund(refund: Omit<Refund, "id" | "createdAt">): Promise<Refund>
+  createReturn(request: Omit<ReturnRequest, "id" | "createdAt" | "status">): Promise<ReturnRequest>
+  /** restock_return: marks a return received and puts its units back into stock. */
+  restockReturn(returnId: string, actor: string): Promise<ReturnRequest>
+  listReturns(orderId: string): Promise<ReturnRequest[]>
+  /** next_order_number: gap-tolerant, never repeats. */
+  nextOrderNumber(storeId: string): Promise<string>
+  /** Removes personal data from orders of a deleted customer, keeping amounts for accounting. */
+  anonymiseCustomer(customerId: string): Promise<number>
+}

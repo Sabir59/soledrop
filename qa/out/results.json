@@ -1,0 +1,218 @@
+{
+  "generatedAt": "2026-11-04T18:33:11.307Z",
+  "base": "http://127.0.0.1:3200",
+  "threshold": 0,
+  "includeAA": false,
+  "results": [
+    {
+      "id": "01",
+      "route": "/",
+      "designSize": [
+        1920,
+        7885
+      ],
+      "appSize": [
+        1920,
+        7885
+      ],
+      "heightDelta": 0,
+      "mismatched": 3567470,
+      "ratio": 0.235645,
+      "classes": {
+        "photo": 3352940,
+        "glyph": 135416,
+        "other": 79114
+      },
+      "pass": false
+    },
+    {
+      "id": "02",
+      "route": "/collections/new-arrivals?gender=men",
+      "designSize": [
+        1920,
+        3460
+      ],
+      "appSize": [
+        1920,
+        3460
+      ],
+      "heightDelta": 0,
+      "mismatched": 959695,
+      "ratio": 0.144463,
+      "classes": {
+        "photo": 897446,
+        "glyph": 39976,
+        "other": 22273
+      },
+      "pass": false
+    },
+    {
+      "id": "03",
+      "route": "/pre-loved?gender=men",
+      "designSize": [
+        1920,
+        4200
+      ],
+      "appSize": [
+        1920,
+        4200
+      ],
+      "heightDelta": 0,
+      "mismatched": 2003609,
+      "ratio": 0.248463,
+      "classes": {
+        "photo": 1256094,
+        "glyph": 245301,
+        "other": 502214
+      },
+      "pass": false
+    },
+    {
+      "id": "04",
+      "route": "/products/asics-gel-kayano-30-black-silver",
+      "designSize": [
+        1920,
+        3612
+      ],
+      "appSize": [
+        1920,
+        3612
+      ],
+      "heightDelta": 0,
+      "mismatched": 728166,
+      "ratio": 0.104998,
+      "classes": {
+        "photo": 692818,
+        "glyph": 29787,
+        "other": 5561
+      },
+      "pass": false
+    },
+    {
+      "id": "05",
+      "route": "/products/hoka-bondi-7-grey",
+      "designSize": [
+        1920,
+        3728
+      ],
+      "appSize": [
+        1920,
+        3728
+      ],
+      "heightDelta": 0,
+      "mismatched": 813635,
+      "ratio": 0.113672,
+      "classes": {
+        "photo": 735730,
+        "glyph": 46905,
+        "other": 31000
+      },
+      "pass": false
+    },
+    {
+      "id": "06",
+      "route": "/contact",
+      "designSize": [
+        1920,
+        2141
+      ],
+      "appSize": [
+        1920,
+        2141
+      ],
+      "heightDelta": 0,
+      "mismatched": 81437,
+      "ratio": 0.019811,
+      "classes": {
+        "photo": 0,
+        "glyph": 28776,
+        "other": 52661
+      },
+      "pass": false
+    },
+    {
+      "id": "07",
+      "route": "/faq",
+      "designSize": [
+        1920,
+        2000
+      ],
+      "appSize": [
+        1920,
+        2747
+      ],
+      "heightDelta": 747,
+      "mismatched": 2767621,
+      "ratio": 0.524743,
+      "classes": {
+        "photo": 0,
+        "glyph": 260858,
+        "other": 2506763
+      },
+      "pass": false
+    },
+    {
+      "id": "08",
+      "route": "/size-guide",
+      "designSize": [
+        1920,
+        2461
+      ],
+      "appSize": [
+        1920,
+        2461
+      ],
+      "heightDelta": 0,
+      "mismatched": 33523,
+      "ratio": 0.007095,
+      "classes": {
+        "photo": 0,
+        "glyph": 25589,
+        "other": 7934
+      },
+      "pass": false
+    },
+    {
+      "id": "09",
+      "route": "/cart",
+      "designSize": [
+        1920,
+        2000
+      ],
+      "appSize": [
+        1920,
+        2000
+      ],
+      "heightDelta": 0,
+      "mismatched": 29023,
+      "ratio": 0.007558,
+      "classes": {
+        "photo": 0,
+        "glyph": 19853,
+        "other": 9170
+      },
+      "pass": false
+    },
+    {
+      "id": "10",
+      "route": "/cart",
+      "designSize": [
+        1920,
+        2000
+      ],
+      "appSize": [
+        1920,
+        2000
+      ],
+      "heightDelta": 0,
+      "mismatched": 162356,
+      "ratio": 0.04228,
+      "classes": {
+        "photo": 121301,
+        "glyph": 33292,
+        "other": 7763
+      },
+      "pass": false
+    }
+  ]
+}

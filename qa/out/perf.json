@@ -1,0 +1,70 @@
+{
+  "generatedAt": "2026-11-04T18:28:56.947Z",
+  "base": "http://127.0.0.1:3200",
+  "budget": {
+    "lcp": 2500,
+    "cls": 0.1,
+    "inp": 200,
+    "js": 204800
+  },
+  "runs": 3,
+  "profile": "390px, 4x CPU, 150ms RTT, 1.6Mbps",
+  "results": [
+    {
+      "route": "/",
+      "lcp": 2356,
+      "cls": 0,
+      "inp": 248,
+      "jsKb": 289,
+      "pass": false
+    },
+    {
+      "route": "/collections/new-arrivals",
+      "lcp": 1936,
+      "cls": 0.039,
+      "inp": 296,
+      "jsKb": 290,
+      "pass": false
+    },
+    {
+      "route": "/products/asics-gel-kayano-30-black-silver",
+      "lcp": 1952,
+      "cls": 0,
+      "inp": 96,
+      "jsKb": 290,
+      "pass": false
+    },
+    {
+      "route": "/pre-loved",
+      "lcp": 2332,
+      "cls": 0.075,
+      "inp": 320,
+      "jsKb": 290,
+      "pass": false
+    },
+    {
+      "route": "/search?q=nike",
+      "lcp": 2016,
+      "cls": 0,
+      "inp": 424,
+      "jsKb": 290,
+      "pass": false
+    },
+    {
+      "route": "/cart",
+      "lcp": 1656,
+      "cls": 0.002,
+      "inp": 432,
+      "jsKb": 289,
+      "pass": false
+    },
+    {
+      "route": "/contact",
+      "lcp": 1716,
+      "cls": 0,
+      "inp": 144,
+      "jsKb": 287,
+      "pass": false
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+ "section": "icons",
+ "file": "Soledrop (Local)",
+ "exportedWith": "Figma AI Bridge Executor (EXPORT_NODE SVG)",
+ "library": "lucide-react",
+ "icons": [
+  {
+   "figma": "logo",
+   "nodeId": "2038:67",
+   "component": "LogoIcon",
+   "custom": true,
+   "file": "icons/logo.svg"
+  },
+  {
+   "figma": "logo-mono",
+   "nodeId": "2338:389",
+   "component": "LogoMonoIcon",
+   "custom": true,
+   "file": "icons/logo-mono.svg"
+  },
+  {
+   "figma": "search",
+   "nodeId": "2276:493",
+   "component": "SearchIcon",
+   "custom": true,
+   "file": "icons/search.svg"
+  },
+  {
+   "figma": "user",
+   "nodeId": "2276:491",
+   "component": "UserIcon",
+   "custom": true,
+   "file": "icons/user.svg"
+  },
+  {
+   "figma": "bag",
+   "nodeId": "2276:487",
+   "component": "BagIcon",
+   "custom": true,
+   "file": "icons/bag.svg"
+  },
+  {
+   "figma": "info",
+   "nodeId": "2257:92",
+   "component": "InfoIcon",
+   "custom": true,
+   "file": "icons/info.svg"
+  },
+  {
+   "figma": "check",
+   "nodeId": "2194:475",
+   "component": "CheckIcon",
+   "custom": true,
+   "file": "icons/check.svg"
+  },
+  {
+   "figma": "trash",
+   "nodeId": "2338:518",
+   "component": "TrashIcon",
+   "custom": true,
+   "file": "icons/trash.svg"
+  },
+  {
+   "figma": "chevron-down",
+   "nodeId": "2276:276",
+   "component": "ChevronDownIcon",
+   "custom": true,
+   "file": "icons/chevron-down.svg"
+  },
+  {
+   "figma": "arrow-right",
+   "nodeId": "2111:64",
+   "component": "ArrowRightIcon",
+   "custom": true,
+   "file": "icons/arrow-right.svg"
+  },
+  {
+   "figma": "arrow-explore",
+   "nodeId": "2295:39",
+   "component": "ArrowExploreIcon",
+   "custom": true,
+   "file": "icons/arrow-explore.svg"
+  },
+  {
+   "figma": "whatsapp",
+   "nodeId": "2113:2",
+   "component": "WhatsappIcon",
+   "custom": true,
+   "file": "icons/whatsapp.svg"
+  },
+  {
+   "figma": "email",
+   "nodeId": "2113:5",
+   "component": "EmailIcon",
+   "custom": true,
+   "file": "icons/email.svg"
+  },
+  {
+   "figma": "instagram",
+   "nodeId": "2280:678",
+   "component": "InstagramIcon",
+   "custom": true,
+   "file": "icons/instagram.svg"
+  },
+  {
+   "figma": "facebook",
+   "nodeId": "2280:680",
+   "component": "FacebookIcon",
+   "custom": true,
+   "file": "icons/facebook.svg"
+  },
+  {
+   "figma": "tiktok",
+   "nodeId": "2280:682",
+   "component": "TiktokIcon",
+   "custom": true,
+   "file": "icons/tiktok.svg"
+  },
+  {
+   "figma": "secure",
+   "nodeId": "2276:249",
+   "component": "SecureIcon",
+   "custom": true,
+   "file": "icons/secure.svg"
+  },
+  {
+   "figma": "delivery",
+   "nodeId": "2276:256",
+   "component": "DeliveryIcon",
+   "custom": true,
+   "file": "icons/delivery.svg"
+  },
+  {
+   "figma": "return",
+   "nodeId": "2276:262",
+   "component": "ReturnIcon",
+   "custom": true,
+   "file": "icons/return.svg"
+  },
+  {
+   "figma": "light-bulb",
+   "nodeId": "2113:454",
+   "component": "LightBulbIcon",
+   "custom": true,
+   "file": "icons/light-bulb.svg"
+  },
+  {
+   "figma": "phone",
+   "nodeId": "2113:466",
+   "component": "PhoneIcon",
+   "custom": true,
+   "file": "icons/phone.svg"
+  },
+  {
+   "figma": "empty-bag",
+   "nodeId": "2338:420",
+   "component": "EmptyBagIcon",
+   "custom": true,
+   "file": "icons/empty-bag.svg"
+  }
+ ]
+}

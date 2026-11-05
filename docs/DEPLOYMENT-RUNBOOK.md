@@ -1,0 +1,97 @@
+# Deployment runbook
+
+Phase 1 ships a deployable artefact; nothing has been deployed, linked or migrated remotely. Every
+step below that touches a hosted service is for the owner (or someone they authorise) to run.
+
+## 1. What gets deployed
+
+| Piece | Source | Notes |
+| --- | --- | --- |
+| Web app | `Dockerfile` (Next.js `output: "standalone"`, Node 22, non-root, `HEALTHCHECK /api/health`) | Any container host. Listens on `PORT` (3000). Stateless: scale horizontally. |
+| Database | `supabase/migrations/*.sql` (forward only) | Postgres 15+ with the Supabase `auth` schema (RLS helpers use `auth.uid()`). |
+| Seed | `supabase/seed.sql` (generated from `server/fixtures`) | Local and staging only. **Never** run against production after launch: it inserts the sample catalogue. |
+| Scheduled jobs | `POST /api/jobs/*` | Driven by any scheduler (§5). |
+
+## 2. Environment
+
+Copy `.env.example`; every key is documented there and validated at start-up (`lib/env.server.ts`,
+`lib/env.ts`). A production server with an invalid environment prints one `{"level":"fatal"}` line
+and exits with code 1 — check the container log first if it restarts in a loop.
+
+Required in production: `NEXT_PUBLIC_SITE_URL` (build argument), `DATA_DRIVER=supabase`,
+`SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, `SESSION_SECRET` (≥ 32 random chars), `JOBS_SECRET`
+(≥ 16), `EMAIL_PROVIDER=resend` + `RESEND_API_KEY` + `EMAIL_FROM` (a verified sender).
+
+Optional: `BANK_*` (bank transfer appears only when all three are set), `STRIPE_*` plus
+`FEATURE_FLAGS=stripe-payments=on`, `API_KEYS`, `WEBHOOK_ENDPOINTS`, `TURNSTILE_*`.
+
+`TRUSTED_PROXY_HOPS` (default 1) must equal the number of proxies in front of the container that
+append to `X-Forwarded-For` (load balancer, CDN). Too high, and shoppers can forge their rate-limit
+address; too low, and every shopper behind the proxy shares one limit. Leave `COOKIE_SECURE` unset.
+
+After the first deploy, check `/_next/image?url=/images/site/hero-2.jpg&w=828&q=75` returns
+`image/avif` or `image/webp`. A JPEG of the original size means sharp's native libraries are missing
+from the image (BUG-016, `e2e/images.spec.ts`).
+
+`SUPABASE_SERVICE_ROLE_KEY` is read only by `server/db/supabase.ts` (enforced by
+`tests/unit/architecture.test.ts`). Never give it a `NEXT_PUBLIC_` prefix.
+
+## 3. First deployment
+
+1. **Local proof** (no network): `pnpm install`, `pnpm verify` (typecheck, lint, tests, build), then
+   `node qa/serve.mjs 3200` and open http://127.0.0.1:3200.
+2. **Local Supabase** (needs Docker + Supabase CLI): `supabase start`, `supabase db reset` (migrations
+   + seed), set `DATA_DRIVER=supabase`, `SUPABASE_URL=http://127.0.0.1:54321` and the printed
+   service-role key, `pnpm dev`. Run `pnpm test:db` (it runs the same migrations in PGlite).
+3. **Hosted project** (owner): create the project, then from a trusted machine
+   `supabase link --project-ref <ref>` and `supabase db push`. Do not run `seed.sql`; import the
+   real catalogue with `POST /api/v1/products/import` (CSV or JSON, `write` scope).
+4. **Staff**: insert one `staff_members` row (`role = 'owner'`) for the owner's Supabase Auth user.
+5. **Build and run**:
+   `docker build -t soledrop --build-arg NEXT_PUBLIC_SITE_URL=https://<domain> .`
+   `docker run -p 3000:3000 --env-file .env.production soledrop`
+6. **TLS and domain** at the host/CDN. The app sends HSTS (2 years, preload): only serve it over HTTPS.
+7. **Smoke**: `GET /api/health` → 200, `GET /api/ready` → 200 with `"driver":"supabase"`, place a COD
+   order, cancel it, and confirm the stock returns.
+
+## 4. Payments
+
+- **COD**: always available; orders are `confirmed` and paid on delivery (record with
+  `POST /api/v1/orders/{number}/payments`).
+- **Bank transfer**: orders wait in `pending_payment`; staff record the transfer with the same
+  endpoint, which moves the order to `confirmed`.
+- **Stripe** (reference adapter, Checkout Sessions): set keys, enable the flag, and add the webhook
+  endpoint `https://<domain>/api/webhooks/stripe` for `checkout.session.completed`
+  and `checkout.session.expired`. Refunds are recorded through `POST /api/v1/orders/{number}/refunds`
+  (the money itself is returned in the Stripe dashboard; see phase-2.md). Test-mode keys first.
+
+## 5. Scheduled jobs
+
+All are `POST` with `Authorization: Bearer $JOBS_SECRET`, idempotent and safe to overlap.
+
+| Endpoint | Every | Does |
+| --- | --- | --- |
+| `/api/jobs/outbox` | 1 min | Delivers queued emails and signed webhooks (retries with back-off, 8 attempts). |
+| `/api/jobs/release-reservations` | 5 min | Returns stock held by abandoned checkouts. |
+| `/api/jobs/purge-carts` | daily | Deletes carts idle for 30 days. |
+
+Example (any cron): `curl -fsS -X POST -H "Authorization: Bearer $JOBS_SECRET" https://<domain>/api/jobs/outbox`.
+
+## 6. Operations
+
+- **Logs**: one JSON line per server error (`instrumentation.ts`) with `digest`; shoppers see the same
+  digest as "Reference" on the error page.
+- **Health**: `/api/health` (process up, for the container) and `/api/ready` (database answers, for the
+  load balancer; 503 otherwise).
+- **Backups**: Supabase point-in-time recovery on the hosted plan; test a restore before launch.
+- **Rotating secrets**: `SESSION_SECRET` rotation signs everyone out and invalidates order links in
+  emails already sent; rotate `JOBS_SECRET` and `API_KEYS` freely (update the scheduler/clients).
+- **Rollback**: redeploy the previous image. Migrations are forward-only, so a schema change that needs
+  undoing is a new migration.
+- **Data requests**: shoppers export (`/api/account/export`) and delete (`DELETE /api/account`, which
+  anonymises their orders) themselves.
+
+## 7. Never
+
+Push a migration that disables RLS; edit an applied migration; run `seed.sql` on production; expose the
+service-role key; point a development machine at the production database.

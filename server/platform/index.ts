@@ -1,0 +1,8 @@
+import "server-only"
+
+import { selectRepository } from "@/server/db/driver"
+import { createFixturesPlatformRepository } from "@/server/platform/fixtures.repository"
+import { createSupabasePlatformRepository } from "@/server/platform/supabase.repository"
+
+export const platform = selectRepository({ fixtures: createFixturesPlatformRepository, supabase: createSupabasePlatformRepository })
+export type * from "@/server/platform/types"

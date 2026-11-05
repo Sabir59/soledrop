@@ -1,0 +1,96 @@
+Fram "Empty Cart page" #2338:331 0,0 1920x2000 fill=#ffffff
+  Fram "Frame 190" #2338:332 0,0 1920x86 fill=#000000 stroke=#a3a3a3/MIXED
+    Grou "Group 53" #2338:333 120,27 240x33
+      Vect "Vector" #2338:334 120,27 41.64x25.89 fill=#ffffff
+      Vect "Vector" #2338:335 318.15,34.94 41.85x25.07 fill=#c7f126
+      Vect "Vector" #2338:336 232.7,27.01 40.76x25.98 fill=#c7f126
+      Vect "Vector" #2338:337 200.33,34.93 34.2x18.05 fill=#ffffff
+      Vect "Vector" #2338:338 290.38,34.82 34.2x18.3 fill=#c7f126
+      Vect "Vector" #2338:339 154.63,34.95 33.68x18.04 fill=#ffffff
+      Vect "Vector" #2338:340 185.23,27.01 21.77x25.97 fill=#ffffff
+      Vect "Vector" #2338:341 264.55,34.99 30.8x17.99 fill=#c7f126
+    Grou "Group 1410121992" #2338:342 1664,31 78x24
+      Fram "Frame" #2338:343 1718,32 24x23
+        Vect "Vector" #2338:344 1718.38,32.36 23.26x22.28 fill=#ffffff
+      Vect "Vector" #2338:345 1664,31 24x24 fill=#ffffff
+    Grou "Group 1410122040" #2338:346 1772,25 36x32
+      Fram "Frame" #2338:347 1772,29 28x28
+        Grou "Group" #2338:348 1775,31.06 22x23.88
+          Vect "Vector" #2338:349 1775,31.06 22x23.88 fill=#ffffff
+          Vect "Vector" #2338:350 1780.73,42.85 10.54x5.35 fill=#ffffff
+      Fram "Frame 199" #2338:351 1792,25 16x16 fill=#c7f126 r=100
+        Vect "2" #2338:352 1797,29 6x8 fill=#000000
+  Fram "Frame 139" #2338:353 0,1287 1920x713 fill=#000000
+    Text "Stay in the drop" #2338:354 710,944 501x65 fill=#ffffff T[Inter/Black 54/auto ls0 L UPPER] "Stay in the drop"
+    Text "Be the first to know about new arrivals, exclusive deals and limited drops." #2338:355 645,1023 631x22 fill=#a3a3a3 T[Inter/Medium 18/auto ls0 L] "Be the first to know about new arrivals, exclusive deals and limited drops."
+    Grou "Group 1410121986" #2338:356 789,1439 103x230
+      Text "Shop" #2338:357 789,1439 45x22 fill=#a3a3a3 T[Inter/Medium 18/auto ls0 L] "Shop"
+      Grou "Group 1410121983" #2338:358 789,1491 103x178
+        Text "New Arrival" #2338:359 789,1491 103x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "New Arrival"
+        Text "Brand New" #2338:360 789,1543 96x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Brand New"
+        Text "Pre-Loved" #2338:361 789,1595 92x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Pre-Loved"
+        Text "Sale" #2338:362 789,1647 38x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Sale"
+    Grou "Group 1410121985" #2338:363 1487,1491 144x74
+      Text "About Sole Drop" #2338:364 1487,1491 144x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "About Sole Drop"
+      Text "Our Story" #2338:365 1487,1543 85x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Our Story"
+    Grou "Group 1410121987" #2338:366 1124,1439 124x334
+      Grou "Group 1410121984" #2338:367 1124,1491 124x282
+        Text "Contact Us" #2338:368 1124,1491 99x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Contact Us"
+        Text "FAQ" #2338:369 1124,1543 36x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "FAQ"
+        Text "Size Guide" #2338:370 1124,1595 94x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Size Guide"
+        Text "Shipping" #2338:371 1124,1647 79x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Shipping"
+        Text "Returns" #2338:372 1124,1699 70x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Returns"
+        Text "Privacy Policy" #2338:373 1124,1751 124x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Privacy Policy"
+      Text "Help" #2338:374 1124,1439 40x22 fill=#a3a3a3 T[Inter/Medium 18/auto ls0 L] "Help"
+    Text "About" #2338:375 1487,1439 53x22 fill=#a3a3a3 T[Inter/Medium 18/auto ls0 L] "About"
+    Fram "Frame 111" #2338:376 850,876 220x54 fill=#c7f126
+      Text "STAY CONNECTED" #2338:377 867,891 187x24 fill=#000000 T[Inter/Extra Bold 20/auto ls0 L] "STAY CONNECTED"
+    Fram "Frame 112" #2338:378 0,1287 1920x88 fill=#c7f126
+      Text "🚚 Free delivery on orders above PKR 5,000" #2338:379 120,1319 485x24 fill=#000000 T[Inter/Extra Bold 20/auto ls0 L UPPER] "🚚 Free delivery on orders above PKR 5,000"
+      Fram "Frame 111" #2338:380 1620,1304 180x54 fill=#000000
+        Text "SHOP NOW" #2338:381 1654,1319 113x24 fill=#c7f126 T[Inter/Extra Bold 20/auto ls0 L] "SHOP NOW"
+    Grou "Group 1410121982" #2338:382 603,1095 714x68
+      Fram "Frame 114" #2338:383 1157,1095 160x68 fill=#c7f126
+        Text "JOIN NOW" #2338:384 1186,1117 103x24 fill=#000000 T[Inter/Extra Bold 20/auto ls0 L] "JOIN NOW"
+      Fram "Frame 113" #2338:385 603,1095 540x68 fill=#ffffff@0.2 stroke=#a3a3a3/1
+        Text "Enter your email address" #2338:386 625,1117 237x24 fill=#a3a3a3@0.8 T[Inter/Medium 20/auto ls0 L] "Enter your email address"
+    Grou "Group 1410121989" #2338:387 120,1439 520x392
+      Text "Fresh finds. Fresh steps. New and pre-loved footwear from brands you love." #2338:388 120,1492.75 383x44 fill=#a3a3a3 T[Inter/Semi Bold 18/auto ls0 L] "Fresh finds. Fresh steps. New and pre-loved\nfootwear from brands you love."
+      Grou "Group 53" #2338:389 120,1439 240x33.02
+        Vect "Vector" #2338:390 120,1439 41.64x25.9 fill=#ffffff
+        Vect "Vector" #2338:391 318.15,1446.94 41.85x25.08 fill=#ffffff
+        Vect "Vector" #2338:392 232.7,1439.01 40.76x26 fill=#ffffff
+        Vect "Vector" #2338:393 200.33,1446.94 34.2x18.06 fill=#ffffff
+        Vect "Vector" #2338:394 290.38,1446.82 34.2x18.31 fill=#ffffff
+        Vect "Vector" #2338:395 154.63,1446.96 33.68x18.05 fill=#ffffff
+        Vect "Vector" #2338:396 185.23,1439.01 21.77x25.98 fill=#ffffff
+        Vect "Vector" #2338:397 264.55,1446.99 30.8x18 fill=#ffffff
+      Grou "Group 1410122013" #2338:398 120,1585.75 240x69.47
+        Fram "Frame 168" #2338:399 120,1585.75 69.47x69.47 fill=#c7f126 r=7.89
+          Vect "Vector" #2338:400 131.84,1597.59 45.79x45.79 fill=#000000
+        Fram "Frame 169" #2338:401 205.27,1585.75 69.47x69.47 fill=#c7f126 r=7.89
+          Vect "Vector" #2338:402 228.16,1597.59 23.68x45.79 fill=#000000
+        Fram "Frame 170" #2338:403 290.53,1585.75 69.47x69.47 fill=#c7f126 r=7.89
+          Vect "Vector" #2338:404 305.53,1597.59 40.26x45.79 fill=#000000
+      Fram "Frame 118" #2338:405 120,1701 520x130 fill=#ffffff@0.1 stroke=#c7f126/MIXED
+        Grou "Group 1410121988" #2338:406 158,1721 298x90
+          Text "Address: 237, street no 5, Karachi" #2338:407 158,1789 289x22 fill=#ffffff T[Inter/Medium 18/auto ls0 L] "Address: 237, street no 5, Karachi"
+          Text "WhatsAPP: +9333-333333" #2338:408 158,1721 237x22 fill=#ffffff T[Inter/Medium 18/auto ls0 L] "WhatsAPP: +9333-333333"
+          Text "Email: Soledropofficial@gmail.com" #2338:409 159,1755 297x22 fill=#ffffff T[Inter/Medium 18/auto ls0 L] "Email: Soledropofficial@gmail.com"
+    Text "© 2026 SOLE DROP. All Rights Reserved." #2338:410 128,1936 353x22 fill=#a3a3a3 T[Inter/Medium 18/auto ls0 L] "© 2026 SOLE DROP. All Rights Reserved."
+    Line "Line 26" #2338:411 123,1905 1674x0 stroke=#a3a3a3/1
+  Grou "Group 1410122039" #2338:412 602,430.03 715x414.97
+    Text "Looks like you haven’t added any shoes to your bag yet. Explore our latest drops and find your next favorite pair." #2338:413 693,657 534x68 fill=#636363 T[Inter/Medium 20/34 ls0 C] "Looks like you haven’t added any shoes to your bag yet.\nExplore our latest drops and find your next favorite pair."
+    Text "Your bag is waiting for a pair" #2338:414 602,578 715x65 fill=#000000 T[Inter/Bold 54/auto ls-2% L] "Your bag is waiting for a pair"
+    Grou "Group 1410122036" #2338:415 623,781 674x64
+      Fram "Frame 79" #2338:416 623,781 320x64 fill=#000000 r=12
+        Text "Shop Brand New" #2338:417 686,799 193x29 fill=#ffffff T[Inter/Semi Bold 24/auto ls0 L] "Shop Brand New"
+      Fram "Frame 191" #2338:418 977,781 320x64 fill=#000000 r=12
+        Text "Shop Pre-Loved" #2338:419 1043,799 187x29 fill=#ffffff T[Inter/Semi Bold 24/auto ls0 L] "Shop Pre-Loved"
+    Grou "Group 1410122038" #2338:420 890,430.03 140x108
+      Rect "Rectangle 18" #2338:421 890,433.28 90.66x90.72 fill=#c7f126@0.3 r=90.66
+      Vect "Vector" #2338:422 921.3,444.08 77.71x93.96 fill=#000000
+      Grou "Group 1410122037" #2338:423 1001.17,430.03 28.83x37.67
+        Line "Line 27" #2338:424 1001.17,430.03 19.44x0 stroke=#000000/4.32
+        Line "Line 28" #2338:425 1010.53,443.66 19.43x0 stroke=#000000/4.32
+        Line "Line 29" #2338:426 1010.68,465.67 19.43x0 stroke=#000000/4.32

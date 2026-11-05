@@ -1,0 +1,117 @@
+{
+ "section": "prototype",
+ "file": "Soledrop (Local)",
+ "exportedWith": "Figma AI Bridge Executor (plugin, protocol 2)",
+ "flows": [],
+ "screens": {},
+ "index": [
+  {
+   "screen": "Inside pages",
+   "id": "2087:71",
+   "section": "Main Flow",
+   "reactions": 0
+  },
+  {
+   "screen": "Frame 126",
+   "id": "2087:782",
+   "section": "Main Flow",
+   "reactions": 0
+  },
+  {
+   "screen": "Pre Loved page",
+   "id": "2103:257",
+   "section": "Main Flow",
+   "reactions": 0
+  },
+  {
+   "screen": "Frame 126",
+   "id": "2103:507",
+   "section": "Main Flow",
+   "reactions": 0
+  },
+  {
+   "screen": "Contact Us",
+   "id": "2103:862",
+   "section": "Main Flow",
+   "reactions": 0
+  },
+  {
+   "screen": "Size Guide",
+   "id": "2103:865",
+   "section": "Main Flow",
+   "reactions": 0
+  },
+  {
+   "screen": "FAQs",
+   "id": "2103:866",
+   "section": "Main Flow",
+   "reactions": 0
+  },
+  {
+   "screen": "Home Page",
+   "id": "2117:75",
+   "section": "Main Flow",
+   "reactions": 0
+  },
+  {
+   "screen": "Frame 199",
+   "id": "2260:163",
+   "section": "Main Flow › Group 1410122045",
+   "reactions": 0
+  },
+  {
+   "screen": "Frame 194",
+   "id": "2256:5",
+   "section": "Main Flow",
+   "reactions": 0
+  },
+  {
+   "screen": "Frame 195",
+   "id": "2276:30",
+   "section": "Main Flow",
+   "reactions": 0
+  },
+  {
+   "screen": "arrow-down",
+   "id": "2295:50",
+   "section": "Main Flow",
+   "reactions": 0
+  },
+  {
+   "screen": "Empty Cart page",
+   "id": "2338:331",
+   "section": "Main Flow",
+   "reactions": 0
+  },
+  {
+   "screen": "Cart page",
+   "id": "2338:427",
+   "section": "Main Flow",
+   "reactions": 0
+  },
+  {
+   "screen": "Soledrop 4",
+   "id": "2114:2",
+   "section": null,
+   "reactions": 0
+  },
+  {
+   "screen": "Soledrop 5",
+   "id": "2124:2",
+   "section": null,
+   "reactions": 0
+  },
+  {
+   "screen": "Soledrop 6",
+   "id": "2160:29",
+   "section": null,
+   "reactions": 0
+  },
+  {
+   "screen": "Box Sie",
+   "id": "2158:2",
+   "section": null,
+   "reactions": 0
+  }
+ ]
+}

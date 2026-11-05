@@ -1,0 +1,174 @@
+Fram "Size Guide" #2103:865 0,0 1920x2461 fill=#e8e8e8
+  Fram "Frame 141" #2104:969 0,86 1920x200 fill=#000000
+    Grou "Group 1410122008" #2104:974 200,135 362x103
+      Text "SIZE GUIDE" #2104:970 200,135 362x73 fill=#ffffff T[Montserrat/ExtraBold 60/auto ls0 L] "SIZE GUIDE"
+      Text "EU · UK · US · CM size conversion." #2104:972 200,214 340x24 fill=#a3a3a3 T[Montserrat/SemiBold 20/auto ls0 L] "EU · UK · US · CM size conversion."
+  Fram "Frame 77" #2237:471 0,0 1920x86 fill=#000000 stroke=#a3a3a3/MIXED
+    Grou "Group 53" #2237:472 120,27 240x33
+      Vect "Vector" #2237:473 120,27 41.64x25.89 fill=#ffffff
+      Vect "Vector" #2237:474 318.15,34.94 41.85x25.07 fill=#c7f126
+      Vect "Vector" #2237:475 232.7,27.01 40.76x25.98 fill=#c7f126
+      Vect "Vector" #2237:476 200.33,34.93 34.2x18.05 fill=#ffffff
+      Vect "Vector" #2237:477 290.38,34.82 34.2x18.3 fill=#c7f126
+      Vect "Vector" #2237:478 154.63,34.95 33.68x18.04 fill=#ffffff
+      Vect "Vector" #2237:479 185.23,27.01 21.77x25.97 fill=#ffffff
+      Vect "Vector" #2237:480 264.55,34.99 30.8x17.99 fill=#c7f126
+    Fram "Frame 82" #2237:481 467,1 987x85 fill=#000000
+      Text "NEW DROPS" #2237:482 505,32 134x24 fill=#ffffff T[Montserrat/Bold 20/auto ls0 L] "NEW DROPS"
+      Text "Men" #2237:483 714,32 46x24 fill=#ffffff T[Montserrat/Bold 20/auto ls0 C] "Men"
+      Text "Women" #2237:484 835,32 83x24 fill=#ffffff T[Montserrat/Bold 20/auto ls0 C] "Women"
+      Text "Kids" #2237:485 992,32 46x24 fill=#ffffff T[Montserrat/Bold 20/auto ls0 C] "Kids"
+      Text "Pre Loved" #2237:486 1114,32 105x24 fill=#ffffff T[Montserrat/Bold 20/auto ls0 C] "Pre Loved"
+      Text "Sale" #2237:487 1294,32 44x24 fill=#c7f126 T[Montserrat/Bold 20/auto ls0 C] "Sale"
+    Grou "Group 1410121992" #2237:488 1664,29 136x28
+      Fram "Frame" #2237:489 1772,29 28x28
+        Grou "Group" #2237:490 1775,31.06 22x23.88
+          Vect "Vector" #2237:491 1775,31.06 22x23.88 fill=#ffffff
+          Vect "Vector" #2237:492 1780.73,42.85 10.54x5.35 fill=#ffffff
+      Fram "Frame" #2237:493 1718,32 24x23
+        Vect "Vector" #2237:494 1718.38,32.36 23.26x22.28 fill=#ffffff
+      Vect "Vector" #2237:495 1664,31 24x24 fill=#ffffff
+  Fram "Frame 139" #2280:871 -1,1748 1920x713 fill=#000000
+    Text "Stay in the drop" #2280:872 709,1405 501x65 fill=#ffffff T[Inter/Black 54/auto ls0 L UPPER] "Stay in the drop"
+    Text "Be the first to know about new arrivals, exclusive deals and limited drops." #2280:873 644,1484 631x22 fill=#a3a3a3 T[Inter/Medium 18/auto ls0 L] "Be the first to know about new arrivals, exclusive deals and limited drops."
+    Grou "Group 1410121986" #2280:874 788,1900 103x230
+      Text "Shop" #2280:875 788,1900 45x22 fill=#a3a3a3 T[Inter/Medium 18/auto ls0 L] "Shop"
+      Grou "Group 1410121983" #2280:876 788,1952 103x178
+        Text "New Arrival" #2280:877 788,1952 103x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "New Arrival"
+        Text "Brand New" #2280:878 788,2004 96x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Brand New"
+        Text "Pre-Loved" #2280:879 788,2056 92x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Pre-Loved"
+        Text "Sale" #2280:880 788,2108 38x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Sale"
+    Grou "Group 1410121985" #2280:881 1486,1952 144x74
+      Text "About Sole Drop" #2280:882 1486,1952 144x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "About Sole Drop"
+      Text "Our Story" #2280:883 1486,2004 85x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Our Story"
+    Grou "Group 1410121987" #2280:884 1123,1900 124x334
+      Grou "Group 1410121984" #2280:885 1123,1952 124x282
+        Text "Contact Us" #2280:886 1123,1952 99x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Contact Us"
+        Text "FAQ" #2280:887 1123,2004 36x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "FAQ"
+        Text "Size Guide" #2280:888 1123,2056 94x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Size Guide"
+        Text "Shipping" #2280:889 1123,2108 79x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Shipping"
+        Text "Returns" #2280:890 1123,2160 70x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Returns"
+        Text "Privacy Policy" #2280:891 1123,2212 124x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Privacy Policy"
+      Text "Help" #2280:892 1123,1900 40x22 fill=#a3a3a3 T[Inter/Medium 18/auto ls0 L] "Help"
+    Text "About" #2280:893 1486,1900 53x22 fill=#a3a3a3 T[Inter/Medium 18/auto ls0 L] "About"
+    Fram "Frame 111" #2280:894 849,1337 220x54 fill=#c7f126
+      Text "STAY CONNECTED" #2280:895 866,1352 187x24 fill=#000000 T[Inter/Extra Bold 20/auto ls0 L] "STAY CONNECTED"
+    Fram "Frame 112" #2280:896 -1,1748 1920x88 fill=#c7f126
+      Text "🚚 Free delivery on orders above PKR 5,000" #2280:897 119,1780 485x24 fill=#000000 T[Inter/Extra Bold 20/auto ls0 L UPPER] "🚚 Free delivery on orders above PKR 5,000"
+      Fram "Frame 111" #2280:898 1619,1765 180x54 fill=#000000
+        Text "SHOP NOW" #2280:899 1653,1780 113x24 fill=#c7f126 T[Inter/Extra Bold 20/auto ls0 L] "SHOP NOW"
+    Grou "Group 1410121982" #2280:900 602,1556 714x68
+      Fram "Frame 114" #2280:901 1156,1556 160x68 fill=#c7f126
+        Text "JOIN NOW" #2280:902 1185,1578 103x24 fill=#000000 T[Inter/Extra Bold 20/auto ls0 L] "JOIN NOW"
+      Fram "Frame 113" #2280:903 602,1556 540x68 fill=#ffffff@0.2 stroke=#a3a3a3/1
+        Text "Enter your email address" #2280:904 624,1578 237x24 fill=#a3a3a3@0.8 T[Inter/Medium 20/auto ls0 L] "Enter your email address"
+    Grou "Group 1410121989" #2280:905 119,1900 520x392
+      Text "Fresh finds. Fresh steps. New and pre-loved footwear from brands you love." #2280:906 119,1953.75 383x44 fill=#a3a3a3 T[Inter/Semi Bold 18/auto ls0 L] "Fresh finds. Fresh steps. New and pre-loved\nfootwear from brands you love."
+      Grou "Group 53" #2280:907 119,1900 240x33.02
+        Vect "Vector" #2280:908 119,1900 41.64x25.9 fill=#ffffff
+        Vect "Vector" #2280:909 317.15,1907.94 41.85x25.08 fill=#ffffff
+        Vect "Vector" #2280:910 231.7,1900.01 40.76x26 fill=#ffffff
+        Vect "Vector" #2280:911 199.33,1907.94 34.2x18.06 fill=#ffffff
+        Vect "Vector" #2280:912 289.38,1907.82 34.2x18.31 fill=#ffffff
+        Vect "Vector" #2280:913 153.63,1907.96 33.68x18.05 fill=#ffffff
+        Vect "Vector" #2280:914 184.23,1900.01 21.77x25.98 fill=#ffffff
+        Vect "Vector" #2280:915 263.55,1907.99 30.8x18 fill=#ffffff
+      Grou "Group 1410122013" #2280:916 119,2046.75 240x69.47
+        Fram "Frame 168" #2280:917 119,2046.75 69.47x69.47 fill=#c7f126 r=7.89
+          Vect "Vector" #2280:918 130.84,2058.59 45.79x45.79 fill=#000000
+        Fram "Frame 169" #2280:919 204.27,2046.75 69.47x69.47 fill=#c7f126 r=7.89
+          Vect "Vector" #2280:920 227.16,2058.59 23.68x45.79 fill=#000000
+        Fram "Frame 170" #2280:921 289.53,2046.75 69.47x69.47 fill=#c7f126 r=7.89
+          Vect "Vector" #2280:922 304.53,2058.59 40.26x45.79 fill=#000000
+      Fram "Frame 118" #2280:923 119,2162 520x130 fill=#ffffff@0.1 stroke=#c7f126/MIXED
+        Grou "Group 1410121988" #2280:924 157,2182 298x90
+          Text "Address: 237, street no 5, Karachi" #2280:925 157,2250 289x22 fill=#ffffff T[Inter/Medium 18/auto ls0 L] "Address: 237, street no 5, Karachi"
+          Text "WhatsAPP: +9333-333333" #2280:926 157,2182 237x22 fill=#ffffff T[Inter/Medium 18/auto ls0 L] "WhatsAPP: +9333-333333"
+          Text "Email: Soledropofficial@gmail.com" #2280:927 158,2216 297x22 fill=#ffffff T[Inter/Medium 18/auto ls0 L] "Email: Soledropofficial@gmail.com"
+    Text "© 2026 SOLE DROP. All Rights Reserved." #2280:928 127,2397 353x22 fill=#a3a3a3 T[Inter/Medium 18/auto ls0 L] "© 2026 SOLE DROP. All Rights Reserved."
+    Line "Line 26" #2280:929 122,2366 1674x0 stroke=#a3a3a3/1
+  Grou "Group 1410122009" #2106:22 320,351 362x58
+    Fram "Frame 146" #2106:13 320,351 110x58 fill=#000000
+      Text "MEN" #2106:16 351,368 49x24 fill=#ffffff T[Montserrat/Bold 20/auto ls0 C] "MEN"
+    Fram "Frame 147" #2106:14 436,351 130x58 fill=#ffffff
+      Text "WOMEN" #2106:18 457,368 89x24 fill=#636363 T[Montserrat/Bold 20/auto ls0 C] "WOMEN"
+    Fram "Frame 148" #2106:15 572,351 110x58 fill=#ffffff
+      Text "KIDS" #2106:20 602,368 51x24 fill=#636363 T[Montserrat/Bold 20/auto ls0 C] "KIDS"
+  Fram "Frame 153" #2106:27 320,449 1280x630 AL=VERTICAL/gap0/padundefined,undefined,undefined,undefined/MIN/MIN
+    Fram "Frame 150" #2106:24 320,449 1280x70 fill=#000000 stroke=#a3a3a3/1
+      Grou "Group 1410122010" #2106:56 370,472 1096x27
+        Text "EU" #2106:39 370,472 33x27 fill=#ffffff T[Montserrat/Bold 22/auto ls0 C] "EU"
+        Text "UK" #2106:41 723,472 34x27 fill=#ffffff T[Montserrat/Bold 22/auto ls0 C] "UK"
+        Text "US" #2106:54 1077,472 32x27 fill=#ffffff T[Montserrat/Bold 22/auto ls0 C] "US"
+        Text "CM" #2106:55 1429,472 37x27 fill=#ffffff T[Montserrat/Bold 22/auto ls0 C] "CM"
+    Fram "Frame 149" #2106:23 320,519 1280x70 fill=#ffffff
+      Text "40" #2107:57 368,538 36x32 fill=#000000 T[Montserrat/Bold 26/auto ls0 C] "40"
+      Text "6" #2107:66 732,538 17x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "6"
+      Text "7" #2107:74 1087,538 16x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "7"
+      Text "25" #2107:82 1433,538 31x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "25"
+    Fram "Frame 157" #2106:36 320,589 1280x70 fill=#f0f0f0
+      Text "41" #2107:59 372,608 28x32 fill=#000000 T[Montserrat/Bold 26/auto ls0 C] "41"
+      Text "7" #2107:67 732,608 16x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "7"
+      Text "8" #2107:75 1087,608 17x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "8"
+      Text "26" #2107:83 1432,608 32x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "26"
+    Fram "Frame 151" #2106:25 320,659 1280x70 fill=#ffffff
+      Text "42" #2107:60 369,678 34x32 fill=#000000 T[Montserrat/Bold 26/auto ls0 C] "42"
+      Text "8" #2107:68 732,678 17x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "8"
+      Text "9" #2107:76 1087,678 17x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "9"
+      Text "27" #2107:84 1433,678 31x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "27"
+    Fram "Frame 153" #2106:28 320,729 1280x70 fill=#f0f0f0
+      Text "43" #2107:61 369,748 34x32 fill=#000000 T[Montserrat/Bold 26/auto ls0 C] "43"
+      Text "9" #2107:69 732,748 17x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "9"
+      Text "10" #2107:77 1081,748 28x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "10"
+      Text "28" #2107:85 1432,748 33x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "28"
+    Fram "Frame 154" #2106:30 320,799 1280x70 fill=#ffffff
+      Text "44" #2107:62 368,818 36x32 fill=#000000 T[Montserrat/Bold 26/auto ls0 C] "44"
+      Text "10" #2107:70 726,818 28x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "10"
+      Text "11" #2107:78 1085,818 20x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "11"
+      Text "29" #2107:86 1432,818 32x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "29"
+    Fram "Frame 155" #2106:32 320,869 1280x70 fill=#f0f0f0
+      Text "45" #2107:63 369,888 34x32 fill=#000000 T[Montserrat/Bold 26/auto ls0 C] "45"
+      Text "11" #2107:71 730,888 20x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "11"
+      Text "12" #2107:79 1082,888 26x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "12"
+      Text "30" #2107:87 1432,888 33x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "30"
+    Fram "Frame 156" #2106:34 320,939 1280x70 fill=#ffffff
+      Text "46" #2107:64 369,958 35x32 fill=#000000 T[Montserrat/Bold 26/auto ls0 C] "46"
+      Text "12" #2107:72 727,958 26x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "12"
+      Text "13" #2107:80 1082,958 26x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "13"
+      Text "31" #2107:88 1435,958 26x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "31"
+    Fram "Frame 152" #2106:26 320,1009 1280x70 fill=#f0f0f0
+      Text "47" #2107:65 370,1028 33x32 fill=#000000 T[Montserrat/Bold 26/auto ls0 C] "47"
+      Text "13" #2107:73 727,1028 26x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "13"
+      Text "14" #2107:81 1081,1028 28x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "14"
+      Text "32" #2107:89 1433,1028 31x32 fill=#636363 T[Montserrat/SemiBold 26/auto ls0 C] "32"
+  Fram "Frame 158" #2106:38 320,1127 1280x280 fill=#000000 r=20
+    Text "HOW TO MEASURE YOUR FOOT" #2107:90 360,1167 496x39 fill=#ffffff T[Inter/Extra Bold 32/auto ls0 L] "HOW TO MEASURE YOUR FOOT"
+    Fram "Frame 159" #2107:92 360,1237 290x130
+      Text "01" #2107:96 370,1243 52x59 fill=#c7f126 T[Montserrat/Bold 48/auto ls0 C] "01"
+      Text "Place your foot flat on a piece of paper." #2107:98 370,1308 228x48 fill=#e8e8e8 T[Inter/Semi Bold 20/auto ls0 L] "Place your foot flat on a\npiece of paper."
+    Fram "Frame 163" #2107:100 663,1237 290x130
+      Text "02" #2107:101 669,1243 61x59 fill=#c7f126 T[Montserrat/Bold 48/auto ls0 C] "02"
+      Text "Trace or mark heel to longest toe." #2107:102 673,1308 205x48 fill=#e8e8e8 T[Inter/Semi Bold 20/auto ls0 L] "Trace or mark heel to\nlongest toe."
+    Fram "Frame 164" #2107:103 966,1237 290x130
+      Text "03" #2107:104 972,1243 61x59 fill=#c7f126 T[Montserrat/Bold 48/auto ls0 C] "03"
+      Text "Measure the distance in cm." #2107:105 976,1308 232x48 fill=#e8e8e8 T[Inter/Semi Bold 20/auto ls0 L] "Measure the distance in\ncm."
+    Fram "Frame 165" #2107:106 1270,1237 290x130
+      Text "04" #2107:107 1273,1243 66x59 fill=#c7f126 T[Montserrat/Bold 48/auto ls0 C] "04"
+      Text "Compare with the chart above." #2107:108 1280,1308 229x48 fill=#e8e8e8 T[Inter/Semi Bold 20/auto ls0 L] "Compare with the chart\nabove."
+  Fram "Frame 171" #2113:452 225,1485 1470x190 fill=#ffffff,#c7f126@0.2 r=16.89
+    Fram "Frame 172" #2113:453 267.22,1516.67 126.67x126.67 fill=#c7f126 r=126.67
+      Fram "light-bulb" #2113:454 288.34,1537.78 84.44x84.44
+        Vect "Vector" #2113:455 311.21,1558.01 37.82x49.26 stroke=#000000/4.4
+        Vect "Vector" #2113:456 318.24,1564.17 12.31x14.07 stroke=#000000/4.4
+        Vect "Vector" #2113:457 326.15,1606.39 7.92x7.04 stroke=#000000/4.4
+        Vect "Vector" #2113:458 300.47,1544.81 59.28x22.43 fill=#000000
+    Grou "Group 1410122014" #2113:459 431.89,1540.94 512x78.39
+      Text "BETWEEN TWO SIZES?" #2113:460 431.89,1540.94 385x41 fill=#000000 T[Inter/Extra Bold 33.78/auto ls0 L] "BETWEEN TWO SIZES?"
+      Text "For a roomier fit, choose the larger size" #2113:461 431.89,1586.33 512x33 fill=#636363 T[Inter/Medium 27.44/auto ls0 L] "For a roomier fit, choose the larger size"
+    Grou "Group 1410122015" #2113:462 1122.45,1551.5 248x58.72
+      Text "STILL NOT SURE?" #2113:463 1122.45,1551.5 200x28 fill=#000000 T[Inter/Extra Bold 23.22/auto ls0 L] "STILL NOT SURE?"
+      Text "Our team is here to help." #2113:464 1122.45,1584.22 248x26 fill=#636363 T[Inter/Medium 21.11/auto ls0 L] "Our team is here to help."
+    Line "Line 27" #2113:465 985,1527 105.56x0 stroke=#636363/2.11
+    Vect "Vector" #2113:466 1026.89,1546.22 67.56x67.56 fill=#000000
+    Fram "Frame 173" #2113:467 1420.55,1537.78 232.22x84.44 fill=#000000 r=10.56
+      Text "CHAT WITH US" #2113:468 1445.89,1566.28 181x28 fill=#c7f126 T[Montserrat/Bold 23.22/auto ls0 L] "CHAT WITH US"

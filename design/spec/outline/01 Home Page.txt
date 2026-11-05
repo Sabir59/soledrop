@@ -1,0 +1,442 @@
+Fram "Home Page" #2117:75 0,0 1920x7885 fill=#ffffff
+  Rect "image 148" #2087:64 120,5171 747x586 fill=IMG:undefined:undefined
+  Rect "image 149" #2237:522 886,5171 854x586 fill=IMG:undefined:undefined
+  Fram "upper frame" #2037:9 0,0 1920x1141
+    Fram "Frame 78" #2038:77 0,132 1920x1010 fill=#aeaeae
+      Fram "Frame 81" #2039:94 0,131 1920x1010 fill=#000000
+        Text "Discover new and pre-loved footwear from the brands you love — at prices that make sense." #2039:114 120,864 624x68 fill=#a3a3a3 T[Inter/Medium 28/auto ls0 L] "Discover new and pre-loved footwear from the\nbrands you love — at prices that make sense."
+        Text "FIND YOUR. PERFECT PAIR." #2039:127 120,203 665x640 T[Inter/Black 150/160 ls0 L] "FIND YOUR. PERFECT\nPAIR." SEG=[{"start":0,"end":5,"text":"FIND ","fill":"#ffffff","font":"Inter Black","fontSize":150},{"start":5,"end":10,"text":"YOUR.","fill":"#c7f126","font":"Inter Black","fontSize":150},{"start":10,"end":19,"text":" PERFECT\n","fill":"#ffffff","font":"Inter Black","fontSize":150},{"start":19,"end":24,"text":"PAIR.","fill":"#c7f126","font":"Inter Black","fontSize":150}]
+        Fram "Frame 88" #2042:154 860,131 1060x1010 fill=#ffffff
+          Rect "usama-akram-kP6knT7tjn4-unsplash 1" #2042:155 860,131 1061x1010 fill=IMG:undefined:undefined
+          Rect "n 1" #2167:415 842,131 1080x1010 fill=IMG:undefined:undefined
+          Fram "Frame 89" #2042:160 1340,1078 100x18 AL=HORIZONTAL/gap13.636363983154297/padundefined,undefined,undefined,undefined/MIN/CENTER
+            Rect "Rectangle 14" #2042:157 1340,1077.91 18.18x18.18 fill=#ffffff r=454.55
+            Rect "Rectangle 15" #2042:158 1371.82,1077.91 36.36x18.18 fill=#ffffff r=454.55
+            Rect "Rectangle 16" #2042:159 1421.82,1077.91 18.18x18.18 fill=#ffffff r=454.55
+    Fram "Frame 76" #2037:10 0,0 1920x46 fill=#c7f126
+      Text "🔥 NEW DROP IS LIVE — LIMITED PAIRS" #2042:161 790,12 341x22 fill=#000000 T[Inter/Bold 18/auto ls0 C] "🔥 NEW DROP IS LIVE — LIMITED PAIRS"
+    Fram "Frame 77" #2037:11 0,46 1920x86 fill=#000000 stroke=#a3a3a3/MIXED
+      Grou "Group 53" #2038:67 120,73 240x33
+        Vect "Vector" #2038:68 120,73 41.64x25.89 fill=#ffffff
+        Vect "Vector" #2038:69 318.15,80.93 41.85x25.07 fill=#c7f126
+        Vect "Vector" #2038:70 232.7,73.01 40.76x25.98 fill=#c7f126
+        Vect "Vector" #2038:71 200.33,80.93 34.2x18.05 fill=#ffffff
+        Vect "Vector" #2038:72 290.38,80.82 34.2x18.3 fill=#c7f126
+        Vect "Vector" #2038:73 154.63,80.95 33.68x18.04 fill=#ffffff
+        Vect "Vector" #2038:74 185.23,73.01 21.77x25.97 fill=#ffffff
+        Vect "Vector" #2038:75 264.55,80.99 30.8x17.99 fill=#c7f126
+      Fram "Frame 82" #2042:137 640,47 640x85 fill=#000000
+        Grou "Group 1410122033" #2255:3 684,75 552x29
+          Text "New Arrival" #2042:138 684,75 137x29 fill=#ffffff T[Inter/Bold 24/auto ls0 L] "New Arrival"
+          Text "Men" #2042:139 895,75 52x29 fill=#c7f126 stroke=#000000/1 T[Inter/Bold 24/auto ls0 C] "Men"
+          Text "Women" #2042:140 1021,75 90x29 fill=#ffffff T[Inter/Bold 24/auto ls0 C] "Women"
+          Text "Sale" #2042:143 1185,75 51x29 fill=#c7f126 T[Inter/Bold 24/auto ls0 C] "Sale"
+      Grou "Group 1410121992" #2075:81 1664,75 136x28
+        Fram "Frame" #2042:169 1772,75 28x28
+          Grou "Group" #2042:170 1775,77.06 22x23.88
+            Vect "Vector" #2042:171 1775,77.06 22x23.88 fill=#ffffff
+            Vect "Vector" #2042:172 1780.73,88.85 10.54x5.35 fill=#ffffff
+        Fram "Frame" #2057:60 1718,78 24x23
+          Vect "Vector" #2057:61 1718.38,78.36 23.26x22.28 fill=#ffffff
+        Vect "Vector" #2075:77 1664,77 24x24 fill=#ffffff
+    Fram "Frame 79" #2038:84 120,986 260x84 fill=#c7f126 r=10
+      Text "NEW SHOES" #2039:97 159,1010 182x36 fill=#000000 T[Inter/Bold 30/auto ls0 L UPPER] "NEW SHOES"
+    Fram "Frame 80" #2038:86 424,986 260x84 fill=#ffffff r=10
+      Text "Pre-loved" #2039:98 465,1010 178x36 fill=#000000 T[Inter/Bold 30/auto ls2% L UPPER] "Pre-loved"
+  Fram "Frame 79" #2038:78 0,1141 1920x874 fill=#ffffff
+    Fram "Frame 184" #2166:281 120,1383 800x512 fill=#ffffff stroke=#636363/2 r=23.75 fx=DROP_SHADOW(14,14,0,0,#c7f126@1)
+      Rect "Elevated White Sneaker Studio Shot 1" #2293:19 120,1383 800x512 fill=IMG:undefined:undefined
+      Grou "Group 1410122046" #2271:262 180,1477 348x324
+        Text "BRAND NEW" #2271:256 180,1477 348x200 fill=#000000 T[Inter/Extra Bold 100/100 ls-2% L] "BRAND\nNEW"
+        Fram "Frame 79" #2271:259 180,1717 260x84 fill=#000000 r=14
+          Grou "Group 1410122049" #2295:41 218,1741 184.67x36
+            Text "Explore" #2271:260 218,1741 137x36 fill=#c7f126 T[Inter/Bold 30/auto ls0 L UPPER] "Explore"
+            Vect "Vector" #2295:39 369,1746.71 23.29x33.67 fill=#c7f126 stroke=#c7f126/0.3
+    Fram "Frame 185" #2269:249 1000,1383 800x512 fill=#ffffff stroke=#636363/2 r=23.75 fx=DROP_SHADOW(14,14,0,0,#c7f126@1)
+      Rect "Minimalist ASICS Shoes in Sunlit Studio 1" #2295:54 1000,1383 800x512 fill=IMG:undefined:undefined
+      Grou "Group 1410122047" #2271:266 1060,1477 333x324
+        Text "PRE- LOVED" #2271:258 1060,1477 333x200 fill=#000000 T[Inter/Extra Bold 100/100 ls-2% L] "PRE-\nLOVED"
+        Fram "Frame 80" #2295:42 1060,1717 260x84 fill=#000000 r=14
+          Grou "Group 1410122049" #2295:43 1098,1741 184.67x36
+            Text "Explore" #2295:44 1098,1741 137x36 fill=#c7f126 T[Inter/Bold 30/auto ls0 L UPPER] "Explore"
+            Vect "Vector" #2295:45 1249,1746.71 23.29x33.67 fill=#c7f126 stroke=#c7f126/0.3
+    Text "SHOP BY CATEGORY" #2166:12 120,1261 693x68 fill=#000000 T[Inter/Extra Bold 68/68 ls-1% L] "SHOP BY CATEGORY"
+  Fram "Frame 122" #2167:420 -1,3839 1920x964 fill=#f6f6f6
+    Text "Text" #2257:95 384,4734 0x0 fill=#000000 T[Inter/Medium 18/0 ls-1% L UPPER] " "
+    Grou "Group 1410122043" #2260:104 118,3959 1682x724
+      Grou "Group 1410122022" #2169:510 118,3959 689x68
+        Text "Pre-Loved Drops" #2169:508 118,3959 689x68 fill=#000000 T[Montserrat/ExtraBold 68/68 ls-1% L UPPER] "Pre-Loved Drops"
+      Fram "Frame 176" #2257:73 119,4083 400x600 fill=#ffffff stroke=#d3d3d3/2 r=12
+        Fram "Frame 176" #2257:74 137,4101 364x364 fill=#dfdfdf r=10
+          Rect "23 (6) 1" #2257:75 137,4101 364x364 fill=IMG:undefined:undefined
+          Fram "Frame 99" #2257:76 397,4121 84x28 fill=#000000 r=4
+            Text "17% OFF" #2257:77 406,4135 66x0 fill=#c7f126 T[Inter/Bold 16/0 ls-1% L] "17% OFF"
+        Grou "Group 1410122034" #2257:78 137,4499 364x166
+          Text "NIKE Vaporfly 3" #2257:79 137,4499 149x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "NIKE Vaporfly 3"
+          Grou "Group 1410122017" #2257:80 137,4533 241x11
+            Text "PKR 34,999" #2257:81 277,4533 101x0 fill=#a3a3a3 T[Inter/Medium 18/0 ls-1% L UPPER] "PKR 34,999"
+            Text "PKR 28.999" #2257:82 137,4533 140x11 fill=#000000 T[Inter/Semi Bold 22/0 ls-1% L UPPER] "PKR 28.999"
+          Fram "Frame 108" #2257:83 137,4617 364x48 fill=#c7f126 r=8
+            Text "View Details" #2257:84 262,4631 115x20 fill=#000000 T[Inter/Bold 16.18/auto ls0 L UPPER] "View Details"
+          Grou "Group 58" #2257:85 137,4562 100x40
+            Fram "Frame 95" #2257:86 137,4562 100x40 fill=#000000 r=4
+              Text "Euro 40" #2257:87 154,4571 67x22 fill=#ffffff T[Inter/Semi Bold 18/auto ls-1% L] "Euro 40"
+          Fram "Frame 100" #2257:88 250,4562 168x40 fill=#00ac2b r=6
+            Grou "Group 1410122016" #2257:89 261,4571 145.37x22
+              Text "Excellent" #2257:90 304.29,4571 79.54x22 fill=#ffffff T[Inter/Semi Bold 17/auto ls-1% L] "Excellent"
+              Text "Cond:" #2257:91 261,4573 41.28x17.81 fill=#ffffff T[Inter/Medium 14/auto ls-1% L] "Cond:"
+              Fram "info" #2257:92 385.83,4572.25 20.54x20.54
+                Vect "Vector" #2257:93 395.24,4577.43 1.71x10.21 fill=#ffffff
+                Vect "Vector" #2257:94 387.54,4573.97 17.12x17.12 fill=#ffffff
+      Fram "Frame 177" #2257:96 546,4083 400x600 fill=#ffffff stroke=#d3d3d3/2 r=12
+        Fram "Frame 176" #2257:97 564,4101 364x364 fill=#dfdfdf r=10
+          Rect "28 (6) 1" #2257:98 564,4101 364x364 fill=IMG:undefined:undefined
+          Fram "Frame 99" #2257:99 824,4121 84x28 fill=#000000 r=4
+            Text "17% OFF" #2257:100 833,4135 66x0 fill=#c7f126 T[Inter/Bold 16/0 ls-1% L] "17% OFF"
+        Grou "Group 1410122034" #2257:101 564,4499 364x166
+          Text "ADIDAS OZWEEGO" #2257:102 564,4499 182x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "ADIDAS OZWEEGO"
+          Grou "Group 1410122017" #2257:103 564,4533 241x11
+            Text "PKR 34,999" #2257:104 704,4533 101x0 fill=#a3a3a3 T[Inter/Medium 18/0 ls-1% L UPPER] "PKR 34,999"
+            Text "PKR 28.999" #2257:105 564,4533 140x11 fill=#000000 T[Inter/Semi Bold 22/0 ls-1% L UPPER] "PKR 28.999"
+          Fram "Frame 108" #2257:106 564,4617 364x48 fill=#c7f126 r=8
+            Text "View Details" #2257:107 689,4631 115x20 fill=#000000 T[Inter/Bold 16.18/auto ls0 L UPPER] "View Details"
+          Grou "Group 58" #2257:108 564,4562 100x40
+            Fram "Frame 95" #2257:109 564,4562 100x40 fill=#000000 r=4
+              Text "Euro 40" #2257:110 581,4571 67x22 fill=#ffffff T[Inter/Semi Bold 18/auto ls-1% L] "Euro 40"
+          Fram "Frame 100" #2257:111 677,4562 168x40 fill=#00ac2b r=6
+            Grou "Group 1410122016" #2257:112 688,4571 145.37x22
+              Text "Excellent" #2257:113 731.29,4571 79.54x22 fill=#ffffff T[Inter/Semi Bold 17/auto ls-1% L] "Excellent"
+              Text "Cond:" #2257:114 688,4573 41.28x17.81 fill=#ffffff T[Inter/Medium 14/auto ls-1% L] "Cond:"
+              Fram "info" #2257:115 812.83,4572.25 20.54x20.54
+                Vect "Vector" #2257:116 822.24,4577.43 1.71x10.21 fill=#ffffff
+                Vect "Vector" #2257:117 814.54,4573.97 17.12x17.12 fill=#ffffff
+      Fram "Frame 178" #2257:118 973,4083 400x600 fill=#ffffff stroke=#d3d3d3/2 r=12
+        Fram "Frame 176" #2257:119 991,4101 364x364 fill=#dfdfdf r=10
+          Rect "41 (6) 1" #2257:120 991,4101 364x364 fill=IMG:undefined:undefined
+          Fram "Frame 99" #2257:121 1251,4121 84x28 fill=#000000 r=4
+            Text "17% OFF" #2257:122 1260,4135 66x0 fill=#c7f126 T[Inter/Bold 16/0 ls-1% L] "17% OFF"
+        Grou "Group 1410122034" #2257:123 991,4499 364x166
+          Text "HOKA Bondi 7" #2257:124 991,4499 134x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "HOKA Bondi 7"
+          Grou "Group 1410122017" #2257:125 991,4533 241x11
+            Text "PKR 34,999" #2257:126 1131,4533 101x0 fill=#a3a3a3 T[Inter/Medium 18/0 ls-1% L UPPER] "PKR 34,999"
+            Text "PKR 28.999" #2257:127 991,4533 140x11 fill=#000000 T[Inter/Semi Bold 22/0 ls-1% L UPPER] "PKR 28.999"
+          Fram "Frame 108" #2257:128 991,4617 364x48 fill=#c7f126 r=8
+            Text "View Details" #2257:129 1116,4631 115x20 fill=#000000 T[Inter/Bold 16.18/auto ls0 L UPPER] "View Details"
+          Grou "Group 58" #2257:130 991,4562 100x40
+            Fram "Frame 95" #2257:131 991,4562 100x40 fill=#000000 r=4
+              Text "Euro 40" #2257:132 1008,4571 67x22 fill=#ffffff T[Inter/Semi Bold 18/auto ls-1% L] "Euro 40"
+          Fram "Frame 100" #2257:133 1104,4562 168x40 fill=#00ac2b r=6
+            Grou "Group 1410122016" #2257:134 1115,4571 145.37x22
+              Text "Excellent" #2257:135 1158.29,4571 79.54x22 fill=#ffffff T[Inter/Semi Bold 17/auto ls-1% L] "Excellent"
+              Text "Cond:" #2257:136 1115,4573 41.28x17.81 fill=#ffffff T[Inter/Medium 14/auto ls-1% L] "Cond:"
+              Fram "info" #2257:137 1239.83,4572.25 20.54x20.54
+                Vect "Vector" #2257:138 1249.24,4577.43 1.71x10.21 fill=#ffffff
+                Vect "Vector" #2257:139 1241.54,4573.97 17.12x17.12 fill=#ffffff
+      Fram "Frame 179" #2257:140 1400,4083 400x600 fill=#ffffff stroke=#d3d3d3/2 r=12
+        Fram "Frame 176" #2257:141 1418,4101 364x364 fill=#dfdfdf r=10
+          Rect "40 (6) 1" #2257:142 1418,4101 364x364 fill=IMG:undefined:undefined
+          Fram "Frame 99" #2257:143 1678,4121 84x28 fill=#000000 r=4
+            Text "17% OFF" #2257:144 1687,4135 66x0 fill=#c7f126 T[Inter/Bold 16/0 ls-1% L] "17% OFF"
+        Grou "Group 1410122034" #2257:145 1418,4499 364x166
+          Text "NIKE Vaporfly 3" #2257:146 1418,4499 149x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "NIKE Vaporfly 3"
+          Grou "Group 1410122017" #2257:147 1418,4533 241x11
+            Text "PKR 34,999" #2257:148 1558,4533 101x0 fill=#a3a3a3 T[Inter/Medium 18/0 ls-1% L UPPER] "PKR 34,999"
+            Text "PKR 28.999" #2257:149 1418,4533 140x11 fill=#000000 T[Inter/Semi Bold 22/0 ls-1% L UPPER] "PKR 28.999"
+          Fram "Frame 108" #2257:150 1418,4617 364x48 fill=#c7f126 r=8
+            Text "View Details" #2257:151 1543,4631 115x20 fill=#000000 T[Inter/Bold 16.18/auto ls0 L UPPER] "View Details"
+          Grou "Group 58" #2257:152 1418,4562 100x40
+            Fram "Frame 95" #2257:153 1418,4562 100x40 fill=#000000 r=4
+              Text "Euro 40" #2257:154 1435,4571 67x22 fill=#ffffff T[Inter/Semi Bold 18/auto ls-1% L] "Euro 40"
+          Fram "Frame 100" #2257:155 1531,4562 168x40 fill=#00ac2b r=6
+            Grou "Group 1410122016" #2257:156 1542,4571 145.37x22
+              Text "Excellent" #2257:157 1585.29,4571 79.54x22 fill=#ffffff T[Inter/Semi Bold 17/auto ls-1% L] "Excellent"
+              Text "Cond:" #2257:158 1542,4573 41.28x17.81 fill=#ffffff T[Inter/Medium 14/auto ls-1% L] "Cond:"
+              Fram "info" #2257:159 1666.83,4572.25 20.54x20.54
+                Vect "Vector" #2257:160 1676.24,4577.43 1.71x10.21 fill=#ffffff
+                Vect "Vector" #2257:161 1668.54,4573.97 17.12x17.12 fill=#ffffff
+  Fram "Frame 188" #2174:46 0,4803 1920x300 fill=#ffffff
+    Grou "Group 1410122030" #2237:30 120,4873 1841x160
+      Text "TOP BRANDS" #2174:47 120,4873 261x48 fill=#000000 T[Inter/Extra Bold 40/auto ls0 L] "TOP BRANDS"
+      Text "ASICS" #2174:48 120,4985 123x48 fill=#636363 T[Inter/Bold 40/auto ls0 L] "ASICS"
+      Text "ADIDAS" #2174:49 329,4985 154x48 fill=#636363 T[Inter/Bold 40/auto ls0 L] "ADIDAS"
+      Text "NIKE" #2174:50 569,4985 93x48 fill=#636363 T[Inter/Bold 40/auto ls0 L] "NIKE"
+      Text "PUMA" #2174:51 748,4985 122x48 fill=#636363 T[Inter/Bold 40/auto ls0 L] "PUMA"
+      Text "REEBOK" #2174:52 956,4985 161x48 fill=#636363 T[Inter/Bold 40/auto ls0 L] "REEBOK"
+      Text "NEW BALANCE" #2174:53 1203,4985 299x48 fill=#636363 T[Inter/Bold 40/auto ls0 L] "NEW BALANCE"
+      Text "JORDAN" #2174:54 1588,4985 168x48 fill=#636363 T[Inter/Bold 40/auto ls0 L] "JORDAN"
+      Text "HOKA" #2174:55 1842,4985 119x48 fill=#636363 T[Inter/Bold 40/auto ls0 L] "HOKA"
+  Fram "Frame 101" #2064:2 -1,2979 1920x860 fill=#000000
+    Fram "Frame 102" #2064:5 119,3049 720x720 fill=#313131 r=18
+      Rect "28 (6) 2" #2170:8 119,3049 720x720 fill=IMG:undefined:undefined
+    Grou "Group 1410121980" #2066:127 929,3049 600x720
+      Text "ADIDAS OZWEEGO" #2066:2 929,3092 522x68 fill=#ffffff T[Inter/Bold 56/auto ls0 L] "ADIDAS OZWEEGO"
+      Text "PKR 32,999" #2066:3 929,3191 275x58 fill=#c7f126 T[Inter/Semi Bold 48/auto ls0 L UPPER] "PKR 32,999"
+      Grou "Group 1410121978" #2066:125 929,3287 265x100.49
+        Text "Select size (EUR)" #2066:108 929,3287 224x29 fill=#ffffff T[Inter/Semi Bold 24/auto ls0 L UPPER] "Select size (EUR)"
+        Grou "Group 1410122035" #2257:443 934,3337 260x50.49
+          Fram "Frame 195" #2257:444 934,3337 55.53x50.49 stroke=#a3a3a3/1.89 r=5.05
+            Text "41" #2257:445 946.62,3362.24 29x0 fill=#ffffff T[Inter/Semi Bold 25.24/0 ls-1% L] "41"
+          Fram "Frame 196" #2257:446 1002.16,3337 55.53x50.49 stroke=#a3a3a3/1.89 r=5.05
+            Text "42" #2257:447 1013.51,3362.24 33x0 fill=#ffffff T[Inter/Semi Bold 25.24/0 ls-1% L] "42"
+          Fram "Frame 197" #2257:448 1070.31,3337 55.53x50.49 stroke=#a3a3a3/1.89 r=5.05
+            Text "43" #2257:449 1081.67,3362.24 34x0 fill=#ffffff T[Inter/Semi Bold 25.24/0 ls-1% L] "43"
+          Fram "Frame 198" #2257:450 1138.47,3337 55.53x50.49 stroke=#a3a3a3/1.89 r=5.05
+            Text "44" #2257:451 1149.83,3362.24 34x0 fill=#ffffff T[Inter/Semi Bold 25.24/0 ls-1% L] "44"
+      Grou "Group 1410121979" #2066:126 929,3586 600x183
+        Fram "Frame 108" #2066:118 929,3586 600x80 fill=#c7f126 r=10
+          Text "ADD TO CART" #2066:119 1146,3612 167x29 fill=#000000 T[Inter/Extra Bold 24/auto ls0 L] "ADD TO CART"
+        Fram "Frame 109" #2066:121 929,3689 600x80 stroke=#a3a3a3/2 r=10
+          Text "VIEW Details" #2066:122 1143,3715 173x29 fill=#ffffff T[Inter/Extra Bold 24/auto ls0 L UPPER] "VIEW Details"
+      Text "FEATURED DROP" #2066:128 929,3049 197x29 fill=#c7f126 T[Inter/Medium 24/auto ls0 L] "FEATURED DROP"
+    Text "Size guide" #2170:15 1385,3520 145x31 fill=#ffffff T[Inter/Bold 26/auto ls0 L UPPER] "Size guide"
+    Grou "Group 1410122004" #2170:17 934,3436 192x109
+      Text "Quantity" #2170:18 934,3436 136x31 fill=#ffffff T[Inter/Medium 26/auto ls0 L UPPER] "Quantity"
+      Fram "Frame 105" #2170:20 934,3481 64x64 stroke=#a3a3a3/1.37
+        Text "-" #2170:21 959,3495 15x36 fill=#ffffff T[Inter/Bold 30/auto ls0 L] "-"
+      Fram "Frame 107" #2170:22 998,3481 64x64 stroke=#a3a3a3/1.37
+        Text "1" #2170:23 1023,3495 15x36 fill=#ffffff T[Inter/Bold 30/auto ls0 L] "1"
+      Fram "Frame 108" #2170:24 1062,3481 64x64 stroke=#a3a3a3/1.37
+        Text "+" #2170:25 1084,3495 21x36 fill=#ffffff T[Inter/Bold 30/auto ls0 L] "+"
+  Fram "Frame 110" #2073:96 0,6685 1920x1200 fill=#000000
+    Text "Stay in the drop" #2073:97 710,6829 501x65 fill=#ffffff T[Inter/Black 54/auto ls0 L UPPER] "Stay in the drop"
+    Text "Be the first to know about new arrivals, exclusive deals and limited drops." #2073:98 645,6908 631x22 fill=#a3a3a3 T[Inter/Medium 18/auto ls0 L] "Be the first to know about new arrivals, exclusive deals and limited drops."
+    Grou "Group 1410121990" #2280:563 787,7324 103x230
+      Text "Shop" #2280:564 787,7324 45x22 fill=#a3a3a3 T[Inter/Medium 18/auto ls0 L] "Shop"
+      Grou "Group 1410121983" #2280:565 787,7376 103x178
+        Text "New Arrival" #2280:566 787,7376 103x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "New Arrival"
+        Text "Brand New" #2280:567 787,7428 96x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Brand New"
+        Text "Pre-Loved" #2280:568 787,7480 92x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Pre-Loved"
+        Text "Sale" #2280:569 787,7532 38x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Sale"
+    Grou "Group 1410121985" #2073:109 1487,7376 144x74
+      Text "About Sole Drop" #2073:110 1487,7376 144x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "About Sole Drop"
+      Text "Our Story" #2073:111 1487,7428 85x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Our Story"
+    Grou "Group 1410121987" #2073:112 1124,7324 124x334
+      Grou "Group 1410121984" #2073:113 1124,7376 124x282
+        Text "Contact Us" #2073:114 1124,7376 99x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Contact Us"
+        Text "FAQ" #2073:115 1124,7428 36x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "FAQ"
+        Text "Size Guide" #2073:116 1124,7480 94x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Size Guide"
+        Text "Shipping" #2073:117 1124,7532 79x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Shipping"
+        Text "Returns" #2073:118 1124,7584 70x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Returns"
+        Text "Privacy Policy" #2073:119 1124,7636 124x22 fill=#a3a3a3 T[Inter/Bold 18/auto ls0 L] "Privacy Policy"
+      Text "Help" #2073:120 1124,7324 40x22 fill=#a3a3a3 T[Inter/Medium 18/auto ls0 L] "Help"
+    Text "About" #2073:121 1487,7324 53x22 fill=#a3a3a3 T[Inter/Medium 18/auto ls0 L] "About"
+    Fram "Frame 111" #2073:122 850,6761 220x54 fill=#c7f126
+      Text "STAY CONNECTED" #2073:123 867,6776 187x24 fill=#000000 T[Inter/Extra Bold 20/auto ls0 L] "STAY CONNECTED"
+    Fram "Frame 112" #2073:124 0,7172 1920x88 fill=#c7f126
+      Text "🚚 Free delivery on orders above PKR 5,000" #2073:125 120,7204 485x24 fill=#000000 T[Inter/Extra Bold 20/auto ls0 L UPPER] "🚚 Free delivery on orders above PKR 5,000"
+      Fram "Frame 111" #2073:126 1620,7189 180x54 fill=#000000
+        Text "SHOP NOW" #2073:127 1654,7204 113x24 fill=#c7f126 T[Inter/Extra Bold 20/auto ls0 L] "SHOP NOW"
+    Grou "Group 1410121982" #2073:128 603,6980 714x68
+      Fram "Frame 114" #2073:129 1157,6980 160x68 fill=#c7f126
+        Text "JOIN NOW" #2073:130 1186,7002 103x24 fill=#000000 T[Inter/Extra Bold 20/auto ls0 L] "JOIN NOW"
+      Fram "Frame 113" #2073:131 603,6980 540x68 fill=#ffffff@0.2 stroke=#a3a3a3/1
+        Text "Enter your email address" #2073:132 625,7002 237x24 fill=#a3a3a3@0.8 T[Inter/Medium 20/auto ls0 L] "Enter your email address"
+    Grou "Group 1410121989" #2073:133 120,7324 520x392
+      Text "Fresh finds. Fresh steps. New and pre-loved footwear from brands you love." #2073:134 120,7377.75 383x44 fill=#a3a3a3 T[Inter/Semi Bold 18/auto ls0 L] "Fresh finds. Fresh steps. New and pre-loved\nfootwear from brands you love."
+      Grou "Group 53" #2073:135 120,7324 240x33.02
+        Vect "Vector" #2073:136 120,7324 41.64x25.9 fill=#ffffff
+        Vect "Vector" #2073:137 318.15,7331.94 41.85x25.08 fill=#ffffff
+        Vect "Vector" #2073:138 232.7,7324.01 40.76x26 fill=#ffffff
+        Vect "Vector" #2073:139 200.33,7331.94 34.2x18.06 fill=#ffffff
+        Vect "Vector" #2073:140 290.38,7331.83 34.2x18.31 fill=#ffffff
+        Vect "Vector" #2073:141 154.63,7331.96 33.68x18.05 fill=#ffffff
+        Vect "Vector" #2073:142 185.23,7324.01 21.77x25.98 fill=#ffffff
+        Vect "Vector" #2073:143 264.55,7331.99 30.8x18 fill=#ffffff
+      Grou "Group 1410122013" #2113:40 120,7470.75 240x69.47
+        Fram "Frame 168" #2113:41 120,7470.75 69.47x69.47 fill=#c7f126 r=7.89
+          Vect "Vector" #2113:42 131.84,7482.59 45.79x45.79 fill=#000000
+        Fram "Frame 169" #2113:43 205.26,7470.75 69.47x69.47 fill=#c7f126 r=7.89
+          Vect "Vector" #2113:44 228.16,7482.59 23.68x45.79 fill=#000000
+        Fram "Frame 170" #2113:45 290.53,7470.75 69.47x69.47 fill=#c7f126 r=7.89
+          Vect "Vector" #2113:46 305.53,7482.59 40.26x45.79 fill=#000000
+      Fram "Frame 118" #2073:150 120,7586 520x130 fill=#ffffff@0.1 stroke=#c7f126/MIXED
+        Grou "Group 1410121988" #2073:151 158,7606 298x90
+          Text "Address: 237, street no 5, Karachi" #2073:152 158,7674 289x22 fill=#ffffff T[Inter/Medium 18/auto ls0 L] "Address: 237, street no 5, Karachi"
+          Text "WhatsAPP: +9333-333333" #2073:153 158,7606 237x22 fill=#ffffff T[Inter/Medium 18/auto ls0 L] "WhatsAPP: +9333-333333"
+          Text "Email: Soledropofficial@gmail.com" #2073:154 159,7640 297x22 fill=#ffffff T[Inter/Medium 18/auto ls0 L] "Email: Soledropofficial@gmail.com"
+    Text "© 2026 SOLE DROP. All Rights Reserved." #2073:155 128,7821 353x22 fill=#a3a3a3 T[Inter/Medium 18/auto ls0 L] "© 2026 SOLE DROP. All Rights Reserved."
+    Line "Line 26" #2073:156 123,7790 1674x0 stroke=#a3a3a3/1
+  Fram "Frame 121" #2075:41 0,5825 1920x860 fill=#f6f6f6
+    Grou "Group 1410121991" #2075:42 759,5905 402x81
+      Text "@Soledropoffical" #2075:43 875,5962 171x24 fill=#a3a3a3 T[Inter/Bold 20/auto ls0 L] "@Soledropoffical"
+      Text "Follow SOLEDROP" #2075:44 759,5905 402x48 fill=#000000 T[Inter/Black 40/auto ls0 L UPPER] "Follow SOLEDROP"
+    Grou "Group 1410121990" #2075:45 208,6035 1504x440
+      Grou "Group 1410122029" #2237:13 208,6035 1504x440
+        Fram "Frame 92" #2075:46 208,6035 340x440 fill=#000000 r=16
+          Rect "1 (2) 1" #2237:17 208,6035 340x440 fill=IMG:undefined:undefined
+        Fram "Frame 93" #2237:10 596,6035 340x440 fill=#000000 r=16
+          Rect "1 (3) 1" #2237:19 596,6035 340x440 fill=IMG:undefined:undefined
+        Fram "Frame 94" #2237:11 984,6035 340x440 fill=#000000 r=16
+          Rect "1 (4) 1" #2237:25 984,6035 340x440 fill=IMG:undefined:undefined
+        Fram "Frame 95" #2237:12 1372,6035 340x440 fill=#000000 r=16
+          Rect "1 (1) 1" #2237:28 1372,6035 341x440 fill=IMG:undefined:undefined
+    Fram "Frame 111" #2075:56 740,6525 440x80 fill=#000000
+      Text "FOLLOW USE ON INSTAGRAM" #2075:57 785,6551 349x29 fill=#ffffff T[Inter/Bold 24/auto ls0 L] "FOLLOW USE ON INSTAGRAM"
+  Fram "Frame 189" #2257:164 0,2015 1920x964 fill=#f6f6f6
+    Grou "Group 1410122022" #2257:165 119,2127 1682x724
+      Grou "Group 1410122021" #2257:166 120,2251 1681x600
+        Grou "Group 1410122020" #2257:167 120,2251 1681x600
+          Grou "Group 1410122023" #2257:168 120,2251 1681x600
+            Fram "Frame 176" #2257:169 120,2251 400x600 fill=#ffffff stroke=#d3d3d3/2 r=12
+              Fram "Frame 176" #2257:170 138,2269 364x364 fill=#dfdfdf r=10
+                Rect "23 (6) 1" #2257:171 138,2269 364x364 fill=IMG:undefined:undefined
+                Fram "Frame 99" #2257:172 398,2289 84x28 fill=#000000 r=4
+                  Text "17% OFF" #2257:173 406,2303.44 68x0 fill=#c7f126 T[Montserrat/Bold 16/0 ls-1% L] "17% OFF"
+              Text "NIKE Vaporfly 3" #2257:174 138,2667 157x0 fill=#000000 T[Montserrat/SemiBold 20/0 ls-1% L] "NIKE Vaporfly 3"
+              Grou "Group 1410122017" #2257:175 138,2703 243x11
+                Text "PKR 34,999" #2257:176 278,2703 103x0 fill=#a3a3a3 T[Montserrat/Medium 18/0 ls-1% L UPPER] "PKR 34,999"
+                Text "PKR 28.999" #2257:177 138,2703 140x11 fill=#000000 T[Montserrat/SemiBold 22/0 ls-1% L UPPER] "PKR 28.999"
+              Fram "Frame 108" #2257:178 138,2785 364x48 fill=#c7f126 r=8
+                Text "View Details" #2257:179 259,2799 123x20 fill=#000000 T[Montserrat/Bold 16.18/auto ls0 L UPPER] "View Details"
+            Fram "Frame 177" #2257:190 547,2251 400x600 fill=#ffffff stroke=#d3d3d3/2 r=12
+              Fram "Frame 176" #2257:191 565,2269 364x364 fill=#dfdfdf r=10
+                Rect "28 (6) 1" #2257:192 565,2269 364x364 fill=IMG:undefined:undefined
+                Fram "Frame 99" #2257:193 825,2289 84x28 fill=#000000 r=4
+                  Text "17% OFF" #2257:194 833,2303.44 68x0 fill=#c7f126 T[Montserrat/Bold 16/0 ls-1% L] "17% OFF"
+              Text "ADIDAS OZWEEGO" #2257:195 565,2667 197x0 fill=#000000 T[Montserrat/SemiBold 20/0 ls-1% L] "ADIDAS OZWEEGO"
+              Grou "Group 1410122017" #2257:196 565,2703 243x11
+                Text "PKR 34,999" #2257:197 705,2703 103x0 fill=#a3a3a3 T[Montserrat/Medium 18/0 ls-1% L UPPER] "PKR 34,999"
+                Text "PKR 28.999" #2257:198 565,2703 140x11 fill=#000000 T[Montserrat/SemiBold 22/0 ls-1% L UPPER] "PKR 28.999"
+              Grou "Group 58" #2257:199 565,2731 100x40
+                Fram "Frame 95" #2257:200 565,2731 100x40 fill=#000000 r=4
+                  Text "Euro 40" #2257:201 579,2740 72x22 fill=#ffffff T[Montserrat/SemiBold 18/auto ls-1% L] "Euro 40"
+              Fram "Frame 108" #2257:202 565,2785 364x48 fill=#c7f126 r=8
+                Text "View Details" #2257:203 686,2799 123x20 fill=#000000 T[Montserrat/Bold 16.18/auto ls0 L UPPER] "View Details"
+              Fram "Frame 100" #2257:204 678,2730 168x40 fill=#00ac2b r=6
+                Grou "Group 1410122016" #2257:205 688,2739 148x22
+                  Text "Excellent" #2257:206 731.29,2739 79.54x22 fill=#ffffff T[Montserrat/SemiBold 17/auto ls-1% L] "Excellent"
+                  Text "Cond:" #2257:207 688,2741.1 41.28x17.81 fill=#ffffff T[Montserrat/Medium 14/auto ls-1% L] "Cond:"
+                  Fram "info" #2257:208 815.46,2740.25 20.54x20.54
+                    Vect "Vector" #2257:209 824.87,2745.43 1.71x10.21 fill=#ffffff
+                    Vect "Vector" #2257:210 817.17,2741.97 17.12x17.12 fill=#ffffff
+            Fram "Frame 178" #2257:211 974,2251 400x600 fill=#ffffff stroke=#d3d3d3/2 r=12
+              Fram "Frame 176" #2257:212 992,2269 364x364 fill=#dfdfdf r=10
+                Rect "41 (6) 1" #2257:213 992,2269 364x364 fill=IMG:undefined:undefined
+                Fram "Frame 99" #2257:214 1252,2289 84x28 fill=#000000 r=4
+                  Text "17% OFF" #2257:215 1260,2303.44 68x0 fill=#c7f126 T[Montserrat/Bold 16/0 ls-1% L] "17% OFF"
+              Text "HOKA Bondi 7" #2257:216 992,2667 145x0 fill=#000000 T[Montserrat/SemiBold 20/0 ls-1% L] "HOKA Bondi 7"
+              Grou "Group 1410122017" #2257:217 992,2703 243x11
+                Text "PKR 34,999" #2257:218 1132,2703 103x0 fill=#a3a3a3 T[Montserrat/Medium 18/0 ls-1% L UPPER] "PKR 34,999"
+                Text "PKR 28.999" #2257:219 992,2703 140x11 fill=#000000 T[Montserrat/SemiBold 22/0 ls-1% L UPPER] "PKR 28.999"
+              Fram "Frame 108" #2257:220 992,2785 364x48 fill=#c7f126 r=8
+                Text "View Details" #2257:221 1113,2799 123x20 fill=#000000 T[Montserrat/Bold 16.18/auto ls0 L UPPER] "View Details"
+              Grou "Group 58" #2257:222 992,2731 100x40
+                Fram "Frame 95" #2257:223 992,2731 100x40 fill=#000000 r=4
+                  Text "Euro 40" #2257:224 1006,2740 72x22 fill=#ffffff T[Montserrat/SemiBold 18/auto ls-1% L] "Euro 40"
+              Fram "Frame 100" #2257:225 1105,2730 168x40 fill=#00ac2b r=6
+                Grou "Group 1410122016" #2257:226 1115,2739 148x22
+                  Text "Excellent" #2257:227 1158.29,2739 79.54x22 fill=#ffffff T[Montserrat/SemiBold 17/auto ls-1% L] "Excellent"
+                  Text "Cond:" #2257:228 1115,2741.1 41.28x17.81 fill=#ffffff T[Montserrat/Medium 14/auto ls-1% L] "Cond:"
+                  Fram "info" #2257:229 1242.46,2740.25 20.54x20.54
+                    Vect "Vector" #2257:230 1251.87,2745.43 1.71x10.21 fill=#ffffff
+                    Vect "Vector" #2257:231 1244.17,2741.97 17.12x17.12 fill=#ffffff
+            Fram "Frame 179" #2257:232 1401,2251 400x600 fill=#ffffff stroke=#d3d3d3/2 r=12
+              Fram "Frame 176" #2257:233 1419,2269 364x364 fill=#dfdfdf r=10
+                Rect "40 (6) 1" #2257:234 1419,2269 364x364 fill=IMG:undefined:undefined
+                Fram "Frame 99" #2257:235 1679,2289 84x28 fill=#000000 r=4
+                  Text "17% OFF" #2257:236 1687,2303.44 68x0 fill=#c7f126 T[Montserrat/Bold 16/0 ls-1% L] "17% OFF"
+              Text "HOKA Bondi 7" #2257:237 1419,2667 145x0 fill=#000000 T[Montserrat/SemiBold 20/0 ls-1% L] "HOKA Bondi 7"
+              Grou "Group 1410122017" #2257:238 1419,2703 243x11
+                Text "PKR 34,999" #2257:239 1559,2703 103x0 fill=#a3a3a3 T[Montserrat/Medium 18/0 ls-1% L UPPER] "PKR 34,999"
+                Text "PKR 28.999" #2257:240 1419,2703 140x11 fill=#000000 T[Montserrat/SemiBold 22/0 ls-1% L UPPER] "PKR 28.999"
+              Fram "Frame 108" #2257:241 1419,2785 364x48 fill=#c7f126 r=8
+                Text "View Details" #2257:242 1540,2799 123x20 fill=#000000 T[Montserrat/Bold 16.18/auto ls0 L UPPER] "View Details"
+              Grou "Group 58" #2257:243 1419,2731 100x40
+                Fram "Frame 95" #2257:244 1419,2731 100x40 fill=#000000 r=4
+                  Text "Euro 40" #2257:245 1433,2740 72x22 fill=#ffffff T[Montserrat/SemiBold 18/auto ls-1% L] "Euro 40"
+              Fram "Frame 100" #2257:246 1532,2730 168x40 fill=#00ac2b r=6
+                Grou "Group 1410122016" #2257:247 1542,2739 148x22
+                  Text "Excellent" #2257:248 1585.29,2739 79.54x22 fill=#ffffff T[Montserrat/SemiBold 17/auto ls-1% L] "Excellent"
+                  Text "Cond:" #2257:249 1542,2741.1 41.28x17.81 fill=#ffffff T[Montserrat/Medium 14/auto ls-1% L] "Cond:"
+                  Fram "info" #2257:250 1669.46,2740.25 20.54x20.54
+                    Vect "Vector" #2257:251 1678.87,2745.43 1.71x10.21 fill=#ffffff
+                    Vect "Vector" #2257:252 1671.17,2741.97 17.12x17.12 fill=#ffffff
+      Text "Pre-Loved Drops" #2257:253 119,2127 689x68 fill=#000000 T[Montserrat/ExtraBold 68/68 ls-1% L UPPER] "Pre-Loved Drops"
+    Fram "Frame 191" #2257:254 0,2015 1920x964 fill=#f6f6f6
+      Text "Text" #2257:281 385,2910 0x0 fill=#000000 T[Inter/Medium 18/0 ls-1% L UPPER] " "
+      Grou "Group 1410122044" #2260:105 120,2135 1681x724
+        Fram "Frame 176" #2257:259 120,2259 400x600 fill=#ffffff stroke=#d3d3d3/2 r=12
+          Fram "Frame 176" #2257:260 138,2277 364x364 fill=#dfdfdf r=10
+            Rect "37 (6) 1" #2257:350 138,2277 364x364 fill=IMG:undefined:undefined
+            Fram "Frame 99" #2257:262 398,2297 84x28 fill=#000000 r=4
+              Text "17% OFF" #2257:263 407,2311 66x0 fill=#c7f126 T[Inter/Bold 16/0 ls-1% L] "17% OFF"
+          Grou "Group 1410122034" #2257:264 138,2675 364x166
+            Text "ASICS Gel-Kayano 30" #2257:265 138,2675 207x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "ASICS Gel-Kayano 30"
+            Grou "Group 1410122017" #2257:266 138,2709 241x11
+              Text "PKR 34,999" #2257:267 278,2709 101x0 fill=#a3a3a3 T[Inter/Medium 18/0 ls-1% L UPPER] "PKR 34,999"
+              Text "PKR 28.999" #2257:268 138,2709 140x11 fill=#000000 T[Inter/Semi Bold 22/0 ls-1% L UPPER] "PKR 28.999"
+            Fram "Frame 108" #2257:269 138,2793 364x48 fill=#c7f126 r=8
+              Text "ADD TO CART" #2257:270 264,2807 112x20 fill=#000000 T[Inter/Bold 16.18/auto ls0 L UPPER] "ADD TO CART"
+            Grou "Group 1410122035" #2257:381 138,2738 206x40
+              Fram "Frame 195" #2257:370 138,2738 44x40 stroke=#a3a3a3/1.5 r=4
+                Text "41" #2257:373 148,2758 23x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "41"
+              Fram "Frame 196" #2257:375 192,2738 44x40 stroke=#a3a3a3/1.5 r=4
+                Text "42" #2257:376 201,2758 26x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "42"
+              Fram "Frame 197" #2257:377 246,2738 44x40 stroke=#a3a3a3/1.5 r=4
+                Text "43" #2257:378 255,2758 27x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "43"
+              Fram "Frame 198" #2257:379 300,2738 44x40 stroke=#a3a3a3/1.5 r=4
+                Text "44" #2257:380 309,2758 27x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "44"
+        Fram "Frame 177" #2257:282 547,2259 400x600 fill=#ffffff stroke=#d3d3d3/2 r=12
+          Fram "Frame 176" #2257:283 565,2277 364x364 fill=#dfdfdf r=10
+            Rect "42 (6) 1" #2257:352 565,2277 364x364 fill=IMG:undefined:undefined
+            Fram "Frame 99" #2257:285 825,2297 84x28 fill=#000000 r=4
+              Text "17% OFF" #2257:286 834,2311 66x0 fill=#c7f126 T[Inter/Bold 16/0 ls-1% L] "17% OFF"
+          Grou "Group 1410122034" #2257:287 565,2675 364x166
+            Text "NIKE Air Max" #2257:288 565,2675 123x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "NIKE Air Max"
+            Grou "Group 1410122017" #2257:289 565,2709 241x11
+              Text "PKR 34,999" #2257:290 705,2709 101x0 fill=#a3a3a3 T[Inter/Medium 18/0 ls-1% L UPPER] "PKR 34,999"
+              Text "PKR 28.999" #2257:291 565,2709 140x11 fill=#000000 T[Inter/Semi Bold 22/0 ls-1% L UPPER] "PKR 28.999"
+            Fram "Frame 109" #2257:361 565,2793 364x48 fill=#c7f126 r=8
+              Text "ADD TO CART" #2257:362 691,2807 112x20 fill=#000000 T[Inter/Bold 16.18/auto ls0 L UPPER] "ADD TO CART"
+            Grou "Group 1410122035" #2257:402 565,2738 206x40
+              Fram "Frame 195" #2257:403 565,2738 44x40 stroke=#a3a3a3/1.5 r=4
+                Text "41" #2257:404 575,2758 23x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "41"
+              Fram "Frame 196" #2257:405 619,2738 44x40 stroke=#a3a3a3/1.5 r=4
+                Text "42" #2257:406 628,2758 26x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "42"
+              Fram "Frame 197" #2257:407 673,2738 44x40 stroke=#a3a3a3/1.5 r=4
+                Text "43" #2257:408 682,2758 27x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "43"
+              Fram "Frame 198" #2257:409 727,2738 44x40 stroke=#a3a3a3/1.5 r=4
+                Text "44" #2257:410 736,2758 27x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "44"
+        Fram "Frame 178" #2257:304 974,2259 400x600 fill=#ffffff stroke=#d3d3d3/2 r=12
+          Fram "Frame 176" #2257:305 992,2277 364x364 fill=#dfdfdf r=10
+            Rect "6 (5) 1" #2257:354 992,2277 364x364 fill=IMG:undefined:undefined
+            Fram "Frame 99" #2257:307 1252,2297 84x28 fill=#000000 r=4
+              Text "17% OFF" #2257:308 1261,2311 66x0 fill=#c7f126 T[Inter/Bold 16/0 ls-1% L] "17% OFF"
+          Grou "Group 1410122034" #2257:309 992,2675 364x166
+            Text "BROOKS Glycerin 20" #2257:310 992,2675 197x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "BROOKS Glycerin 20"
+            Grou "Group 1410122017" #2257:311 992,2709 241x11
+              Text "PKR 34,999" #2257:312 1132,2709 101x0 fill=#a3a3a3 T[Inter/Medium 18/0 ls-1% L UPPER] "PKR 34,999"
+              Text "PKR 28.999" #2257:313 992,2709 140x11 fill=#000000 T[Inter/Semi Bold 22/0 ls-1% L UPPER] "PKR 28.999"
+            Fram "Frame 109" #2257:364 992,2793 364x48 fill=#c7f126 r=8
+              Text "ADD TO CART" #2257:365 1118,2807 112x20 fill=#000000 T[Inter/Bold 16.18/auto ls0 L UPPER] "ADD TO CART"
+            Grou "Group 1410122035" #2257:412 992,2738 206x40
+              Fram "Frame 195" #2257:413 992,2738 44x40 stroke=#a3a3a3/1.5 r=4
+                Text "41" #2257:414 1002,2758 23x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "41"
+              Fram "Frame 196" #2257:415 1046,2738 44x40 stroke=#a3a3a3/1.5 r=4
+                Text "42" #2257:416 1055,2758 26x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "42"
+              Fram "Frame 197" #2257:417 1100,2738 44x40 stroke=#a3a3a3/1.5 r=4
+                Text "43" #2257:418 1109,2758 27x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "43"
+              Fram "Frame 198" #2257:419 1154,2738 44x40 stroke=#a3a3a3/1.5 r=4
+                Text "44" #2257:420 1163,2758 27x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "44"
+        Fram "Frame 179" #2257:326 1401,2259 400x600 fill=#ffffff stroke=#d3d3d3/2 r=12
+          Fram "Frame 176" #2257:327 1419,2277 364x364 fill=#dfdfdf r=10
+            Rect "3 (5) 1" #2257:356 1419,2277 364x364 fill=IMG:undefined:undefined
+            Fram "Frame 99" #2257:329 1679,2297 84x28 fill=#000000 r=4
+              Text "17% OFF" #2257:330 1688,2311 66x0 fill=#c7f126 T[Inter/Bold 16/0 ls-1% L] "17% OFF"
+          Grou "Group 1410122034" #2257:331 1419,2675 364x166
+            Text "ADIDAS Duramo SL" #2257:332 1419,2675 183x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "ADIDAS Duramo SL"
+            Grou "Group 1410122017" #2257:333 1419,2709 241x11
+              Text "PKR 34,999" #2257:334 1559,2709 101x0 fill=#a3a3a3 T[Inter/Medium 18/0 ls-1% L UPPER] "PKR 34,999"
+              Text "PKR 28.999" #2257:335 1419,2709 140x11 fill=#000000 T[Inter/Semi Bold 22/0 ls-1% L UPPER] "PKR 28.999"
+            Fram "Frame 109" #2257:367 1419,2793 364x48 fill=#c7f126 r=8
+              Text "ADD TO CART" #2257:368 1545,2807 112x20 fill=#000000 T[Inter/Bold 16.18/auto ls0 L UPPER] "ADD TO CART"
+            Grou "Group 1410122035" #2257:422 1419,2738 206x40
+              Fram "Frame 195" #2257:423 1419,2738 44x40 stroke=#a3a3a3/1.5 r=4
+                Text "41" #2257:424 1429,2758 23x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "41"
+              Fram "Frame 196" #2257:425 1473,2738 44x40 stroke=#a3a3a3/1.5 r=4
+                Text "42" #2257:426 1482,2758 26x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "42"
+              Fram "Frame 197" #2257:427 1527,2738 44x40 stroke=#a3a3a3/1.5 r=4
+                Text "43" #2257:428 1536,2758 27x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "43"
+              Fram "Frame 198" #2257:429 1581,2738 44x40 stroke=#a3a3a3/1.5 r=4
+                Text "44" #2257:430 1590,2758 27x0 fill=#000000 T[Inter/Semi Bold 20/0 ls-1% L] "44"
+        Text "New Arrival" #2257:348 120,2135 470x68 fill=#000000 T[Inter/Extra Bold 68/68 ls-1% L UPPER] "New Arrival"

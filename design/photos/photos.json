@@ -1,0 +1,1279 @@
+{
+ "section": "photos",
+ "file": "Soledrop (Local)",
+ "exportedWith": "Figma AI Bridge Executor",
+ "photos": [
+  {
+   "name": "7e5ad12ef877fe5ec8945462686aa79643db4ce1",
+   "file": "image-148.png",
+   "hash": "7e5ad12ef877fe5ec8945462686aa79643db4ce1",
+   "original": [
+    1527,
+    600
+   ],
+   "size": [
+    854,
+    586
+   ],
+   "scaleMode": "CROP",
+   "usedIn": [
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2087:64",
+     "path": "Home Page › image 148",
+     "size": [
+      747,
+      586
+     ]
+    },
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2237:522",
+     "path": "Home Page › image 149",
+     "size": [
+      854,
+      586
+     ]
+    }
+   ],
+   "slug": "image-148"
+  },
+  {
+   "name": "b682392009859258b36b55828883448c2bc713b2",
+   "file": "usama-akram-kp6knt7tjn4-unsplash-1.jpg",
+   "hash": "b682392009859258b36b55828883448c2bc713b2",
+   "original": [
+    2400,
+    3000
+   ],
+   "size": [
+    1061,
+    1010
+   ],
+   "scaleMode": "CROP",
+   "usedIn": [
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2042:155",
+     "path": "Home Page › upper frame › Frame 78 › Frame 81 › Frame 88 › usama-akram-kP6knT7tjn4-unsplash 1",
+     "size": [
+      1061,
+      1010
+     ]
+    }
+   ],
+   "slug": "usama-akram-kp6knt7tjn4-unsplash-1"
+  },
+  {
+   "name": "27680258fa54c78439366de7bf93ab64f8f32c8b",
+   "file": "n-1.jpg",
+   "hash": "27680258fa54c78439366de7bf93ab64f8f32c8b",
+   "original": [
+    1856,
+    2304
+   ],
+   "size": [
+    1080,
+    1010
+   ],
+   "scaleMode": "CROP",
+   "usedIn": [
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2167:415",
+     "path": "Home Page › upper frame › Frame 78 › Frame 81 › Frame 88 › n 1",
+     "size": [
+      1080,
+      1010
+     ]
+    }
+   ],
+   "slug": "n-1"
+  },
+  {
+   "name": "6e717acb97d433f9e965458e7935b1aa10639e0a",
+   "file": "elevated-white-sneaker-studio-shot-1.png",
+   "hash": "6e717acb97d433f9e965458e7935b1aa10639e0a",
+   "original": [
+    1672,
+    941
+   ],
+   "size": [
+    800,
+    512
+   ],
+   "scaleMode": "CROP",
+   "usedIn": [
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2293:19",
+     "path": "Home Page › Frame 79 › Frame 184 › Elevated White Sneaker Studio Shot 1",
+     "size": [
+      800,
+      512
+     ]
+    }
+   ],
+   "slug": "elevated-white-sneaker-studio-shot-1"
+  },
+  {
+   "name": "090c0fca1ee8f7b7b0ea3c43a4afea52878bf1ab",
+   "file": "minimalist-asics-shoes-in-sunlit-studio-1.png",
+   "hash": "090c0fca1ee8f7b7b0ea3c43a4afea52878bf1ab",
+   "original": [
+    1448,
+    1086
+   ],
+   "size": [
+    800,
+    512
+   ],
+   "scaleMode": "CROP",
+   "usedIn": [
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2295:54",
+     "path": "Home Page › Frame 79 › Frame 185 › Minimalist ASICS Shoes in Sunlit Studio 1",
+     "size": [
+      800,
+      512
+     ]
+    }
+   ],
+   "slug": "minimalist-asics-shoes-in-sunlit-studio-1"
+  },
+  {
+   "name": "e313e91f98e7eb5ee4aa4597ed8a495bc086c433",
+   "file": "23-6-1.png",
+   "hash": "e313e91f98e7eb5ee4aa4597ed8a495bc086c433",
+   "original": [
+    1254,
+    1254
+   ],
+   "size": [
+    820,
+    820
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2257:75",
+     "path": "Home Page › Frame 122 › Group 1410122043 › Frame 176 › Frame 176 › 23 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2257:171",
+     "path": "Home Page › Frame 189 › Group 1410122022 › Group 1410122021 › Group 1410122020 › Group 1410122023 › Frame 176 › Frame 176 › 23 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "03 Pre Loved page",
+     "nodeId": "2257:906",
+     "path": "Pre Loved page › Group 1410122036 › Frame 176 › Frame 176 › 23 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "03 Pre Loved page",
+     "nodeId": "2257:998",
+     "path": "Pre Loved page › Group 1410122037 › Frame 176 › Frame 176 › 23 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "03 Pre Loved page",
+     "nodeId": "2257:1065",
+     "path": "Pre Loved page › Group 1410122038 › Frame 176 › Frame 176 › 23 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "04 Frame 195",
+     "nodeId": "2276:57",
+     "path": "Frame 195 › Frame 190 › 23 (6) 1",
+     "size": [
+      820,
+      820
+     ]
+    },
+    {
+     "screen": "04 Frame 195",
+     "nodeId": "2276:287",
+     "path": "Frame 195 › Frame 189 › Group 1410122022 › Group 1410122021 › Group 1410122020 › Group 1410122023 › Frame 176 › Frame 176 › 23 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "05 Frame 194",
+     "nodeId": "2256:32",
+     "path": "Frame 194 › Frame 190 › 23 (6) 1",
+     "size": [
+      820,
+      820
+     ]
+    },
+    {
+     "screen": "05 Frame 194",
+     "nodeId": "2256:178",
+     "path": "Frame 194 › Frame 191 › Group 1410122022 › Group 1410122021 › Group 1410122020 › Group 1410122023 › Frame 176 › Frame 176 › 23 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    }
+   ],
+   "slug": "23-6-1"
+  },
+  {
+   "name": "a0671893454ff19540fbb57ebf342bd52ba2517e",
+   "file": "28-6-1.png",
+   "hash": "a0671893454ff19540fbb57ebf342bd52ba2517e",
+   "original": [
+    1254,
+    1254
+   ],
+   "size": [
+    720,
+    720
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2257:98",
+     "path": "Home Page › Frame 122 › Group 1410122043 › Frame 177 › Frame 176 › 28 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2170:8",
+     "path": "Home Page › Frame 101 › Frame 102 › 28 (6) 2",
+     "size": [
+      720,
+      720
+     ]
+    },
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2257:192",
+     "path": "Home Page › Frame 189 › Group 1410122022 › Group 1410122021 › Group 1410122020 › Group 1410122023 › Frame 177 › Frame 176 › 28 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "03 Pre Loved page",
+     "nodeId": "2257:929",
+     "path": "Pre Loved page › Group 1410122036 › Frame 177 › Frame 176 › 28 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "03 Pre Loved page",
+     "nodeId": "2257:1020",
+     "path": "Pre Loved page › Group 1410122037 › Frame 177 › Frame 176 › 28 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "03 Pre Loved page",
+     "nodeId": "2257:1087",
+     "path": "Pre Loved page › Group 1410122038 › Frame 177 › Frame 176 › 28 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "04 Frame 195",
+     "nodeId": "2276:298",
+     "path": "Frame 195 › Frame 189 › Group 1410122022 › Group 1410122021 › Group 1410122020 › Group 1410122023 › Frame 177 › Frame 176 › 28 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "05 Frame 194",
+     "nodeId": "2256:199",
+     "path": "Frame 194 › Frame 191 › Group 1410122022 › Group 1410122021 › Group 1410122020 › Group 1410122023 › Frame 177 › Frame 176 › 28 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    }
+   ],
+   "slug": "28-6-1"
+  },
+  {
+   "name": "393e990b4e2656ed96d2369b395e30ec57486de2",
+   "file": "41-6-1.png",
+   "hash": "393e990b4e2656ed96d2369b395e30ec57486de2",
+   "original": [
+    1254,
+    1254
+   ],
+   "size": [
+    364,
+    364
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2257:120",
+     "path": "Home Page › Frame 122 › Group 1410122043 › Frame 178 › Frame 176 › 41 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2257:213",
+     "path": "Home Page › Frame 189 › Group 1410122022 › Group 1410122021 › Group 1410122020 › Group 1410122023 › Frame 178 › Frame 176 › 41 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "03 Pre Loved page",
+     "nodeId": "2257:951",
+     "path": "Pre Loved page › Group 1410122036 › Frame 178 › Frame 176 › 41 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "03 Pre Loved page",
+     "nodeId": "2257:1042",
+     "path": "Pre Loved page › Group 1410122037 › Frame 178 › Frame 176 › 41 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "03 Pre Loved page",
+     "nodeId": "2257:1109",
+     "path": "Pre Loved page › Group 1410122038 › Frame 178 › Frame 176 › 41 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "04 Frame 195",
+     "nodeId": "2276:319",
+     "path": "Frame 195 › Frame 189 › Group 1410122022 › Group 1410122021 › Group 1410122020 › Group 1410122023 › Frame 178 › Frame 176 › 41 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "05 Frame 194",
+     "nodeId": "2256:220",
+     "path": "Frame 194 › Frame 191 › Group 1410122022 › Group 1410122021 › Group 1410122020 › Group 1410122023 › Frame 178 › Frame 176 › 41 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    }
+   ],
+   "slug": "41-6-1"
+  },
+  {
+   "name": "86489296cce63a05362aec0b708fda54bd08d461",
+   "file": "40-6-1.png",
+   "hash": "86489296cce63a05362aec0b708fda54bd08d461",
+   "original": [
+    1254,
+    1254
+   ],
+   "size": [
+    364,
+    364
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2257:142",
+     "path": "Home Page › Frame 122 › Group 1410122043 › Frame 179 › Frame 176 › 40 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2257:234",
+     "path": "Home Page › Frame 189 › Group 1410122022 › Group 1410122021 › Group 1410122020 › Group 1410122023 › Frame 179 › Frame 176 › 40 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "04 Frame 195",
+     "nodeId": "2276:340",
+     "path": "Frame 195 › Frame 189 › Group 1410122022 › Group 1410122021 › Group 1410122020 › Group 1410122023 › Frame 179 › Frame 176 › 40 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "05 Frame 194",
+     "nodeId": "2256:241",
+     "path": "Frame 194 › Frame 191 › Group 1410122022 › Group 1410122021 › Group 1410122020 › Group 1410122023 › Frame 179 › Frame 176 › 40 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    }
+   ],
+   "slug": "40-6-1"
+  },
+  {
+   "name": "68d5be9ad512e0e89a5b3e3e3d40cad130035141",
+   "file": "1-2-1.jpg",
+   "hash": "68d5be9ad512e0e89a5b3e3e3d40cad130035141",
+   "original": [
+    736,
+    981
+   ],
+   "size": [
+    340,
+    440
+   ],
+   "scaleMode": "CROP",
+   "usedIn": [
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2237:17",
+     "path": "Home Page › Frame 121 › Group 1410121990 › Group 1410122029 › Frame 92 › 1 (2) 1",
+     "size": [
+      340,
+      440
+     ]
+    }
+   ],
+   "slug": "1-2-1"
+  },
+  {
+   "name": "81c3f9be39dc19abf36ea00f7facdd5794473153",
+   "file": "1-3-1.jpg",
+   "hash": "81c3f9be39dc19abf36ea00f7facdd5794473153",
+   "original": [
+    736,
+    981
+   ],
+   "size": [
+    340,
+    440
+   ],
+   "scaleMode": "CROP",
+   "usedIn": [
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2237:19",
+     "path": "Home Page › Frame 121 › Group 1410121990 › Group 1410122029 › Frame 93 › 1 (3) 1",
+     "size": [
+      340,
+      440
+     ]
+    }
+   ],
+   "slug": "1-3-1"
+  },
+  {
+   "name": "16ccd8c79f07863f324ae2de9553fa171ed0ce37",
+   "file": "1-4-1.jpg",
+   "hash": "16ccd8c79f07863f324ae2de9553fa171ed0ce37",
+   "original": [
+    1200,
+    1600
+   ],
+   "size": [
+    340,
+    440
+   ],
+   "scaleMode": "CROP",
+   "usedIn": [
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2237:25",
+     "path": "Home Page › Frame 121 › Group 1410121990 › Group 1410122029 › Frame 94 › 1 (4) 1",
+     "size": [
+      340,
+      440
+     ]
+    }
+   ],
+   "slug": "1-4-1"
+  },
+  {
+   "name": "33da7cc7444e8afe5d4bd32480fe859d4ad58521",
+   "file": "1-1-1.jpg",
+   "hash": "33da7cc7444e8afe5d4bd32480fe859d4ad58521",
+   "original": [
+    1200,
+    1500
+   ],
+   "size": [
+    341,
+    440
+   ],
+   "scaleMode": "CROP",
+   "usedIn": [
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2237:28",
+     "path": "Home Page › Frame 121 › Group 1410121990 › Group 1410122029 › Frame 95 › 1 (1) 1",
+     "size": [
+      341,
+      440
+     ]
+    }
+   ],
+   "slug": "1-1-1"
+  },
+  {
+   "name": "f6cb4e1068a4e927d050d8661192cdc53bf6a272",
+   "file": "37-6-1.png",
+   "hash": "f6cb4e1068a4e927d050d8661192cdc53bf6a272",
+   "original": [
+    1254,
+    1254
+   ],
+   "size": [
+    364,
+    364
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2257:350",
+     "path": "Home Page › Frame 189 › Frame 191 › Group 1410122044 › Frame 176 › Frame 176 › 37 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "02 Inside pages",
+     "nodeId": "2257:458",
+     "path": "Inside pages › Frame 176 › Frame 176 › 37 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "02 Inside pages",
+     "nodeId": "2257:566",
+     "path": "Inside pages › Frame 185 › Frame 176 › 37 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "04 Frame 195",
+     "nodeId": "2276:365",
+     "path": "Frame 195 › Frame 189 › Frame 191 › Group 1410122044 › Frame 176 › Frame 176 › 37 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    }
+   ],
+   "slug": "37-6-1"
+  },
+  {
+   "name": "60925de8bffc6102c22a752806bcff618f7f06c2",
+   "file": "42-6-1.png",
+   "hash": "60925de8bffc6102c22a752806bcff618f7f06c2",
+   "original": [
+    1254,
+    1254
+   ],
+   "size": [
+    364,
+    364
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2257:352",
+     "path": "Home Page › Frame 189 › Frame 191 › Group 1410122044 › Frame 177 › Frame 176 › 42 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "02 Inside pages",
+     "nodeId": "2257:480",
+     "path": "Inside pages › Frame 177 › Frame 176 › 42 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "02 Inside pages",
+     "nodeId": "2257:650",
+     "path": "Inside pages › Frame 189 › Frame 176 › 42 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "02 Inside pages",
+     "nodeId": "2257:587",
+     "path": "Inside pages › Frame 186 › Frame 176 › 42 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "04 Frame 195",
+     "nodeId": "2276:386",
+     "path": "Frame 195 › Frame 189 › Frame 191 › Group 1410122044 › Frame 177 › Frame 176 › 42 (6) 1",
+     "size": [
+      364,
+      364
+     ]
+    }
+   ],
+   "slug": "42-6-1"
+  },
+  {
+   "name": "3cbec49b7f08f5fa2e7824e4ec875384675ce200",
+   "file": "6-5-1.png",
+   "hash": "3cbec49b7f08f5fa2e7824e4ec875384675ce200",
+   "original": [
+    1254,
+    1254
+   ],
+   "size": [
+    364,
+    364
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2257:354",
+     "path": "Home Page › Frame 189 › Frame 191 › Group 1410122044 › Frame 178 › Frame 176 › 6 (5) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "02 Inside pages",
+     "nodeId": "2257:501",
+     "path": "Inside pages › Frame 178 › Frame 176 › 6 (5) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "02 Inside pages",
+     "nodeId": "2257:629",
+     "path": "Inside pages › Frame 188 › Frame 176 › 6 (5) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "04 Frame 195",
+     "nodeId": "2276:407",
+     "path": "Frame 195 › Frame 189 › Frame 191 › Group 1410122044 › Frame 178 › Frame 176 › 6 (5) 1",
+     "size": [
+      364,
+      364
+     ]
+    }
+   ],
+   "slug": "6-5-1"
+  },
+  {
+   "name": "811ff3dcddf1048128793b1d3f748667fb09db29",
+   "file": "3-5-1.png",
+   "hash": "811ff3dcddf1048128793b1d3f748667fb09db29",
+   "original": [
+    1254,
+    1254
+   ],
+   "size": [
+    364,
+    364
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "01 Home Page",
+     "nodeId": "2257:356",
+     "path": "Home Page › Frame 189 › Frame 191 › Group 1410122044 › Frame 179 › Frame 176 › 3 (5) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "02 Inside pages",
+     "nodeId": "2257:544",
+     "path": "Inside pages › Frame 179 › Frame 176 › 3 (5) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "02 Inside pages",
+     "nodeId": "2257:608",
+     "path": "Inside pages › Frame 187 › Frame 176 › 3 (5) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "04 Frame 195",
+     "nodeId": "2276:428",
+     "path": "Frame 195 › Frame 189 › Frame 191 › Group 1410122044 › Frame 179 › Frame 176 › 3 (5) 1",
+     "size": [
+      364,
+      364
+     ]
+    },
+    {
+     "screen": "10 Cart page",
+     "nodeId": "2338:550",
+     "path": "Cart page › Frame 203 › 3 (5) 1",
+     "size": [
+      220,
+      220
+     ]
+    }
+   ],
+   "slug": "3-5-1"
+  },
+  {
+   "name": "3dacce3d675f2c91c1192fc31756fa9c9c939de0",
+   "file": "image-153.png",
+   "hash": "3dacce3d675f2c91c1192fc31756fa9c9c939de0",
+   "original": [
+    91,
+    49
+   ],
+   "size": [
+    130,
+    70
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "02 Inside pages",
+     "nodeId": "2089:1000",
+     "path": "Inside pages › image 153",
+     "size": [
+      130,
+      70
+     ]
+    },
+    {
+     "screen": "03 Pre Loved page",
+     "nodeId": "2103:409",
+     "path": "Pre Loved page › image 153",
+     "size": [
+      130,
+      70
+     ]
+    }
+   ],
+   "slug": "image-153"
+  },
+  {
+   "name": "9dcfbbb15ca684435b3c29280880004a90b52077",
+   "file": "image-173.png",
+   "hash": "9dcfbbb15ca684435b3c29280880004a90b52077",
+   "original": [
+    23,
+    216
+   ],
+   "size": [
+    43,
+    404
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "02 Inside pages",
+     "nodeId": "2295:1518",
+     "path": "Inside pages › Frame 140 › image 173",
+     "size": [
+      43,
+      404
+     ]
+    }
+   ],
+   "slug": "image-173"
+  },
+  {
+   "name": "87d76b78c0faa499a3acb99cf34ad6d502c6dedd",
+   "file": "john-dias-m6qk9shx6uq-unsplash-1.jpg",
+   "hash": "87d76b78c0faa499a3acb99cf34ad6d502c6dedd",
+   "original": [
+    2400,
+    1600
+   ],
+   "size": [
+    881,
+    587
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "02 Inside pages",
+     "nodeId": "2287:7",
+     "path": "Inside pages › Frame 126 › john-dias-m6qk9sHx6uQ-unsplash 1",
+     "size": [
+      881,
+      587
+     ]
+    },
+    {
+     "screen": "03 Pre Loved page",
+     "nodeId": "2366:3",
+     "path": "Pre Loved page › Frame 126 › john-dias-m6qk9sHx6uQ-unsplash 1",
+     "size": [
+      881,
+      587
+     ]
+    }
+   ],
+   "slug": "john-dias-m6qk9shx6uq-unsplash-1"
+  },
+  {
+   "name": "a15126977f2e2eaf8436fb4545892f6061816c1d",
+   "file": "sneaker-condition-guide-cards-1.png",
+   "hash": "a15126977f2e2eaf8436fb4545892f6061816c1d",
+   "original": [
+    1672,
+    941
+   ],
+   "size": [
+    1672,
+    941
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "03 Pre Loved page",
+     "nodeId": "2237:5",
+     "path": "Pre Loved page › Sneaker Condition Guide Cards 1",
+     "size": [
+      1672,
+      941
+     ]
+    }
+   ],
+   "slug": "sneaker-condition-guide-cards-1"
+  },
+  {
+   "name": "d00f6740ae05f0ca62174b15ae9cc15782e14940",
+   "file": "1-8.png",
+   "hash": "d00f6740ae05f0ca62174b15ae9cc15782e14940",
+   "original": [
+    2000,
+    2000
+   ],
+   "size": [
+    820,
+    820
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "04 Frame 195",
+     "nodeId": "2276:58",
+     "path": "Frame 195 › Frame 190 › 1 8",
+     "size": [
+      820,
+      820
+     ]
+    },
+    {
+     "screen": "05 Frame 194",
+     "nodeId": "2275:5",
+     "path": "Frame 194 › Frame 190 › 1 8",
+     "size": [
+      820,
+      820
+     ]
+    },
+    {
+     "screen": "05 Frame 194",
+     "nodeId": "2275:12",
+     "path": "Frame 194 › 1 9",
+     "size": [
+      120,
+      120
+     ]
+    },
+    {
+     "screen": "10 Cart page",
+     "nodeId": "2338:534",
+     "path": "Cart page › Frame 202 › 1 8",
+     "size": [
+      220,
+      220
+     ]
+    }
+   ],
+   "slug": "1-8"
+  },
+  {
+   "name": "33f8864c07ee98797d7f421045cca9bd5f1ba2be",
+   "file": "1-10.png",
+   "hash": "33f8864c07ee98797d7f421045cca9bd5f1ba2be",
+   "original": [
+    2000,
+    2000
+   ],
+   "size": [
+    820,
+    820
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "04 Frame 195",
+     "nodeId": "2276:523",
+     "path": "Frame 195 › Frame 190 › 1 10",
+     "size": [
+      820,
+      820
+     ]
+    },
+    {
+     "screen": "04 Frame 195",
+     "nodeId": "2276:527",
+     "path": "Frame 195 › 1 10",
+     "size": [
+      120,
+      120
+     ]
+    },
+    {
+     "screen": "10 Cart page",
+     "nodeId": "2338:509",
+     "path": "Cart page › Frame 200 › 1 10",
+     "size": [
+      220,
+      220
+     ]
+    }
+   ],
+   "slug": "1-10"
+  },
+  {
+   "name": "756d7770b2a4ad14331882c297e4d6fcdc0d5de2",
+   "file": "2-11.png",
+   "hash": "756d7770b2a4ad14331882c297e4d6fcdc0d5de2",
+   "original": [
+    2000,
+    2000
+   ],
+   "size": [
+    120,
+    120
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "04 Frame 195",
+     "nodeId": "2276:530",
+     "path": "Frame 195 › 2 11",
+     "size": [
+      120,
+      120
+     ]
+    }
+   ],
+   "slug": "2-11"
+  },
+  {
+   "name": "88337d5f8bc7484f38cd1635ed443631b66b2b74",
+   "file": "3-11.png",
+   "hash": "88337d5f8bc7484f38cd1635ed443631b66b2b74",
+   "original": [
+    2000,
+    2000
+   ],
+   "size": [
+    120,
+    120
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "04 Frame 195",
+     "nodeId": "2276:533",
+     "path": "Frame 195 › 3 11",
+     "size": [
+      120,
+      120
+     ]
+    }
+   ],
+   "slug": "3-11"
+  },
+  {
+   "name": "40fe49eec9cfb9b11c854d9abcf7af3cc0ee48aa",
+   "file": "4-9.png",
+   "hash": "40fe49eec9cfb9b11c854d9abcf7af3cc0ee48aa",
+   "original": [
+    2000,
+    2000
+   ],
+   "size": [
+    120,
+    120
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "04 Frame 195",
+     "nodeId": "2276:536",
+     "path": "Frame 195 › 4 9",
+     "size": [
+      120,
+      120
+     ]
+    }
+   ],
+   "slug": "4-9"
+  },
+  {
+   "name": "6008eada92b809796186e6448f8412f54d71f103",
+   "file": "5-2.png",
+   "hash": "6008eada92b809796186e6448f8412f54d71f103",
+   "original": [
+    2000,
+    2000
+   ],
+   "size": [
+    120,
+    120
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "04 Frame 195",
+     "nodeId": "2276:539",
+     "path": "Frame 195 › 5 2",
+     "size": [
+      120,
+      120
+     ]
+    }
+   ],
+   "slug": "5-2"
+  },
+  {
+   "name": "a2d97f7bb328899908d8cc903ac7ed3b3c506398",
+   "file": "6-2.png",
+   "hash": "a2d97f7bb328899908d8cc903ac7ed3b3c506398",
+   "original": [
+    2000,
+    2000
+   ],
+   "size": [
+    120,
+    120
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "04 Frame 195",
+     "nodeId": "2276:542",
+     "path": "Frame 195 › 6 2",
+     "size": [
+      120,
+      120
+     ]
+    }
+   ],
+   "slug": "6-2"
+  },
+  {
+   "name": "cbd3f254967372182692f0981c89fc9b19a1c572",
+   "file": "2-10.png",
+   "hash": "cbd3f254967372182692f0981c89fc9b19a1c572",
+   "original": [
+    2000,
+    2000
+   ],
+   "size": [
+    120,
+    120
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "05 Frame 194",
+     "nodeId": "2275:8",
+     "path": "Frame 194 › 2 10",
+     "size": [
+      120,
+      120
+     ]
+    }
+   ],
+   "slug": "2-10"
+  },
+  {
+   "name": "8a14513459d8d3184a1f7cfd2d94e56bf0512331",
+   "file": "3-10.png",
+   "hash": "8a14513459d8d3184a1f7cfd2d94e56bf0512331",
+   "original": [
+    2000,
+    2000
+   ],
+   "size": [
+    120,
+    120
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "05 Frame 194",
+     "nodeId": "2275:15",
+     "path": "Frame 194 › 3 10",
+     "size": [
+      120,
+      120
+     ]
+    }
+   ],
+   "slug": "3-10"
+  },
+  {
+   "name": "d36f4e314b862d4436a5ff6fedbcd23fcf706f49",
+   "file": "4-8.png",
+   "hash": "d36f4e314b862d4436a5ff6fedbcd23fcf706f49",
+   "original": [
+    2000,
+    2000
+   ],
+   "size": [
+    120,
+    120
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "05 Frame 194",
+     "nodeId": "2275:19",
+     "path": "Frame 194 › 4 8",
+     "size": [
+      120,
+      120
+     ]
+    }
+   ],
+   "slug": "4-8"
+  },
+  {
+   "name": "5329f930c32ef09f2acfaa9d13f14b33bdf01bfb",
+   "file": "5-1.png",
+   "hash": "5329f930c32ef09f2acfaa9d13f14b33bdf01bfb",
+   "original": [
+    2000,
+    2000
+   ],
+   "size": [
+    120,
+    120
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "05 Frame 194",
+     "nodeId": "2275:22",
+     "path": "Frame 194 › 5 1",
+     "size": [
+      120,
+      120
+     ]
+    }
+   ],
+   "slug": "5-1"
+  },
+  {
+   "name": "64638219267962be35e8e8ab4dd8774f68fc197f",
+   "file": "6-1.png",
+   "hash": "64638219267962be35e8e8ab4dd8774f68fc197f",
+   "original": [
+    2000,
+    2000
+   ],
+   "size": [
+    120,
+    120
+   ],
+   "scaleMode": "FILL",
+   "usedIn": [
+    {
+     "screen": "05 Frame 194",
+     "nodeId": "2275:25",
+     "path": "Frame 194 › 6 1",
+     "size": [
+      120,
+      120
+     ]
+    }
+   ],
+   "slug": "6-1"
+  }
+ ]
+}

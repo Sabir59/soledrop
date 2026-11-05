@@ -1,0 +1,3721 @@
+{
+ "node": {
+  "id": "2103:862",
+  "name": "Contact Us",
+  "type": "FRAME",
+  "x": 3428,
+  "y": 6695,
+  "width": 1920,
+  "height": 2141,
+  "absX": 30692,
+  "absY": 5327,
+  "fills": [
+   {
+    "type": "SOLID",
+    "hex": "#f6f6f6",
+    "r": 246,
+    "g": 246,
+    "b": 246,
+    "a": 1,
+    "boundVariable": null
+   }
+  ],
+  "children": [
+   {
+    "id": "2104:963",
+    "name": "Frame 141",
+    "type": "FRAME",
+    "x": 0,
+    "y": 86,
+    "width": 1920,
+    "height": 200,
+    "absX": 30692,
+    "absY": 5413,
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#000000",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1,
+      "boundVariable": null
+     }
+    ],
+    "children": [
+     {
+      "id": "2104:964",
+      "name": "GET IN TOUCH",
+      "type": "TEXT",
+      "x": 200,
+      "y": 64,
+      "width": 431,
+      "height": 73,
+      "absX": 30892,
+      "absY": 5477,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#ffffff",
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "characters": "GET IN TOUCH",
+      "fontName": {
+       "family": "Inter",
+       "style": "Extra Bold",
+       "variationSettings": {
+        "slnt": 0,
+        "wght": 800
+       }
+      },
+      "fontSize": 60,
+      "lineHeight": {
+       "unit": "AUTO"
+      },
+      "letterSpacing": {
+       "unit": "PERCENT",
+       "value": 0
+      },
+      "textAlignHorizontal": "LEFT",
+      "textCase": "ORIGINAL"
+     }
+    ]
+   },
+   {
+    "id": "2280:931",
+    "name": "Frame 190",
+    "type": "FRAME",
+    "x": 0,
+    "y": 0,
+    "width": 1920,
+    "height": 86,
+    "absX": 30692,
+    "absY": 5327,
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#000000",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1,
+      "boundVariable": null
+     }
+    ],
+    "strokes": [
+     {
+      "type": "SOLID",
+      "hex": "#a3a3a3",
+      "r": 163,
+      "g": 163,
+      "b": 163,
+      "a": 1
+     }
+    ],
+    "strokeWeight": "MIXED",
+    "children": [
+     {
+      "id": "2280:932",
+      "name": "Group 53",
+      "type": "GROUP",
+      "x": 120,
+      "y": 27,
+      "width": 240.00112915039062,
+      "height": 33.00003433227539,
+      "absX": 30812,
+      "absY": 5354,
+      "children": [
+       {
+        "id": "2280:933",
+        "name": "Vector",
+        "type": "VECTOR",
+        "x": 120,
+        "y": 27.000009775161743,
+        "width": 41.636539459228516,
+        "height": 25.885019302368164,
+        "absX": 30812,
+        "absY": 5354,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#ffffff",
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1,
+          "boundVariable": null
+         }
+        ]
+       },
+       {
+        "id": "2280:934",
+        "name": "Vector",
+        "type": "VECTOR",
+        "x": 318.15234375,
+        "y": 34.93487548828125,
+        "width": 41.84878158569336,
+        "height": 25.06515884399414,
+        "absX": 31010.15234375,
+        "absY": 5361.93505859375,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#c7f126",
+          "r": 199,
+          "g": 241,
+          "b": 38,
+          "a": 1,
+          "boundVariable": null
+         }
+        ]
+       },
+       {
+        "id": "2280:935",
+        "name": "Vector",
+        "type": "VECTOR",
+        "x": 232.703125,
+        "y": 27.010498046875,
+        "width": 40.76459503173828,
+        "height": 25.97670555114746,
+        "absX": 30924.703125,
+        "absY": 5354.0107421875,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#c7f126",
+          "r": 199,
+          "g": 241,
+          "b": 38,
+          "a": 1,
+          "boundVariable": null
+         }
+        ]
+       },
+       {
+        "id": "2280:936",
+        "name": "Vector",
+        "type": "VECTOR",
+        "x": 200.33203125,
+        "y": 34.932693004608154,
+        "width": 34.198490142822266,
+        "height": 18.049678802490234,
+        "absX": 30892.33203125,
+        "absY": 5361.9326171875,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#ffffff",
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1,
+          "boundVariable": null
+         }
+        ]
+       },
+       {
+        "id": "2280:937",
+        "name": "Vector",
+        "type": "VECTOR",
+        "x": 290.37890625,
+        "y": 34.81878662109375,
+        "width": 34.19941711425781,
+        "height": 18.29737091064453,
+        "absX": 30982.37890625,
+        "absY": 5361.81884765625,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#c7f126",
+          "r": 199,
+          "g": 241,
+          "b": 38,
+          "a": 1,
+          "boundVariable": null
+         }
+        ]
+       },
+       {
+        "id": "2280:938",
+        "name": "Vector",
+        "type": "VECTOR",
+        "x": 154.626953125,
+        "y": 34.94854736328125,
+        "width": 33.678558349609375,
+        "height": 18.038511276245117,
+        "absX": 30846.626953125,
+        "absY": 5361.94873046875,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#ffffff",
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1,
+          "boundVariable": null
+         }
+        ]
+       },
+       {
+        "id": "2280:939",
+        "name": "Vector",
+        "type": "VECTOR",
+        "x": 185.228515625,
+        "y": 27.010498046875,
+        "width": 21.77486801147461,
+        "height": 25.96592140197754,
+        "absX": 30877.228515625,
+        "absY": 5354.0107421875,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#ffffff",
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1,
+          "boundVariable": null
+         }
+        ]
+       },
+       {
+        "id": "2280:940",
+        "name": "Vector",
+        "type": "VECTOR",
+        "x": 264.5546875,
+        "y": 34.98760986328125,
+        "width": 30.80122184753418,
+        "height": 17.98949432373047,
+        "absX": 30956.5546875,
+        "absY": 5361.98779296875,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#c7f126",
+          "r": 199,
+          "g": 241,
+          "b": 38,
+          "a": 1,
+          "boundVariable": null
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "2280:941",
+      "name": "Frame 82",
+      "type": "FRAME",
+      "x": 640,
+      "y": 1,
+      "width": 640,
+      "height": 85,
+      "absX": 31332,
+      "absY": 5328,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "children": [
+       {
+        "id": "2280:942",
+        "name": "Group 1410122033",
+        "type": "GROUP",
+        "x": 44,
+        "y": 28,
+        "width": 552,
+        "height": 29,
+        "absX": 31376,
+        "absY": 5356,
+        "children": [
+         {
+          "id": "2280:943",
+          "name": "New Arrival",
+          "type": "TEXT",
+          "x": 44,
+          "y": 28,
+          "width": 137,
+          "height": 29,
+          "absX": 31376,
+          "absY": 5356,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#ffffff",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "characters": "New Arrival",
+          "fontName": {
+           "family": "Inter",
+           "style": "Bold",
+           "variationSettings": {
+            "slnt": 0,
+            "wght": 700
+           }
+          },
+          "fontSize": 24,
+          "lineHeight": {
+           "unit": "AUTO"
+          },
+          "letterSpacing": {
+           "unit": "PERCENT",
+           "value": 0
+          },
+          "textAlignHorizontal": "LEFT",
+          "textCase": "ORIGINAL"
+         },
+         {
+          "id": "2280:944",
+          "name": "Men",
+          "type": "TEXT",
+          "x": 255,
+          "y": 28,
+          "width": 52,
+          "height": 29,
+          "absX": 31587,
+          "absY": 5356,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#ffffff",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "characters": "Men",
+          "fontName": {
+           "family": "Inter",
+           "style": "Bold",
+           "variationSettings": {
+            "slnt": 0,
+            "wght": 700
+           }
+          },
+          "fontSize": 24,
+          "lineHeight": {
+           "unit": "AUTO"
+          },
+          "letterSpacing": {
+           "unit": "PERCENT",
+           "value": 0
+          },
+          "textAlignHorizontal": "CENTER",
+          "textCase": "ORIGINAL"
+         },
+         {
+          "id": "2280:945",
+          "name": "Women",
+          "type": "TEXT",
+          "x": 381,
+          "y": 28,
+          "width": 90,
+          "height": 29,
+          "absX": 31713,
+          "absY": 5356,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#ffffff",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "characters": "Women",
+          "fontName": {
+           "family": "Inter",
+           "style": "Bold",
+           "variationSettings": {
+            "slnt": 0,
+            "wght": 700
+           }
+          },
+          "fontSize": 24,
+          "lineHeight": {
+           "unit": "AUTO"
+          },
+          "letterSpacing": {
+           "unit": "PERCENT",
+           "value": 0
+          },
+          "textAlignHorizontal": "CENTER",
+          "textCase": "ORIGINAL"
+         },
+         {
+          "id": "2280:946",
+          "name": "Sale",
+          "type": "TEXT",
+          "x": 545,
+          "y": 28,
+          "width": 51,
+          "height": 29,
+          "absX": 31877,
+          "absY": 5356,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#c7f126",
+            "r": 199,
+            "g": 241,
+            "b": 38,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "characters": "Sale",
+          "fontName": {
+           "family": "Inter",
+           "style": "Bold",
+           "variationSettings": {
+            "slnt": 0,
+            "wght": 700
+           }
+          },
+          "fontSize": 24,
+          "lineHeight": {
+           "unit": "AUTO"
+          },
+          "letterSpacing": {
+           "unit": "PERCENT",
+           "value": 0
+          },
+          "textAlignHorizontal": "CENTER",
+          "textCase": "ORIGINAL"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "2280:947",
+      "name": "Group 1410121992",
+      "type": "GROUP",
+      "x": 1664,
+      "y": 29,
+      "width": 136,
+      "height": 28,
+      "absX": 32356,
+      "absY": 5356,
+      "children": [
+       {
+        "id": "2280:948",
+        "name": "Frame",
+        "type": "FRAME",
+        "x": 1772,
+        "y": 29,
+        "width": 28,
+        "height": 28,
+        "absX": 32464,
+        "absY": 5356,
+        "fills": [],
+        "children": [
+         {
+          "id": "2280:949",
+          "name": "Group",
+          "type": "GROUP",
+          "x": 3.001953125,
+          "y": 2.05908203125,
+          "width": 21.99609375,
+          "height": 23.8818359375,
+          "absX": 32467.001953125,
+          "absY": 5358.05908203125,
+          "children": [
+           {
+            "id": "2280:950",
+            "name": "Vector",
+            "type": "VECTOR",
+            "x": 3.001953125,
+            "y": 2.05908203125,
+            "width": 21.99609375,
+            "height": 23.8818359375,
+            "absX": 32467.001953125,
+            "absY": 5358.05908203125,
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#ffffff",
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1,
+              "boundVariable": null
+             }
+            ]
+           },
+           {
+            "id": "2280:951",
+            "name": "Vector",
+            "type": "VECTOR",
+            "x": 8.73046875,
+            "y": 13.8544921875,
+            "width": 10.53955078125,
+            "height": 5.35107421875,
+            "absX": 32472.73046875,
+            "absY": 5369.8544921875,
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#ffffff",
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1,
+              "boundVariable": null
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "2280:952",
+        "name": "Frame",
+        "type": "FRAME",
+        "x": 1718,
+        "y": 32,
+        "width": 24,
+        "height": 23,
+        "absX": 32410,
+        "absY": 5359,
+        "fills": [],
+        "children": [
+         {
+          "id": "2280:953",
+          "name": "Vector",
+          "type": "VECTOR",
+          "x": 0.376953125,
+          "y": 0.359375,
+          "width": 23.25872039794922,
+          "height": 22.281269073486328,
+          "absX": 32410.376953125,
+          "absY": 5359.359375,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#ffffff",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1,
+            "boundVariable": null
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "2280:954",
+        "name": "Vector",
+        "type": "VECTOR",
+        "x": 1664,
+        "y": 31,
+        "width": 24,
+        "height": 24,
+        "absX": 32356,
+        "absY": 5358,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#ffffff",
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1,
+          "boundVariable": null
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "2280:751",
+    "name": "Frame 139",
+    "type": "FRAME",
+    "x": 0,
+    "y": 1428,
+    "width": 1920,
+    "height": 713,
+    "absX": 30692,
+    "absY": 6755,
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#000000",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1,
+      "boundVariable": null
+     }
+    ],
+    "children": [
+     {
+      "id": "2280:752",
+      "name": "Stay in the drop",
+      "type": "TEXT",
+      "x": 710,
+      "y": -343,
+      "width": 501,
+      "height": 65,
+      "absX": 31402,
+      "absY": 6412,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#ffffff",
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "characters": "Stay in the drop",
+      "fontName": {
+       "family": "Inter",
+       "style": "Black",
+       "variationSettings": {
+        "slnt": 0,
+        "wght": 900
+       }
+      },
+      "fontSize": 54,
+      "lineHeight": {
+       "unit": "AUTO"
+      },
+      "letterSpacing": {
+       "unit": "PERCENT",
+       "value": 0
+      },
+      "textAlignHorizontal": "LEFT",
+      "textCase": "UPPER"
+     },
+     {
+      "id": "2280:753",
+      "name": "Be the first to know about new arrivals, exclusive deals and limited drops.",
+      "type": "TEXT",
+      "x": 645,
+      "y": -264,
+      "width": 631,
+      "height": 22,
+      "absX": 31337,
+      "absY": 6491,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#a3a3a3",
+        "r": 163,
+        "g": 163,
+        "b": 163,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "characters": "Be the first to know about new arrivals, exclusive deals and limited drops.",
+      "fontName": {
+       "family": "Inter",
+       "style": "Medium",
+       "variationSettings": {
+        "slnt": 0,
+        "wght": 500
+       }
+      },
+      "fontSize": 18,
+      "lineHeight": {
+       "unit": "AUTO"
+      },
+      "letterSpacing": {
+       "unit": "PERCENT",
+       "value": 0
+      },
+      "textAlignHorizontal": "LEFT",
+      "textCase": "ORIGINAL"
+     },
+     {
+      "id": "2280:754",
+      "name": "Group 1410121986",
+      "type": "GROUP",
+      "x": 789,
+      "y": 152,
+      "width": 103,
+      "height": 230,
+      "absX": 31481,
+      "absY": 6907,
+      "children": [
+       {
+        "id": "2280:755",
+        "name": "Shop",
+        "type": "TEXT",
+        "x": 789,
+        "y": 152,
+        "width": 45,
+        "height": 22,
+        "absX": 31481,
+        "absY": 6907,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#a3a3a3",
+          "r": 163,
+          "g": 163,
+          "b": 163,
+          "a": 1,
+          "boundVariable": null
+         }
+        ],
+        "characters": "Shop",
+        "fontName": {
+         "family": "Inter",
+         "style": "Medium",
+         "variationSettings": {
+          "slnt": 0,
+          "wght": 500
+         }
+        },
+        "fontSize": 18,
+        "lineHeight": {
+         "unit": "AUTO"
+        },
+        "letterSpacing": {
+         "unit": "PERCENT",
+         "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textCase": "ORIGINAL"
+       },
+       {
+        "id": "2280:756",
+        "name": "Group 1410121983",
+        "type": "GROUP",
+        "x": 789,
+        "y": 204,
+        "width": 103,
+        "height": 178,
+        "absX": 31481,
+        "absY": 6959,
+        "children": [
+         {
+          "id": "2280:757",
+          "name": "New Arrival",
+          "type": "TEXT",
+          "x": 789,
+          "y": 204,
+          "width": 103,
+          "height": 22,
+          "absX": 31481,
+          "absY": 6959,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#a3a3a3",
+            "r": 163,
+            "g": 163,
+            "b": 163,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "characters": "New Arrival",
+          "fontName": {
+           "family": "Inter",
+           "style": "Bold",
+           "variationSettings": {
+            "slnt": 0,
+            "wght": 700
+           }
+          },
+          "fontSize": 18,
+          "lineHeight": {
+           "unit": "AUTO"
+          },
+          "letterSpacing": {
+           "unit": "PERCENT",
+           "value": 0
+          },
+          "textAlignHorizontal": "LEFT",
+          "textCase": "ORIGINAL"
+         },
+         {
+          "id": "2280:758",
+          "name": "Brand New",
+          "type": "TEXT",
+          "x": 789,
+          "y": 256,
+          "width": 96,
+          "height": 22,
+          "absX": 31481,
+          "absY": 7011,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#a3a3a3",
+            "r": 163,
+            "g": 163,
+            "b": 163,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "characters": "Brand New",
+          "fontName": {
+           "family": "Inter",
+           "style": "Bold",
+           "variationSettings": {
+            "slnt": 0,
+            "wght": 700
+           }
+          },
+          "fontSize": 18,
+          "lineHeight": {
+           "unit": "AUTO"
+          },
+          "letterSpacing": {
+           "unit": "PERCENT",
+           "value": 0
+          },
+          "textAlignHorizontal": "LEFT",
+          "textCase": "ORIGINAL"
+         },
+         {
+          "id": "2280:759",
+          "name": "Pre-Loved",
+          "type": "TEXT",
+          "x": 789,
+          "y": 308,
+          "width": 92,
+          "height": 22,
+          "absX": 31481,
+          "absY": 7063,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#a3a3a3",
+            "r": 163,
+            "g": 163,
+            "b": 163,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "characters": "Pre-Loved",
+          "fontName": {
+           "family": "Inter",
+           "style": "Bold",
+           "variationSettings": {
+            "slnt": 0,
+            "wght": 700
+           }
+          },
+          "fontSize": 18,
+          "lineHeight": {
+           "unit": "AUTO"
+          },
+          "letterSpacing": {
+           "unit": "PERCENT",
+           "value": 0
+          },
+          "textAlignHorizontal": "LEFT",
+          "textCase": "ORIGINAL"
+         },
+         {
+          "id": "2280:760",
+          "name": "Sale",
+          "type": "TEXT",
+          "x": 789,
+          "y": 360,
+          "width": 38,
+          "height": 22,
+          "absX": 31481,
+          "absY": 7115,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#a3a3a3",
+            "r": 163,
+            "g": 163,
+            "b": 163,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "characters": "Sale",
+          "fontName": {
+           "family": "Inter",
+           "style": "Bold",
+           "variationSettings": {
+            "slnt": 0,
+            "wght": 700
+           }
+          },
+          "fontSize": 18,
+          "lineHeight": {
+           "unit": "AUTO"
+          },
+          "letterSpacing": {
+           "unit": "PERCENT",
+           "value": 0
+          },
+          "textAlignHorizontal": "LEFT",
+          "textCase": "ORIGINAL"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "2280:761",
+      "name": "Group 1410121985",
+      "type": "GROUP",
+      "x": 1487,
+      "y": 204,
+      "width": 144,
+      "height": 74,
+      "absX": 32179,
+      "absY": 6959,
+      "children": [
+       {
+        "id": "2280:762",
+        "name": "About Sole Drop",
+        "type": "TEXT",
+        "x": 1487,
+        "y": 204,
+        "width": 144,
+        "height": 22,
+        "absX": 32179,
+        "absY": 6959,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#a3a3a3",
+          "r": 163,
+          "g": 163,
+          "b": 163,
+          "a": 1,
+          "boundVariable": null
+         }
+        ],
+        "characters": "About Sole Drop",
+        "fontName": {
+         "family": "Inter",
+         "style": "Bold",
+         "variationSettings": {
+          "slnt": 0,
+          "wght": 700
+         }
+        },
+        "fontSize": 18,
+        "lineHeight": {
+         "unit": "AUTO"
+        },
+        "letterSpacing": {
+         "unit": "PERCENT",
+         "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textCase": "ORIGINAL"
+       },
+       {
+        "id": "2280:763",
+        "name": "Our Story",
+        "type": "TEXT",
+        "x": 1487,
+        "y": 256,
+        "width": 85,
+        "height": 22,
+        "absX": 32179,
+        "absY": 7011,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#a3a3a3",
+          "r": 163,
+          "g": 163,
+          "b": 163,
+          "a": 1,
+          "boundVariable": null
+         }
+        ],
+        "characters": "Our Story",
+        "fontName": {
+         "family": "Inter",
+         "style": "Bold",
+         "variationSettings": {
+          "slnt": 0,
+          "wght": 700
+         }
+        },
+        "fontSize": 18,
+        "lineHeight": {
+         "unit": "AUTO"
+        },
+        "letterSpacing": {
+         "unit": "PERCENT",
+         "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textCase": "ORIGINAL"
+       }
+      ]
+     },
+     {
+      "id": "2280:764",
+      "name": "Group 1410121987",
+      "type": "GROUP",
+      "x": 1124,
+      "y": 152,
+      "width": 124,
+      "height": 334,
+      "absX": 31816,
+      "absY": 6907,
+      "children": [
+       {
+        "id": "2280:765",
+        "name": "Group 1410121984",
+        "type": "GROUP",
+        "x": 1124,
+        "y": 204,
+        "width": 124,
+        "height": 282,
+        "absX": 31816,
+        "absY": 6959,
+        "children": [
+         {
+          "id": "2280:766",
+          "name": "Contact Us",
+          "type": "TEXT",
+          "x": 1124,
+          "y": 204,
+          "width": 99,
+          "height": 22,
+          "absX": 31816,
+          "absY": 6959,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#a3a3a3",
+            "r": 163,
+            "g": 163,
+            "b": 163,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "characters": "Contact Us",
+          "fontName": {
+           "family": "Inter",
+           "style": "Bold",
+           "variationSettings": {
+            "slnt": 0,
+            "wght": 700
+           }
+          },
+          "fontSize": 18,
+          "lineHeight": {
+           "unit": "AUTO"
+          },
+          "letterSpacing": {
+           "unit": "PERCENT",
+           "value": 0
+          },
+          "textAlignHorizontal": "LEFT",
+          "textCase": "ORIGINAL"
+         },
+         {
+          "id": "2280:767",
+          "name": "FAQ",
+          "type": "TEXT",
+          "x": 1124,
+          "y": 256,
+          "width": 36,
+          "height": 22,
+          "absX": 31816,
+          "absY": 7011,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#a3a3a3",
+            "r": 163,
+            "g": 163,
+            "b": 163,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "characters": "FAQ",
+          "fontName": {
+           "family": "Inter",
+           "style": "Bold",
+           "variationSettings": {
+            "slnt": 0,
+            "wght": 700
+           }
+          },
+          "fontSize": 18,
+          "lineHeight": {
+           "unit": "AUTO"
+          },
+          "letterSpacing": {
+           "unit": "PERCENT",
+           "value": 0
+          },
+          "textAlignHorizontal": "LEFT",
+          "textCase": "ORIGINAL"
+         },
+         {
+          "id": "2280:768",
+          "name": "Size Guide",
+          "type": "TEXT",
+          "x": 1124,
+          "y": 308,
+          "width": 94,
+          "height": 22,
+          "absX": 31816,
+          "absY": 7063,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#a3a3a3",
+            "r": 163,
+            "g": 163,
+            "b": 163,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "characters": "Size Guide",
+          "fontName": {
+           "family": "Inter",
+           "style": "Bold",
+           "variationSettings": {
+            "slnt": 0,
+            "wght": 700
+           }
+          },
+          "fontSize": 18,
+          "lineHeight": {
+           "unit": "AUTO"
+          },
+          "letterSpacing": {
+           "unit": "PERCENT",
+           "value": 0
+          },
+          "textAlignHorizontal": "LEFT",
+          "textCase": "ORIGINAL"
+         },
+         {
+          "id": "2280:769",
+          "name": "Shipping",
+          "type": "TEXT",
+          "x": 1124,
+          "y": 360,
+          "width": 79,
+          "height": 22,
+          "absX": 31816,
+          "absY": 7115,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#a3a3a3",
+            "r": 163,
+            "g": 163,
+            "b": 163,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "characters": "Shipping",
+          "fontName": {
+           "family": "Inter",
+           "style": "Bold",
+           "variationSettings": {
+            "slnt": 0,
+            "wght": 700
+           }
+          },
+          "fontSize": 18,
+          "lineHeight": {
+           "unit": "AUTO"
+          },
+          "letterSpacing": {
+           "unit": "PERCENT",
+           "value": 0
+          },
+          "textAlignHorizontal": "LEFT",
+          "textCase": "ORIGINAL"
+         },
+         {
+          "id": "2280:770",
+          "name": "Returns",
+          "type": "TEXT",
+          "x": 1124,
+          "y": 412,
+          "width": 70,
+          "height": 22,
+          "absX": 31816,
+          "absY": 7167,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#a3a3a3",
+            "r": 163,
+            "g": 163,
+            "b": 163,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "characters": "Returns",
+          "fontName": {
+           "family": "Inter",
+           "style": "Bold",
+           "variationSettings": {
+            "slnt": 0,
+            "wght": 700
+           }
+          },
+          "fontSize": 18,
+          "lineHeight": {
+           "unit": "AUTO"
+          },
+          "letterSpacing": {
+           "unit": "PERCENT",
+           "value": 0
+          },
+          "textAlignHorizontal": "LEFT",
+          "textCase": "ORIGINAL"
+         },
+         {
+          "id": "2280:771",
+          "name": "Privacy Policy",
+          "type": "TEXT",
+          "x": 1124,
+          "y": 464,
+          "width": 124,
+          "height": 22,
+          "absX": 31816,
+          "absY": 7219,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#a3a3a3",
+            "r": 163,
+            "g": 163,
+            "b": 163,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "characters": "Privacy Policy",
+          "fontName": {
+           "family": "Inter",
+           "style": "Bold",
+           "variationSettings": {
+            "slnt": 0,
+            "wght": 700
+           }
+          },
+          "fontSize": 18,
+          "lineHeight": {
+           "unit": "AUTO"
+          },
+          "letterSpacing": {
+           "unit": "PERCENT",
+           "value": 0
+          },
+          "textAlignHorizontal": "LEFT",
+          "textCase": "ORIGINAL"
+         }
+        ]
+       },
+       {
+        "id": "2280:772",
+        "name": "Help",
+        "type": "TEXT",
+        "x": 1124,
+        "y": 152,
+        "width": 40,
+        "height": 22,
+        "absX": 31816,
+        "absY": 6907,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#a3a3a3",
+          "r": 163,
+          "g": 163,
+          "b": 163,
+          "a": 1,
+          "boundVariable": null
+         }
+        ],
+        "characters": "Help",
+        "fontName": {
+         "family": "Inter",
+         "style": "Medium",
+         "variationSettings": {
+          "slnt": 0,
+          "wght": 500
+         }
+        },
+        "fontSize": 18,
+        "lineHeight": {
+         "unit": "AUTO"
+        },
+        "letterSpacing": {
+         "unit": "PERCENT",
+         "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textCase": "ORIGINAL"
+       }
+      ]
+     },
+     {
+      "id": "2280:773",
+      "name": "About",
+      "type": "TEXT",
+      "x": 1487,
+      "y": 152,
+      "width": 53,
+      "height": 22,
+      "absX": 32179,
+      "absY": 6907,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#a3a3a3",
+        "r": 163,
+        "g": 163,
+        "b": 163,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "characters": "About",
+      "fontName": {
+       "family": "Inter",
+       "style": "Medium",
+       "variationSettings": {
+        "slnt": 0,
+        "wght": 500
+       }
+      },
+      "fontSize": 18,
+      "lineHeight": {
+       "unit": "AUTO"
+      },
+      "letterSpacing": {
+       "unit": "PERCENT",
+       "value": 0
+      },
+      "textAlignHorizontal": "LEFT",
+      "textCase": "ORIGINAL"
+     },
+     {
+      "id": "2280:774",
+      "name": "Frame 111",
+      "type": "FRAME",
+      "x": 850,
+      "y": -411,
+      "width": 220,
+      "height": 54,
+      "absX": 31542,
+      "absY": 6344,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#c7f126",
+        "r": 199,
+        "g": 241,
+        "b": 38,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "children": [
+       {
+        "id": "2280:775",
+        "name": "STAY CONNECTED",
+        "type": "TEXT",
+        "x": 17,
+        "y": 15,
+        "width": 187,
+        "height": 24,
+        "absX": 31559,
+        "absY": 6359,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#000000",
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1,
+          "boundVariable": null
+         }
+        ],
+        "characters": "STAY CONNECTED",
+        "fontName": {
+         "family": "Inter",
+         "style": "Extra Bold",
+         "variationSettings": {
+          "slnt": 0,
+          "wght": 800
+         }
+        },
+        "fontSize": 20,
+        "lineHeight": {
+         "unit": "AUTO"
+        },
+        "letterSpacing": {
+         "unit": "PERCENT",
+         "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textCase": "ORIGINAL"
+       }
+      ]
+     },
+     {
+      "id": "2280:776",
+      "name": "Frame 112",
+      "type": "FRAME",
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 88,
+      "absX": 30692,
+      "absY": 6755,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#c7f126",
+        "r": 199,
+        "g": 241,
+        "b": 38,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "children": [
+       {
+        "id": "2280:777",
+        "name": "🚚 Free delivery on orders above PKR 5,000",
+        "type": "TEXT",
+        "x": 120,
+        "y": 32,
+        "width": 485,
+        "height": 24,
+        "absX": 30812,
+        "absY": 6787,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#000000",
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1,
+          "boundVariable": null
+         }
+        ],
+        "characters": "🚚 Free delivery on orders above PKR 5,000",
+        "fontName": {
+         "family": "Inter",
+         "style": "Extra Bold",
+         "variationSettings": {
+          "slnt": 0,
+          "wght": 800
+         }
+        },
+        "fontSize": 20,
+        "lineHeight": {
+         "unit": "AUTO"
+        },
+        "letterSpacing": {
+         "unit": "PERCENT",
+         "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textCase": "UPPER"
+       },
+       {
+        "id": "2280:778",
+        "name": "Frame 111",
+        "type": "FRAME",
+        "x": 1620,
+        "y": 17,
+        "width": 180,
+        "height": 54,
+        "absX": 32312,
+        "absY": 6772,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#000000",
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1,
+          "boundVariable": null
+         }
+        ],
+        "children": [
+         {
+          "id": "2280:779",
+          "name": "SHOP NOW",
+          "type": "TEXT",
+          "x": 34,
+          "y": 15,
+          "width": 113,
+          "height": 24,
+          "absX": 32346,
+          "absY": 6787,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#c7f126",
+            "r": 199,
+            "g": 241,
+            "b": 38,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "characters": "SHOP NOW",
+          "fontName": {
+           "family": "Inter",
+           "style": "Extra Bold",
+           "variationSettings": {
+            "slnt": 0,
+            "wght": 800
+           }
+          },
+          "fontSize": 20,
+          "lineHeight": {
+           "unit": "AUTO"
+          },
+          "letterSpacing": {
+           "unit": "PERCENT",
+           "value": 0
+          },
+          "textAlignHorizontal": "LEFT",
+          "textCase": "ORIGINAL"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "2280:780",
+      "name": "Group 1410121982",
+      "type": "GROUP",
+      "x": 603,
+      "y": -192,
+      "width": 714,
+      "height": 68,
+      "absX": 31295,
+      "absY": 6563,
+      "children": [
+       {
+        "id": "2280:781",
+        "name": "Frame 114",
+        "type": "FRAME",
+        "x": 1157,
+        "y": -192,
+        "width": 160,
+        "height": 68,
+        "absX": 31849,
+        "absY": 6563,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#c7f126",
+          "r": 199,
+          "g": 241,
+          "b": 38,
+          "a": 1,
+          "boundVariable": null
+         }
+        ],
+        "children": [
+         {
+          "id": "2280:782",
+          "name": "JOIN NOW",
+          "type": "TEXT",
+          "x": 29,
+          "y": 22,
+          "width": 103,
+          "height": 24,
+          "absX": 31878,
+          "absY": 6585,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#000000",
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "characters": "JOIN NOW",
+          "fontName": {
+           "family": "Inter",
+           "style": "Extra Bold",
+           "variationSettings": {
+            "slnt": 0,
+            "wght": 800
+           }
+          },
+          "fontSize": 20,
+          "lineHeight": {
+           "unit": "AUTO"
+          },
+          "letterSpacing": {
+           "unit": "PERCENT",
+           "value": 0
+          },
+          "textAlignHorizontal": "LEFT",
+          "textCase": "ORIGINAL"
+         }
+        ]
+       },
+       {
+        "id": "2280:783",
+        "name": "Frame 113",
+        "type": "FRAME",
+        "x": 603,
+        "y": -192,
+        "width": 540,
+        "height": 68,
+        "absX": 31295,
+        "absY": 6563,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#ffffff",
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 0.20000000298023224,
+          "boundVariable": null
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#a3a3a3",
+          "r": 163,
+          "g": 163,
+          "b": 163,
+          "a": 1
+         }
+        ],
+        "strokeWeight": 1,
+        "children": [
+         {
+          "id": "2280:784",
+          "name": "Enter your email address",
+          "type": "TEXT",
+          "x": 22,
+          "y": 22,
+          "width": 237,
+          "height": 24,
+          "absX": 31317,
+          "absY": 6585,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#a3a3a3",
+            "r": 163,
+            "g": 163,
+            "b": 163,
+            "a": 0.800000011920929,
+            "boundVariable": null
+           }
+          ],
+          "characters": "Enter your email address",
+          "fontName": {
+           "family": "Inter",
+           "style": "Medium",
+           "variationSettings": {
+            "slnt": 0,
+            "wght": 500
+           }
+          },
+          "fontSize": 20,
+          "lineHeight": {
+           "unit": "AUTO"
+          },
+          "letterSpacing": {
+           "unit": "PERCENT",
+           "value": 0
+          },
+          "textAlignHorizontal": "LEFT",
+          "textCase": "ORIGINAL"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "2280:785",
+      "name": "Group 1410121989",
+      "type": "GROUP",
+      "x": 120,
+      "y": 152,
+      "width": 520,
+      "height": 392,
+      "absX": 30812,
+      "absY": 6907,
+      "children": [
+       {
+        "id": "2280:786",
+        "name": "Fresh finds. Fresh steps. New and pre-loved footwear from brands you love.",
+        "type": "TEXT",
+        "x": 120,
+        "y": 205.751953125,
+        "width": 383,
+        "height": 44,
+        "absX": 30812,
+        "absY": 6960.751953125,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#a3a3a3",
+          "r": 163,
+          "g": 163,
+          "b": 163,
+          "a": 1,
+          "boundVariable": null
+         }
+        ],
+        "characters": "Fresh finds. Fresh steps. New and pre-loved\nfootwear from brands you love.",
+        "fontName": {
+         "family": "Inter",
+         "style": "Semi Bold",
+         "variationSettings": {
+          "slnt": 0,
+          "wght": 600
+         }
+        },
+        "fontSize": 18,
+        "lineHeight": {
+         "unit": "AUTO"
+        },
+        "letterSpacing": {
+         "unit": "PERCENT",
+         "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textCase": "ORIGINAL"
+       },
+       {
+        "id": "2280:787",
+        "name": "Group 53",
+        "type": "GROUP",
+        "x": 120,
+        "y": 152,
+        "width": 240.00111389160156,
+        "height": 33.02483367919922,
+        "absX": 30812,
+        "absY": 6907,
+        "children": [
+         {
+          "id": "2280:788",
+          "name": "Vector",
+          "type": "VECTOR",
+          "x": 120,
+          "y": 152.00000977516174,
+          "width": 41.63652801513672,
+          "height": 25.903884887695312,
+          "absX": 30812,
+          "absY": 6907,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#ffffff",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1,
+            "boundVariable": null
+           }
+          ]
+         },
+         {
+          "id": "2280:789",
+          "name": "Vector",
+          "type": "VECTOR",
+          "x": 318.15234375,
+          "y": 159.94140625,
+          "width": 41.84877395629883,
+          "height": 25.083425521850586,
+          "absX": 31010.15234375,
+          "absY": 6914.94140625,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#ffffff",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1,
+            "boundVariable": null
+           }
+          ]
+         },
+         {
+          "id": "2280:790",
+          "name": "Vector",
+          "type": "VECTOR",
+          "x": 232.703125,
+          "y": 152.01171875,
+          "width": 40.764583587646484,
+          "height": 25.995635986328125,
+          "absX": 30924.703125,
+          "absY": 6907.01171875,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#ffffff",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1,
+            "boundVariable": null
+           }
+          ]
+         },
+         {
+          "id": "2280:791",
+          "name": "Vector",
+          "type": "VECTOR",
+          "x": 200.33203125,
+          "y": 159.9375,
+          "width": 34.19847869873047,
+          "height": 18.062833786010742,
+          "absX": 30892.33203125,
+          "absY": 6914.9375,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#ffffff",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1,
+            "boundVariable": null
+           }
+          ]
+         },
+         {
+          "id": "2280:792",
+          "name": "Vector",
+          "type": "VECTOR",
+          "x": 290.37890625,
+          "y": 159.82421875,
+          "width": 34.19940948486328,
+          "height": 18.31070327758789,
+          "absX": 30982.37890625,
+          "absY": 6914.82421875,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#ffffff",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1,
+            "boundVariable": null
+           }
+          ]
+         },
+         {
+          "id": "2280:793",
+          "name": "Vector",
+          "type": "VECTOR",
+          "x": 154.625,
+          "y": 159.955078125,
+          "width": 33.67854690551758,
+          "height": 18.051658630371094,
+          "absX": 30846.625,
+          "absY": 6914.955078125,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#ffffff",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1,
+            "boundVariable": null
+           }
+          ]
+         },
+         {
+          "id": "2280:794",
+          "name": "Vector",
+          "type": "VECTOR",
+          "x": 185.2265625,
+          "y": 152.009765625,
+          "width": 21.77486228942871,
+          "height": 25.984844207763672,
+          "absX": 30877.2265625,
+          "absY": 6907.009765625,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#ffffff",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1,
+            "boundVariable": null
+           }
+          ]
+         },
+         {
+          "id": "2280:795",
+          "name": "Vector",
+          "type": "VECTOR",
+          "x": 264.5546875,
+          "y": 159.9921875,
+          "width": 30.801212310791016,
+          "height": 18.00260353088379,
+          "absX": 30956.5546875,
+          "absY": 6914.9921875,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#ffffff",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1,
+            "boundVariable": null
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "2280:796",
+        "name": "Group 1410122013",
+        "type": "GROUP",
+        "x": 120,
+        "y": 298.752197265625,
+        "width": 239.99920654296875,
+        "height": 69.47382354736328,
+        "absX": 30812,
+        "absY": 7053.751953125,
+        "children": [
+         {
+          "id": "2280:797",
+          "name": "Frame 168",
+          "type": "FRAME",
+          "x": 119.99974060058594,
+          "y": 298.75208951186505,
+          "width": 69.47382354736328,
+          "height": 69.47382354736328,
+          "absX": 30812,
+          "absY": 7053.751953125,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#c7f126",
+            "r": 199,
+            "g": 241,
+            "b": 38,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "cornerRadius": 7.894752502441406,
+          "children": [
+           {
+            "id": "2280:798",
+            "name": "Vector",
+            "type": "VECTOR",
+            "x": 11.841110229492188,
+            "y": 11.841957092285156,
+            "width": 45.78956604003906,
+            "height": 45.78956604003906,
+            "absX": 30823.841796875,
+            "absY": 7065.59375,
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#000000",
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1,
+              "boundVariable": null
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "2280:799",
+          "name": "Frame 169",
+          "type": "FRAME",
+          "x": 205.26373291015625,
+          "y": 298.75208951186505,
+          "width": 69.47382354736328,
+          "height": 69.47382354736328,
+          "absX": 30897.263671875,
+          "absY": 7053.751953125,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#c7f126",
+            "r": 199,
+            "g": 241,
+            "b": 38,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "cornerRadius": 7.894752502441406,
+          "children": [
+           {
+            "id": "2280:800",
+            "name": "Vector",
+            "type": "VECTOR",
+            "x": 22.89493751525879,
+            "y": 11.841957092285156,
+            "width": 23.68425750732422,
+            "height": 45.78956604003906,
+            "absX": 30920.158203125,
+            "absY": 7065.59375,
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#000000",
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1,
+              "boundVariable": null
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "2280:801",
+          "name": "Frame 170",
+          "type": "FRAME",
+          "x": 290.5259246826172,
+          "y": 298.75208951186505,
+          "width": 69.47382354736328,
+          "height": 69.47382354736328,
+          "absX": 30982.525390625,
+          "absY": 7053.751953125,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#c7f126",
+            "r": 199,
+            "g": 241,
+            "b": 38,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "cornerRadius": 7.894752502441406,
+          "children": [
+           {
+            "id": "2280:802",
+            "name": "Vector",
+            "type": "VECTOR",
+            "x": 15.000561714172363,
+            "y": 11.841957092285156,
+            "width": 40.26323699951172,
+            "height": 45.78956604003906,
+            "absX": 30997.525390625,
+            "absY": 7065.59375,
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#000000",
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1,
+              "boundVariable": null
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "2280:803",
+        "name": "Frame 118",
+        "type": "FRAME",
+        "x": 120,
+        "y": 414,
+        "width": 520,
+        "height": 130,
+        "absX": 30812,
+        "absY": 7169,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#ffffff",
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 0.10000000149011612,
+          "boundVariable": null
+         }
+        ],
+        "strokes": [
+         {
+          "type": "SOLID",
+          "hex": "#c7f126",
+          "r": 199,
+          "g": 241,
+          "b": 38,
+          "a": 1
+         }
+        ],
+        "strokeWeight": "MIXED",
+        "children": [
+         {
+          "id": "2280:804",
+          "name": "Group 1410121988",
+          "type": "GROUP",
+          "x": 38,
+          "y": 20,
+          "width": 298,
+          "height": 90,
+          "absX": 30850,
+          "absY": 7189,
+          "children": [
+           {
+            "id": "2280:805",
+            "name": "Address: 237, street no 5, Karachi",
+            "type": "TEXT",
+            "x": 38,
+            "y": 88,
+            "width": 289,
+            "height": 22,
+            "absX": 30850,
+            "absY": 7257,
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#ffffff",
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1,
+              "boundVariable": null
+             }
+            ],
+            "characters": "Address: 237, street no 5, Karachi",
+            "fontName": {
+             "family": "Inter",
+             "style": "Medium",
+             "variationSettings": {
+              "slnt": 0,
+              "wght": 500
+             }
+            },
+            "fontSize": 18,
+            "lineHeight": {
+             "unit": "AUTO"
+            },
+            "letterSpacing": {
+             "unit": "PERCENT",
+             "value": 0
+            },
+            "textAlignHorizontal": "LEFT",
+            "textCase": "ORIGINAL"
+           },
+           {
+            "id": "2280:806",
+            "name": "WhatsAPP: +9333-333333",
+            "type": "TEXT",
+            "x": 38,
+            "y": 20,
+            "width": 237,
+            "height": 22,
+            "absX": 30850,
+            "absY": 7189,
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#ffffff",
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1,
+              "boundVariable": null
+             }
+            ],
+            "characters": "WhatsAPP: +9333-333333",
+            "fontName": {
+             "family": "Inter",
+             "style": "Medium",
+             "variationSettings": {
+              "slnt": 0,
+              "wght": 500
+             }
+            },
+            "fontSize": 18,
+            "lineHeight": {
+             "unit": "AUTO"
+            },
+            "letterSpacing": {
+             "unit": "PERCENT",
+             "value": 0
+            },
+            "textAlignHorizontal": "LEFT",
+            "textCase": "ORIGINAL"
+           },
+           {
+            "id": "2280:807",
+            "name": "Email: Soledropofficial@gmail.com",
+            "type": "TEXT",
+            "x": 39,
+            "y": 54,
+            "width": 297,
+            "height": 22,
+            "absX": 30851,
+            "absY": 7223,
+            "fills": [
+             {
+              "type": "SOLID",
+              "hex": "#ffffff",
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1,
+              "boundVariable": null
+             }
+            ],
+            "characters": "Email: Soledropofficial@gmail.com",
+            "fontName": {
+             "family": "Inter",
+             "style": "Medium",
+             "variationSettings": {
+              "slnt": 0,
+              "wght": 500
+             }
+            },
+            "fontSize": 18,
+            "lineHeight": {
+             "unit": "AUTO"
+            },
+            "letterSpacing": {
+             "unit": "PERCENT",
+             "value": 0
+            },
+            "textAlignHorizontal": "LEFT",
+            "textCase": "ORIGINAL"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "2280:808",
+      "name": "© 2026 SOLE DROP. All Rights Reserved.",
+      "type": "TEXT",
+      "x": 128,
+      "y": 649,
+      "width": 353,
+      "height": 22,
+      "absX": 30820,
+      "absY": 7404,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#a3a3a3",
+        "r": 163,
+        "g": 163,
+        "b": 163,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "characters": "© 2026 SOLE DROP. All Rights Reserved.",
+      "fontName": {
+       "family": "Inter",
+       "style": "Medium",
+       "variationSettings": {
+        "slnt": 0,
+        "wght": 500
+       }
+      },
+      "fontSize": 18,
+      "lineHeight": {
+       "unit": "AUTO"
+      },
+      "letterSpacing": {
+       "unit": "PERCENT",
+       "value": 0
+      },
+      "textAlignHorizontal": "LEFT",
+      "textCase": "ORIGINAL"
+     },
+     {
+      "id": "2280:809",
+      "name": "Line 26",
+      "type": "LINE",
+      "x": 123,
+      "y": 618,
+      "width": 1674,
+      "height": 0,
+      "absX": 30815,
+      "absY": 7372.99985365426,
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#a3a3a3",
+        "r": 163,
+        "g": 163,
+        "b": 163,
+        "a": 1
+       }
+      ],
+      "strokeWeight": 1
+     }
+    ]
+   },
+   {
+    "id": "2110:12",
+    "name": "Frame 166",
+    "type": "FRAME",
+    "x": 205,
+    "y": 377,
+    "width": 780,
+    "height": 895,
+    "absX": 30897,
+    "absY": 5704,
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#ffffff",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 1,
+      "boundVariable": null
+     }
+    ],
+    "cornerRadius": 20,
+    "effects": [
+     {
+      "type": "DROP_SHADOW",
+      "color": {
+       "hex": "#000000",
+       "r": 0,
+       "g": 0,
+       "b": 0,
+       "a": 0.25
+      },
+      "offset": {
+       "x": 8,
+       "y": 8
+      },
+      "radius": 4,
+      "spread": 0
+     }
+    ],
+    "children": [
+     {
+      "id": "2110:15",
+      "name": "SEND A MASSAGE",
+      "type": "TEXT",
+      "x": 40,
+      "y": 40,
+      "width": 289,
+      "height": 39,
+      "absX": 30937,
+      "absY": 5744,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "characters": "SEND A MASSAGE",
+      "fontName": {
+       "family": "Inter",
+       "style": "Extra Bold",
+       "variationSettings": {
+        "slnt": 0,
+        "wght": 800
+       }
+      },
+      "fontSize": 32,
+      "lineHeight": {
+       "unit": "AUTO"
+      },
+      "letterSpacing": {
+       "unit": "PERCENT",
+       "value": 0
+      },
+      "textAlignHorizontal": "LEFT",
+      "textCase": "ORIGINAL"
+     },
+     {
+      "id": "2110:16",
+      "name": "Frame 142",
+      "type": "FRAME",
+      "x": 40,
+      "y": 187,
+      "width": 700,
+      "height": 60,
+      "absX": 30937,
+      "absY": 5891,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#ffffff",
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#a3a3a3",
+        "r": 163,
+        "g": 163,
+        "b": 163,
+        "a": 1
+       }
+      ],
+      "strokeWeight": 2,
+      "cornerRadius": 10,
+      "children": []
+     },
+     {
+      "id": "2110:26",
+      "name": "Frame 146",
+      "type": "FRAME",
+      "x": 40,
+      "y": 323,
+      "width": 700,
+      "height": 60,
+      "absX": 30937,
+      "absY": 6027,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#ffffff",
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#a3a3a3",
+        "r": 163,
+        "g": 163,
+        "b": 163,
+        "a": 1
+       }
+      ],
+      "strokeWeight": 2,
+      "cornerRadius": 10,
+      "children": []
+     },
+     {
+      "id": "2110:28",
+      "name": "Frame 147",
+      "type": "FRAME",
+      "x": 40,
+      "y": 459,
+      "width": 700,
+      "height": 60,
+      "absX": 30937,
+      "absY": 6163,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#ffffff",
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#a3a3a3",
+        "r": 163,
+        "g": 163,
+        "b": 163,
+        "a": 1
+       }
+      ],
+      "strokeWeight": 2,
+      "cornerRadius": 10,
+      "children": []
+     },
+     {
+      "id": "2110:32",
+      "name": "Frame 149",
+      "type": "FRAME",
+      "x": 40,
+      "y": 779,
+      "width": 700,
+      "height": 76,
+      "absX": 30937,
+      "absY": 6483,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#c7f126",
+        "r": 199,
+        "g": 241,
+        "b": 38,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#e5e5e5",
+        "r": 229,
+        "g": 229,
+        "b": 229,
+        "a": 1
+       }
+      ],
+      "strokeWeight": 2,
+      "cornerRadius": 10,
+      "children": [
+       {
+        "id": "2111:33",
+        "name": "SEND MASSAGE",
+        "type": "TEXT",
+        "x": 245,
+        "y": 23,
+        "width": 210,
+        "height": 31,
+        "absX": 31182,
+        "absY": 6506,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#000000",
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1,
+          "boundVariable": null
+         }
+        ],
+        "characters": "SEND MASSAGE",
+        "fontName": {
+         "family": "Inter",
+         "style": "Extra Bold",
+         "variationSettings": {
+          "slnt": 0,
+          "wght": 800
+         }
+        },
+        "fontSize": 26,
+        "lineHeight": {
+         "unit": "AUTO"
+        },
+        "letterSpacing": {
+         "unit": "PERCENT",
+         "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textCase": "ORIGINAL"
+       }
+      ]
+     },
+     {
+      "id": "2110:30",
+      "name": "Frame 148",
+      "type": "FRAME",
+      "x": 40,
+      "y": 595,
+      "width": 700,
+      "height": 140,
+      "absX": 30937,
+      "absY": 6299,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#ffffff",
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#a3a3a3",
+        "r": 163,
+        "g": 163,
+        "b": 163,
+        "a": 1
+       }
+      ],
+      "strokeWeight": 2,
+      "cornerRadius": 10,
+      "children": []
+     },
+     {
+      "id": "2110:19",
+      "name": "Fill out the form below and we’ll get back to you as soon as possible.",
+      "type": "TEXT",
+      "x": 40,
+      "y": 91,
+      "width": 658,
+      "height": 24,
+      "absX": 30937,
+      "absY": 5795,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#a3a3a3",
+        "r": 163,
+        "g": 163,
+        "b": 163,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "characters": "Fill out the form below and we’ll get back to you as soon as possible.",
+      "fontName": {
+       "family": "Inter",
+       "style": "Semi Bold",
+       "variationSettings": {
+        "slnt": 0,
+        "wght": 600
+       }
+      },
+      "fontSize": 20,
+      "lineHeight": {
+       "unit": "AUTO"
+      },
+      "letterSpacing": {
+       "unit": "PERCENT",
+       "value": 0
+      },
+      "textAlignHorizontal": "LEFT",
+      "textCase": "ORIGINAL"
+     },
+     {
+      "id": "2110:20",
+      "name": "Full Name",
+      "type": "TEXT",
+      "x": 40,
+      "y": 153,
+      "width": 96,
+      "height": 24,
+      "absX": 30937,
+      "absY": 5857,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "characters": "Full Name",
+      "fontName": {
+       "family": "Inter",
+       "style": "Bold",
+       "variationSettings": {
+        "slnt": 0,
+        "wght": 700
+       }
+      },
+      "fontSize": 20,
+      "lineHeight": {
+       "unit": "AUTO"
+      },
+      "letterSpacing": {
+       "unit": "PERCENT",
+       "value": 0
+      },
+      "textAlignHorizontal": "LEFT",
+      "textCase": "ORIGINAL"
+     },
+     {
+      "id": "2110:27",
+      "name": "Email",
+      "type": "TEXT",
+      "x": 40,
+      "y": 289,
+      "width": 53,
+      "height": 24,
+      "absX": 30937,
+      "absY": 5993,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "characters": "Email",
+      "fontName": {
+       "family": "Inter",
+       "style": "Bold",
+       "variationSettings": {
+        "slnt": 0,
+        "wght": 700
+       }
+      },
+      "fontSize": 20,
+      "lineHeight": {
+       "unit": "AUTO"
+      },
+      "letterSpacing": {
+       "unit": "PERCENT",
+       "value": 0
+      },
+      "textAlignHorizontal": "LEFT",
+      "textCase": "ORIGINAL"
+     },
+     {
+      "id": "2110:29",
+      "name": "Order Number (Optional)",
+      "type": "TEXT",
+      "x": 40,
+      "y": 425,
+      "width": 244,
+      "height": 24,
+      "absX": 30937,
+      "absY": 6129,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "characters": "Order Number (Optional)",
+      "fontName": {
+       "family": "Inter",
+       "style": "Bold",
+       "variationSettings": {
+        "slnt": 0,
+        "wght": 700
+       }
+      },
+      "fontSize": 20,
+      "lineHeight": {
+       "unit": "AUTO"
+      },
+      "letterSpacing": {
+       "unit": "PERCENT",
+       "value": 0
+      },
+      "textAlignHorizontal": "LEFT",
+      "textCase": "ORIGINAL"
+     },
+     {
+      "id": "2110:31",
+      "name": "Massage",
+      "type": "TEXT",
+      "x": 40,
+      "y": 561,
+      "width": 89,
+      "height": 24,
+      "absX": 30937,
+      "absY": 6265,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "characters": "Massage",
+      "fontName": {
+       "family": "Inter",
+       "style": "Bold",
+       "variationSettings": {
+        "slnt": 0,
+        "wght": 700
+       }
+      },
+      "fontSize": 20,
+      "lineHeight": {
+       "unit": "AUTO"
+      },
+      "letterSpacing": {
+       "unit": "PERCENT",
+       "value": 0
+      },
+      "textAlignHorizontal": "LEFT",
+      "textCase": "ORIGINAL"
+     }
+    ]
+   },
+   {
+    "id": "2110:14",
+    "name": "Frame 167",
+    "type": "FRAME",
+    "x": 1019,
+    "y": 377,
+    "width": 695,
+    "height": 895,
+    "absX": 31711,
+    "absY": 5704,
+    "fills": [
+     {
+      "type": "SOLID",
+      "hex": "#ffffff",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 1,
+      "boundVariable": null
+     }
+    ],
+    "cornerRadius": 20,
+    "effects": [
+     {
+      "type": "DROP_SHADOW",
+      "color": {
+       "hex": "#000000",
+       "r": 0,
+       "g": 0,
+       "b": 0,
+       "a": 0.25
+      },
+      "offset": {
+       "x": 8,
+       "y": 8
+      },
+      "radius": 4,
+      "spread": 0
+     }
+    ],
+    "children": [
+     {
+      "id": "2111:35",
+      "name": "NEED QUICK HELP?",
+      "type": "TEXT",
+      "x": 40,
+      "y": 40,
+      "width": 306,
+      "height": 39,
+      "absX": 31751,
+      "absY": 5744,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "characters": "NEED QUICK HELP?",
+      "fontName": {
+       "family": "Inter",
+       "style": "Extra Bold",
+       "variationSettings": {
+        "slnt": 0,
+        "wght": 800
+       }
+      },
+      "fontSize": 32,
+      "lineHeight": {
+       "unit": "AUTO"
+      },
+      "letterSpacing": {
+       "unit": "PERCENT",
+       "value": 0
+      },
+      "textAlignHorizontal": "LEFT",
+      "textCase": "ORIGINAL"
+     },
+     {
+      "id": "2111:36",
+      "name": "Chat with us directly or Email us. We’re always happy to assist",
+      "type": "TEXT",
+      "x": 40,
+      "y": 91,
+      "width": 598,
+      "height": 24,
+      "absX": 31751,
+      "absY": 5795,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#a3a3a3",
+        "r": 163,
+        "g": 163,
+        "b": 163,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "characters": "Chat with us directly or Email us. We’re always happy to assist",
+      "fontName": {
+       "family": "Inter",
+       "style": "Semi Bold",
+       "variationSettings": {
+        "slnt": 0,
+        "wght": 600
+       }
+      },
+      "fontSize": 20,
+      "lineHeight": {
+       "unit": "AUTO"
+      },
+      "letterSpacing": {
+       "unit": "PERCENT",
+       "value": 0
+      },
+      "textAlignHorizontal": "LEFT",
+      "textCase": "ORIGINAL"
+     },
+     {
+      "id": "2111:45",
+      "name": "Stay Update on New Drops, Offers and Many More.",
+      "type": "TEXT",
+      "x": 40,
+      "y": 483,
+      "width": 490,
+      "height": 24,
+      "absX": 31751,
+      "absY": 6187,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#a3a3a3",
+        "r": 163,
+        "g": 163,
+        "b": 163,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "characters": "Stay Update on New Drops, Offers and Many More.",
+      "fontName": {
+       "family": "Inter",
+       "style": "Semi Bold",
+       "variationSettings": {
+        "slnt": 0,
+        "wght": 600
+       }
+      },
+      "fontSize": 20,
+      "lineHeight": {
+       "unit": "AUTO"
+      },
+      "letterSpacing": {
+       "unit": "PERCENT",
+       "value": 0
+      },
+      "textAlignHorizontal": "LEFT",
+      "textCase": "ORIGINAL"
+     },
+     {
+      "id": "2111:39",
+      "name": "Frame 149",
+      "type": "FRAME",
+      "x": 40,
+      "y": 146,
+      "width": 615,
+      "height": 114,
+      "absX": 31751,
+      "absY": 5850,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#c7f126",
+        "r": 199,
+        "g": 241,
+        "b": 38,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "cornerRadius": 12,
+      "children": [
+       {
+        "id": "2111:51",
+        "name": "Group 1410122011",
+        "type": "GROUP",
+        "x": 102,
+        "y": 23,
+        "width": 183,
+        "height": 68,
+        "absX": 31853,
+        "absY": 5873,
+        "children": [
+         {
+          "id": "2111:40",
+          "name": "WHATSAPP",
+          "type": "TEXT",
+          "x": 102,
+          "y": 23,
+          "width": 153,
+          "height": 31,
+          "absX": 31853,
+          "absY": 5873,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#000000",
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "characters": "WHATSAPP",
+          "fontName": {
+           "family": "Inter",
+           "style": "Extra Bold",
+           "variationSettings": {
+            "slnt": 0,
+            "wght": 800
+           }
+          },
+          "fontSize": 26,
+          "lineHeight": {
+           "unit": "AUTO"
+          },
+          "letterSpacing": {
+           "unit": "PERCENT",
+           "value": 0
+          },
+          "textAlignHorizontal": "LEFT",
+          "textCase": "ORIGINAL"
+         },
+         {
+          "id": "2111:48",
+          "name": "Chat with our team",
+          "type": "TEXT",
+          "x": 102,
+          "y": 67,
+          "width": 183,
+          "height": 24,
+          "absX": 31853,
+          "absY": 5917,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#000000",
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "characters": "Chat with our team",
+          "fontName": {
+           "family": "Inter",
+           "style": "Medium",
+           "variationSettings": {
+            "slnt": 0,
+            "wght": 500
+           }
+          },
+          "fontSize": 20,
+          "lineHeight": {
+           "unit": "AUTO"
+          },
+          "letterSpacing": {
+           "unit": "PERCENT",
+           "value": 0
+          },
+          "textAlignHorizontal": "LEFT",
+          "textCase": "ORIGINAL"
+         }
+        ]
+       },
+       {
+        "id": "2111:64",
+        "name": "Vector",
+        "type": "VECTOR",
+        "x": 588,
+        "y": 70,
+        "width": 26,
+        "height": 39,
+        "absX": 32300,
+        "absY": 5894,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#000000",
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1,
+          "boundVariable": null
+         }
+        ]
+       },
+       {
+        "id": "2113:2",
+        "name": "whatsapp",
+        "type": "FRAME",
+        "x": 22,
+        "y": 22,
+        "width": 70,
+        "height": 70,
+        "absX": 31773,
+        "absY": 5872,
+        "fills": [],
+        "children": [
+         {
+          "id": "2113:3",
+          "name": "Vector",
+          "type": "VECTOR",
+          "x": 5,
+          "y": 5,
+          "width": 60,
+          "height": 60,
+          "absX": 31778,
+          "absY": 5877,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#000000",
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1,
+            "boundVariable": null
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "2111:44",
+      "name": "FOLLOW US",
+      "type": "TEXT",
+      "x": 40,
+      "y": 439,
+      "width": 154,
+      "height": 31,
+      "absX": 31751,
+      "absY": 6143,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "characters": "FOLLOW US",
+      "fontName": {
+       "family": "Inter",
+       "style": "Extra Bold",
+       "variationSettings": {
+        "slnt": 0,
+        "wght": 800
+       }
+      },
+      "fontSize": 26,
+      "lineHeight": {
+       "unit": "AUTO"
+      },
+      "letterSpacing": {
+       "unit": "PERCENT",
+       "value": 0
+      },
+      "textAlignHorizontal": "LEFT",
+      "textCase": "ORIGINAL"
+     },
+     {
+      "id": "2111:42",
+      "name": "Frame 150",
+      "type": "FRAME",
+      "x": 40,
+      "y": 280,
+      "width": 615,
+      "height": 114,
+      "absX": 31751,
+      "absY": 5984,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "cornerRadius": 12,
+      "children": [
+       {
+        "id": "2111:52",
+        "name": "Group 1410122012",
+        "type": "GROUP",
+        "x": 101,
+        "y": 23,
+        "width": 202,
+        "height": 68,
+        "absX": 31852,
+        "absY": 6007,
+        "children": [
+         {
+          "id": "2111:43",
+          "name": "EMAIL US",
+          "type": "TEXT",
+          "x": 101,
+          "y": 23,
+          "width": 124,
+          "height": 31,
+          "absX": 31852,
+          "absY": 6007,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#ffffff",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "characters": "EMAIL US",
+          "fontName": {
+           "family": "Inter",
+           "style": "Extra Bold",
+           "variationSettings": {
+            "slnt": 0,
+            "wght": 800
+           }
+          },
+          "fontSize": 26,
+          "lineHeight": {
+           "unit": "AUTO"
+          },
+          "letterSpacing": {
+           "unit": "PERCENT",
+           "value": 0
+          },
+          "textAlignHorizontal": "LEFT",
+          "textCase": "ORIGINAL"
+         },
+         {
+          "id": "2111:50",
+          "name": "soledrop@gmail.com",
+          "type": "TEXT",
+          "x": 101,
+          "y": 67,
+          "width": 202,
+          "height": 24,
+          "absX": 31852,
+          "absY": 6051,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#ffffff",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "characters": "soledrop@gmail.com",
+          "fontName": {
+           "family": "Inter",
+           "style": "Medium",
+           "variationSettings": {
+            "slnt": 0,
+            "wght": 500
+           }
+          },
+          "fontSize": 20,
+          "lineHeight": {
+           "unit": "AUTO"
+          },
+          "letterSpacing": {
+           "unit": "PERCENT",
+           "value": 0
+          },
+          "textAlignHorizontal": "LEFT",
+          "textCase": "ORIGINAL"
+         }
+        ]
+       },
+       {
+        "id": "2111:66",
+        "name": "Vector",
+        "type": "VECTOR",
+        "x": 588,
+        "y": 70,
+        "width": 26,
+        "height": 39,
+        "absX": 32300,
+        "absY": 6028,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#ffffff",
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1,
+          "boundVariable": null
+         }
+        ]
+       },
+       {
+        "id": "2113:5",
+        "name": "email",
+        "type": "FRAME",
+        "x": 27,
+        "y": 27,
+        "width": 60,
+        "height": 60,
+        "absX": 31778,
+        "absY": 6011,
+        "fills": [],
+        "children": [
+         {
+          "id": "2113:6",
+          "name": "Vector",
+          "type": "VECTOR",
+          "x": 0.9375,
+          "y": 8.8311767578125,
+          "width": 58.125,
+          "height": 42.337501525878906,
+          "absX": 31778.9375,
+          "absY": 6019.8310546875,
+          "fills": [
+           {
+            "type": "SOLID",
+            "hex": "#ffffff",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1,
+            "boundVariable": null
+           }
+          ],
+          "strokes": [
+           {
+            "type": "SOLID",
+            "hex": "#000000",
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+           }
+          ],
+          "strokeWeight": 0.800000011920929
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "2111:46",
+      "name": "Frame 151",
+      "type": "FRAME",
+      "x": 40,
+      "y": 655,
+      "width": 615,
+      "height": 200,
+      "absX": 31751,
+      "absY": 6359,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#000000",
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "strokes": [
+       {
+        "type": "SOLID",
+        "hex": "#e5e5e5",
+        "r": 229,
+        "g": 229,
+        "b": 229,
+        "a": 1
+       }
+      ],
+      "strokeWeight": 2,
+      "cornerRadius": 12,
+      "children": [
+       {
+        "id": "2111:47",
+        "name": "Mon - Sat",
+        "type": "TEXT",
+        "x": 102,
+        "y": 68,
+        "width": 131,
+        "height": 32,
+        "absX": 31853,
+        "absY": 6427,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#ffffff",
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1,
+          "boundVariable": null
+         }
+        ],
+        "characters": "Mon - Sat",
+        "fontName": {
+         "family": "Montserrat",
+         "style": "ExtraBold",
+         "variationSettings": {
+          "wght": 800
+         }
+        },
+        "fontSize": 26,
+        "lineHeight": {
+         "unit": "AUTO"
+        },
+        "letterSpacing": {
+         "unit": "PERCENT",
+         "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textCase": "ORIGINAL"
+       }
+      ]
+     },
+     {
+      "id": "2111:53",
+      "name": "Frame 168",
+      "type": "FRAME",
+      "x": 40,
+      "y": 533,
+      "width": 88,
+      "height": 88,
+      "absX": 31751,
+      "absY": 6237,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#c7f126",
+        "r": 199,
+        "g": 241,
+        "b": 38,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "cornerRadius": 10,
+      "children": [
+       {
+        "id": "2113:21",
+        "name": "Vector",
+        "type": "VECTOR",
+        "x": 15,
+        "y": 15,
+        "width": 58,
+        "height": 58,
+        "absX": 31766,
+        "absY": 6252,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#000000",
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1,
+          "boundVariable": null
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "2111:55",
+      "name": "Frame 169",
+      "type": "FRAME",
+      "x": 168,
+      "y": 533,
+      "width": 88,
+      "height": 88,
+      "absX": 31879,
+      "absY": 6237,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#c7f126",
+        "r": 199,
+        "g": 241,
+        "b": 38,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "cornerRadius": 10,
+      "children": [
+       {
+        "id": "2113:11",
+        "name": "Vector",
+        "type": "VECTOR",
+        "x": 29,
+        "y": 15,
+        "width": 30,
+        "height": 58,
+        "absX": 31908,
+        "absY": 6252,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#000000",
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1,
+          "boundVariable": null
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "2111:56",
+      "name": "Frame 170",
+      "type": "FRAME",
+      "x": 296,
+      "y": 533,
+      "width": 88,
+      "height": 88,
+      "absX": 32007,
+      "absY": 6237,
+      "fills": [
+       {
+        "type": "SOLID",
+        "hex": "#c7f126",
+        "r": 199,
+        "g": 241,
+        "b": 38,
+        "a": 1,
+        "boundVariable": null
+       }
+      ],
+      "cornerRadius": 10,
+      "children": [
+       {
+        "id": "2113:16",
+        "name": "Vector",
+        "type": "VECTOR",
+        "x": 19,
+        "y": 15,
+        "width": 51,
+        "height": 58,
+        "absX": 32026,
+        "absY": 6252,
+        "fills": [
+         {
+          "type": "SOLID",
+          "hex": "#000000",
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1,
+          "boundVariable": null
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

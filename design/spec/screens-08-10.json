@@ -1,0 +1,4616 @@
+{
+ "section": "screens-08-10",
+ "file": "Soledrop (Local)",
+ "exportedWith": "Figma AI Bridge Executor (plugin, protocol 2)",
+ "range": [
+  8,
+  10
+ ],
+ "screens": [
+  {
+   "id": "2103:865",
+   "name": "08 Size Guide",
+   "originalName": "Size Guide",
+   "breakpoint": "desktop",
+   "tree": {
+    "n": "Size Guide",
+    "t": "frame",
+    "w": 1920,
+    "h": 2461,
+    "size": "FIXED/FIXED",
+    "fill": "#e8e8e8",
+    "kids": [
+     {
+      "n": "Frame 141",
+      "t": "frame",
+      "w": 1920,
+      "h": 200,
+      "size": "FIXED/FIXED",
+      "fill": "#000000",
+      "kids": [
+       {
+        "n": "Group 1410122008",
+        "t": "group",
+        "w": 362,
+        "h": 103,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "SIZE GUIDE",
+          "t": "text",
+          "w": 362,
+          "h": 73,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#ffffff",
+           "align": "LEFT",
+           "value": "SIZE GUIDE"
+          }
+         },
+         {
+          "n": "EU · UK · US · CM size conversion.",
+          "t": "text",
+          "w": 340,
+          "h": 24,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#a3a3a3",
+           "align": "LEFT",
+           "value": "EU · UK · US · CM size conversion."
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "n": "Frame 77",
+      "t": "frame",
+      "w": 1920,
+      "h": 86,
+      "size": "FIXED/FIXED",
+      "fill": "#000000",
+      "stroke": "#a3a3a3 ",
+      "kids": [
+       {
+        "n": "Group 53",
+        "t": "group",
+        "w": 240,
+        "h": 33,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 42,
+          "h": 26,
+          "size": "FIXED/FIXED",
+          "fill": "#ffffff"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 42,
+          "h": 25,
+          "size": "FIXED/FIXED",
+          "fill": "#c7f126"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 41,
+          "h": 26,
+          "size": "FIXED/FIXED",
+          "fill": "#c7f126"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 34,
+          "h": 18,
+          "size": "FIXED/FIXED",
+          "fill": "#ffffff"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 34,
+          "h": 18,
+          "size": "FIXED/FIXED",
+          "fill": "#c7f126"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 34,
+          "h": 18,
+          "size": "FIXED/FIXED",
+          "fill": "#ffffff"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 22,
+          "h": 26,
+          "size": "FIXED/FIXED",
+          "fill": "#ffffff"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 31,
+          "h": 18,
+          "size": "FIXED/FIXED",
+          "fill": "#c7f126"
+         }
+        ]
+       },
+       {
+        "n": "Frame 82",
+        "t": "frame",
+        "w": 987,
+        "h": 85,
+        "size": "FIXED/FIXED",
+        "fill": "#000000",
+        "kids": [
+         {
+          "n": "NEW DROPS",
+          "t": "text",
+          "w": 134,
+          "h": 24,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#ffffff",
+           "align": "LEFT",
+           "value": "NEW DROPS"
+          }
+         },
+         {
+          "n": "Men",
+          "t": "text",
+          "w": 46,
+          "h": 24,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#ffffff",
+           "align": "CENTER",
+           "value": "Men"
+          }
+         },
+         {
+          "n": "Women",
+          "t": "text",
+          "w": 83,
+          "h": 24,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#ffffff",
+           "align": "CENTER",
+           "value": "Women"
+          }
+         },
+         {
+          "n": "Kids",
+          "t": "text",
+          "w": 46,
+          "h": 24,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#ffffff",
+           "align": "CENTER",
+           "value": "Kids"
+          }
+         },
+         {
+          "n": "Pre Loved",
+          "t": "text",
+          "w": 105,
+          "h": 24,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#ffffff",
+           "align": "CENTER",
+           "value": "Pre Loved"
+          }
+         },
+         {
+          "n": "Sale",
+          "t": "text",
+          "w": 44,
+          "h": 24,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#c7f126",
+           "align": "CENTER",
+           "value": "Sale"
+          }
+         }
+        ]
+       },
+       {
+        "n": "Group 1410121992",
+        "t": "group",
+        "w": 136,
+        "h": 28,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "Frame",
+          "t": "frame",
+          "w": 28,
+          "h": 28,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "Group",
+            "t": "group",
+            "w": 22,
+            "h": 24,
+            "size": "FIXED/FIXED",
+            "kids": [
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 22,
+              "h": 24,
+              "size": "FIXED/FIXED",
+              "fill": "#ffffff"
+             },
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 11,
+              "h": 5,
+              "size": "FIXED/FIXED",
+              "fill": "#ffffff"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "n": "Frame",
+          "t": "frame",
+          "w": 24,
+          "h": 23,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 23,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           }
+          ]
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 24,
+          "h": 24,
+          "size": "FIXED/FIXED",
+          "fill": "#ffffff"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "n": "Frame 139",
+      "t": "frame",
+      "w": 1920,
+      "h": 713,
+      "size": "FIXED/FIXED",
+      "fill": "#000000",
+      "kids": [
+       {
+        "n": "Stay in the drop",
+        "t": "text",
+        "w": 501,
+        "h": 65,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#ffffff",
+         "align": "LEFT",
+         "value": "Stay in the drop"
+        }
+       },
+       {
+        "n": "Be the first to know about new arrivals, exclusive deals and limited drops.",
+        "t": "text",
+        "w": 631,
+        "h": 22,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#a3a3a3",
+         "align": "LEFT",
+         "value": "Be the first to know about new arrivals, exclusive deals and limited drops."
+        }
+       },
+       {
+        "n": "Group 1410121986",
+        "t": "group",
+        "w": 103,
+        "h": 230,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "Shop",
+          "t": "text",
+          "w": 45,
+          "h": 22,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#a3a3a3",
+           "align": "LEFT",
+           "value": "Shop"
+          }
+         },
+         {
+          "n": "Group 1410121983",
+          "t": "group",
+          "w": 103,
+          "h": 178,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "New Arrival",
+            "t": "text",
+            "w": 103,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "New Arrival"
+            }
+           },
+           {
+            "n": "Brand New",
+            "t": "text",
+            "w": 96,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Brand New"
+            }
+           },
+           {
+            "n": "Pre-Loved",
+            "t": "text",
+            "w": 92,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Pre-Loved"
+            }
+           },
+           {
+            "n": "Sale",
+            "t": "text",
+            "w": 38,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Sale"
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "n": "Group 1410121985",
+        "t": "group",
+        "w": 144,
+        "h": 74,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "About Sole Drop",
+          "t": "text",
+          "w": 144,
+          "h": 22,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#a3a3a3",
+           "align": "LEFT",
+           "value": "About Sole Drop"
+          }
+         },
+         {
+          "n": "Our Story",
+          "t": "text",
+          "w": 85,
+          "h": 22,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#a3a3a3",
+           "align": "LEFT",
+           "value": "Our Story"
+          }
+         }
+        ]
+       },
+       {
+        "n": "Group 1410121987",
+        "t": "group",
+        "w": 124,
+        "h": 334,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "Group 1410121984",
+          "t": "group",
+          "w": 124,
+          "h": 282,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "Contact Us",
+            "t": "text",
+            "w": 99,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Contact Us"
+            }
+           },
+           {
+            "n": "FAQ",
+            "t": "text",
+            "w": 36,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "FAQ"
+            }
+           },
+           {
+            "n": "Size Guide",
+            "t": "text",
+            "w": 94,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Size Guide"
+            }
+           },
+           {
+            "n": "Shipping",
+            "t": "text",
+            "w": 79,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Shipping"
+            }
+           },
+           {
+            "n": "Returns",
+            "t": "text",
+            "w": 70,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Returns"
+            }
+           },
+           {
+            "n": "Privacy Policy",
+            "t": "text",
+            "w": 124,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Privacy Policy"
+            }
+           }
+          ]
+         },
+         {
+          "n": "Help",
+          "t": "text",
+          "w": 40,
+          "h": 22,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#a3a3a3",
+           "align": "LEFT",
+           "value": "Help"
+          }
+         }
+        ]
+       },
+       {
+        "n": "About",
+        "t": "text",
+        "w": 53,
+        "h": 22,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#a3a3a3",
+         "align": "LEFT",
+         "value": "About"
+        }
+       },
+       {
+        "n": "Frame 111",
+        "t": "frame",
+        "w": 220,
+        "h": 54,
+        "size": "FIXED/FIXED",
+        "fill": "#c7f126",
+        "kids": [
+         {
+          "n": "STAY CONNECTED",
+          "t": "text",
+          "w": 187,
+          "h": 24,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#000000",
+           "align": "LEFT",
+           "value": "STAY CONNECTED"
+          }
+         }
+        ]
+       },
+       {
+        "n": "Frame 112",
+        "t": "frame",
+        "w": 1920,
+        "h": 88,
+        "size": "FIXED/FIXED",
+        "fill": "#c7f126",
+        "kids": [
+         {
+          "n": "🚚 Free delivery on orders above PKR 5,000",
+          "t": "text",
+          "w": 485,
+          "h": 24,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#000000",
+           "align": "LEFT",
+           "value": "🚚 Free delivery on orders above PKR 5,000"
+          }
+         },
+         {
+          "n": "Frame 111",
+          "t": "frame",
+          "w": 180,
+          "h": 54,
+          "size": "FIXED/FIXED",
+          "fill": "#000000",
+          "kids": [
+           {
+            "n": "SHOP NOW",
+            "t": "text",
+            "w": 113,
+            "h": 24,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#c7f126",
+             "align": "LEFT",
+             "value": "SHOP NOW"
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "n": "Group 1410121982",
+        "t": "group",
+        "w": 714,
+        "h": 68,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "Frame 114",
+          "t": "frame",
+          "w": 160,
+          "h": 68,
+          "size": "FIXED/FIXED",
+          "fill": "#c7f126",
+          "kids": [
+           {
+            "n": "JOIN NOW",
+            "t": "text",
+            "w": 103,
+            "h": 24,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#000000",
+             "align": "LEFT",
+             "value": "JOIN NOW"
+            }
+           }
+          ]
+         },
+         {
+          "n": "Frame 113",
+          "t": "frame",
+          "w": 540,
+          "h": 68,
+          "size": "FIXED/FIXED",
+          "fill": "#ffffff",
+          "stroke": "#a3a3a3 1",
+          "kids": [
+           {
+            "n": "Enter your email address",
+            "t": "text",
+            "w": 237,
+            "h": 24,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Enter your email address"
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "n": "Group 1410121989",
+        "t": "group",
+        "w": 520,
+        "h": 392,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "Fresh finds. Fresh steps. New and pre-loved footwear from brands you love.",
+          "t": "text",
+          "w": 383,
+          "h": 44,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#a3a3a3",
+           "align": "LEFT",
+           "value": "Fresh finds. Fresh steps. New and pre-loved\nfootwear from brands you love."
+          }
+         },
+         {
+          "n": "Group 53",
+          "t": "group",
+          "w": 240,
+          "h": 33,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 42,
+            "h": 26,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 42,
+            "h": 25,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 41,
+            "h": 26,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 34,
+            "h": 18,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 34,
+            "h": 18,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 34,
+            "h": 18,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 22,
+            "h": 26,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 31,
+            "h": 18,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           }
+          ]
+         },
+         {
+          "n": "Group 1410122013",
+          "t": "group",
+          "w": 240,
+          "h": 69,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "Frame 168",
+            "t": "frame",
+            "w": 69,
+            "h": 69,
+            "size": "FIXED/FIXED",
+            "radius": 7.894752502441406,
+            "fill": "#c7f126",
+            "kids": [
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 46,
+              "h": 46,
+              "size": "FIXED/FIXED",
+              "fill": "#000000"
+             }
+            ]
+           },
+           {
+            "n": "Frame 169",
+            "t": "frame",
+            "w": 69,
+            "h": 69,
+            "size": "FIXED/FIXED",
+            "radius": 7.894752502441406,
+            "fill": "#c7f126",
+            "kids": [
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 24,
+              "h": 46,
+              "size": "FIXED/FIXED",
+              "fill": "#000000"
+             }
+            ]
+           },
+           {
+            "n": "Frame 170",
+            "t": "frame",
+            "w": 69,
+            "h": 69,
+            "size": "FIXED/FIXED",
+            "radius": 7.894752502441406,
+            "fill": "#c7f126",
+            "kids": [
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 40,
+              "h": 46,
+              "size": "FIXED/FIXED",
+              "fill": "#000000"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "n": "Frame 118",
+          "t": "frame",
+          "w": 520,
+          "h": 130,
+          "size": "FIXED/FIXED",
+          "fill": "#ffffff",
+          "stroke": "#c7f126 ",
+          "kids": [
+           {
+            "n": "Group 1410121988",
+            "t": "group",
+            "w": 298,
+            "h": 90,
+            "size": "FIXED/FIXED",
+            "kids": [
+             {
+              "n": "Address: 237, street no 5, Karachi",
+              "t": "text",
+              "w": 289,
+              "h": 22,
+              "size": "FIXED/FIXED",
+              "text": {
+               "style": null,
+               "color": "#ffffff",
+               "align": "LEFT",
+               "value": "Address: 237, street no 5, Karachi"
+              }
+             },
+             {
+              "n": "WhatsAPP: +9333-333333",
+              "t": "text",
+              "w": 237,
+              "h": 22,
+              "size": "FIXED/FIXED",
+              "text": {
+               "style": null,
+               "color": "#ffffff",
+               "align": "LEFT",
+               "value": "WhatsAPP: +9333-333333"
+              }
+             },
+             {
+              "n": "Email: Soledropofficial@gmail.com",
+              "t": "text",
+              "w": 297,
+              "h": 22,
+              "size": "FIXED/FIXED",
+              "text": {
+               "style": null,
+               "color": "#ffffff",
+               "align": "LEFT",
+               "value": "Email: Soledropofficial@gmail.com"
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "n": "© 2026 SOLE DROP. All Rights Reserved.",
+        "t": "text",
+        "w": 353,
+        "h": 22,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#a3a3a3",
+         "align": "LEFT",
+         "value": "© 2026 SOLE DROP. All Rights Reserved."
+        }
+       },
+       {
+        "n": "Line 26",
+        "t": "line",
+        "w": 1674,
+        "h": 0,
+        "size": "FIXED/FIXED",
+        "stroke": "#a3a3a3 1"
+       }
+      ]
+     },
+     {
+      "n": "Group 1410122009",
+      "t": "group",
+      "w": 362,
+      "h": 58,
+      "size": "FIXED/FIXED",
+      "kids": [
+       {
+        "n": "Frame 146",
+        "t": "frame",
+        "w": 110,
+        "h": 58,
+        "size": "FIXED/FIXED",
+        "fill": "#000000",
+        "kids": [
+         {
+          "n": "MEN",
+          "t": "text",
+          "w": 49,
+          "h": 24,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#ffffff",
+           "align": "CENTER",
+           "value": "MEN"
+          }
+         }
+        ]
+       },
+       {
+        "n": "Frame 147",
+        "t": "frame",
+        "w": 130,
+        "h": 58,
+        "size": "FIXED/FIXED",
+        "fill": "#ffffff",
+        "kids": [
+         {
+          "n": "WOMEN",
+          "t": "text",
+          "w": 89,
+          "h": 24,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "WOMEN"
+          }
+         }
+        ]
+       },
+       {
+        "n": "Frame 148",
+        "t": "frame",
+        "w": 110,
+        "h": 58,
+        "size": "FIXED/FIXED",
+        "fill": "#ffffff",
+        "kids": [
+         {
+          "n": "KIDS",
+          "t": "text",
+          "w": 51,
+          "h": 24,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "KIDS"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "n": "Frame 153",
+      "t": "frame",
+      "w": 1280,
+      "h": 630,
+      "layout": {
+       "dir": "col",
+       "gap": 0,
+       "pad": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "main": "MIN",
+       "cross": "MIN"
+      },
+      "size": "FIXED/HUG",
+      "kids": [
+       {
+        "n": "Frame 150",
+        "t": "frame",
+        "w": 1280,
+        "h": 70,
+        "size": "FILL/FIXED",
+        "fill": "#000000",
+        "stroke": "#a3a3a3 1",
+        "kids": [
+         {
+          "n": "Group 1410122010",
+          "t": "group",
+          "w": 1096,
+          "h": 27,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "EU",
+            "t": "text",
+            "w": 33,
+            "h": 27,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#ffffff",
+             "align": "CENTER",
+             "value": "EU"
+            }
+           },
+           {
+            "n": "UK",
+            "t": "text",
+            "w": 34,
+            "h": 27,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#ffffff",
+             "align": "CENTER",
+             "value": "UK"
+            }
+           },
+           {
+            "n": "US",
+            "t": "text",
+            "w": 32,
+            "h": 27,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#ffffff",
+             "align": "CENTER",
+             "value": "US"
+            }
+           },
+           {
+            "n": "CM",
+            "t": "text",
+            "w": 37,
+            "h": 27,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#ffffff",
+             "align": "CENTER",
+             "value": "CM"
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "n": "Frame 149",
+        "t": "frame",
+        "w": 1280,
+        "h": 70,
+        "size": "FILL/FIXED",
+        "fill": "#ffffff",
+        "kids": [
+         {
+          "n": "40",
+          "t": "text",
+          "w": 36,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#000000",
+           "align": "CENTER",
+           "value": "40"
+          }
+         },
+         {
+          "n": "6",
+          "t": "text",
+          "w": 17,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "6"
+          }
+         },
+         {
+          "n": "7",
+          "t": "text",
+          "w": 16,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "7"
+          }
+         },
+         {
+          "n": "25",
+          "t": "text",
+          "w": 31,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "25"
+          }
+         }
+        ]
+       },
+       {
+        "n": "Frame 157",
+        "t": "frame",
+        "w": 1280,
+        "h": 70,
+        "size": "FILL/FIXED",
+        "fill": "#f0f0f0",
+        "kids": [
+         {
+          "n": "41",
+          "t": "text",
+          "w": 28,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#000000",
+           "align": "CENTER",
+           "value": "41"
+          }
+         },
+         {
+          "n": "7",
+          "t": "text",
+          "w": 16,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "7"
+          }
+         },
+         {
+          "n": "8",
+          "t": "text",
+          "w": 17,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "8"
+          }
+         },
+         {
+          "n": "26",
+          "t": "text",
+          "w": 32,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "26"
+          }
+         }
+        ]
+       },
+       {
+        "n": "Frame 151",
+        "t": "frame",
+        "w": 1280,
+        "h": 70,
+        "size": "FILL/FIXED",
+        "fill": "#ffffff",
+        "kids": [
+         {
+          "n": "42",
+          "t": "text",
+          "w": 34,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#000000",
+           "align": "CENTER",
+           "value": "42"
+          }
+         },
+         {
+          "n": "8",
+          "t": "text",
+          "w": 17,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "8"
+          }
+         },
+         {
+          "n": "9",
+          "t": "text",
+          "w": 17,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "9"
+          }
+         },
+         {
+          "n": "27",
+          "t": "text",
+          "w": 31,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "27"
+          }
+         }
+        ]
+       },
+       {
+        "n": "Frame 153",
+        "t": "frame",
+        "w": 1280,
+        "h": 70,
+        "size": "FILL/FIXED",
+        "fill": "#f0f0f0",
+        "kids": [
+         {
+          "n": "43",
+          "t": "text",
+          "w": 34,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#000000",
+           "align": "CENTER",
+           "value": "43"
+          }
+         },
+         {
+          "n": "9",
+          "t": "text",
+          "w": 17,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "9"
+          }
+         },
+         {
+          "n": "10",
+          "t": "text",
+          "w": 28,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "10"
+          }
+         },
+         {
+          "n": "28",
+          "t": "text",
+          "w": 33,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "28"
+          }
+         }
+        ]
+       },
+       {
+        "n": "Frame 154",
+        "t": "frame",
+        "w": 1280,
+        "h": 70,
+        "size": "FILL/FIXED",
+        "fill": "#ffffff",
+        "kids": [
+         {
+          "n": "44",
+          "t": "text",
+          "w": 36,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#000000",
+           "align": "CENTER",
+           "value": "44"
+          }
+         },
+         {
+          "n": "10",
+          "t": "text",
+          "w": 28,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "10"
+          }
+         },
+         {
+          "n": "11",
+          "t": "text",
+          "w": 20,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "11"
+          }
+         },
+         {
+          "n": "29",
+          "t": "text",
+          "w": 32,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "29"
+          }
+         }
+        ]
+       },
+       {
+        "n": "Frame 155",
+        "t": "frame",
+        "w": 1280,
+        "h": 70,
+        "size": "FILL/FIXED",
+        "fill": "#f0f0f0",
+        "kids": [
+         {
+          "n": "45",
+          "t": "text",
+          "w": 34,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#000000",
+           "align": "CENTER",
+           "value": "45"
+          }
+         },
+         {
+          "n": "11",
+          "t": "text",
+          "w": 20,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "11"
+          }
+         },
+         {
+          "n": "12",
+          "t": "text",
+          "w": 26,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "12"
+          }
+         },
+         {
+          "n": "30",
+          "t": "text",
+          "w": 33,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "30"
+          }
+         }
+        ]
+       },
+       {
+        "n": "Frame 156",
+        "t": "frame",
+        "w": 1280,
+        "h": 70,
+        "size": "FILL/FIXED",
+        "fill": "#ffffff",
+        "kids": [
+         {
+          "n": "46",
+          "t": "text",
+          "w": 35,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#000000",
+           "align": "CENTER",
+           "value": "46"
+          }
+         },
+         {
+          "n": "12",
+          "t": "text",
+          "w": 26,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "12"
+          }
+         },
+         {
+          "n": "13",
+          "t": "text",
+          "w": 26,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "13"
+          }
+         },
+         {
+          "n": "31",
+          "t": "text",
+          "w": 26,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "31"
+          }
+         }
+        ]
+       },
+       {
+        "n": "Frame 152",
+        "t": "frame",
+        "w": 1280,
+        "h": 70,
+        "size": "FILL/FIXED",
+        "fill": "#f0f0f0",
+        "kids": [
+         {
+          "n": "47",
+          "t": "text",
+          "w": 33,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#000000",
+           "align": "CENTER",
+           "value": "47"
+          }
+         },
+         {
+          "n": "13",
+          "t": "text",
+          "w": 26,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "13"
+          }
+         },
+         {
+          "n": "14",
+          "t": "text",
+          "w": 28,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "14"
+          }
+         },
+         {
+          "n": "32",
+          "t": "text",
+          "w": 31,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "CENTER",
+           "value": "32"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "n": "Frame 158",
+      "t": "frame",
+      "w": 1280,
+      "h": 280,
+      "size": "FIXED/FIXED",
+      "radius": 20,
+      "fill": "#000000",
+      "kids": [
+       {
+        "n": "HOW TO MEASURE YOUR FOOT",
+        "t": "text",
+        "w": 496,
+        "h": 39,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#ffffff",
+         "align": "LEFT",
+         "value": "HOW TO MEASURE YOUR FOOT"
+        }
+       },
+       {
+        "n": "Frame 159",
+        "t": "frame",
+        "w": 290,
+        "h": 130,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "01",
+          "t": "text",
+          "w": 52,
+          "h": 59,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#c7f126",
+           "align": "CENTER",
+           "value": "01"
+          }
+         },
+         {
+          "n": "Place your foot flat on a piece of paper.",
+          "t": "text",
+          "w": 228,
+          "h": 48,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#e8e8e8",
+           "align": "LEFT",
+           "value": "Place your foot flat on a\npiece of paper."
+          }
+         }
+        ]
+       },
+       {
+        "n": "Frame 163",
+        "t": "frame",
+        "w": 290,
+        "h": 130,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "02",
+          "t": "text",
+          "w": 61,
+          "h": 59,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#c7f126",
+           "align": "CENTER",
+           "value": "02"
+          }
+         },
+         {
+          "n": "Trace or mark heel to longest toe.",
+          "t": "text",
+          "w": 205,
+          "h": 48,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#e8e8e8",
+           "align": "LEFT",
+           "value": "Trace or mark heel to\nlongest toe."
+          }
+         }
+        ]
+       },
+       {
+        "n": "Frame 164",
+        "t": "frame",
+        "w": 290,
+        "h": 130,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "03",
+          "t": "text",
+          "w": 61,
+          "h": 59,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#c7f126",
+           "align": "CENTER",
+           "value": "03"
+          }
+         },
+         {
+          "n": "Measure the distance in cm.",
+          "t": "text",
+          "w": 232,
+          "h": 48,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#e8e8e8",
+           "align": "LEFT",
+           "value": "Measure the distance in\ncm."
+          }
+         }
+        ]
+       },
+       {
+        "n": "Frame 165",
+        "t": "frame",
+        "w": 290,
+        "h": 130,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "04",
+          "t": "text",
+          "w": 66,
+          "h": 59,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#c7f126",
+           "align": "CENTER",
+           "value": "04"
+          }
+         },
+         {
+          "n": "Compare with the chart above.",
+          "t": "text",
+          "w": 229,
+          "h": 48,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#e8e8e8",
+           "align": "LEFT",
+           "value": "Compare with the chart\nabove."
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "n": "Frame 171",
+      "t": "frame",
+      "w": 1470,
+      "h": 190,
+      "size": "FIXED/FIXED",
+      "radius": 16.88888931274414,
+      "fill": "#ffffff",
+      "kids": [
+       {
+        "n": "Frame 172",
+        "t": "frame",
+        "w": 127,
+        "h": 127,
+        "size": "FIXED/FIXED",
+        "radius": 126.66667175292969,
+        "fill": "#c7f126",
+        "kids": [
+         {
+          "n": "light-bulb",
+          "t": "frame",
+          "w": 84,
+          "h": 84,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 38,
+            "h": 49,
+            "size": "FIXED/FIXED",
+            "stroke": "#000000 4.398148059844971"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 12,
+            "h": 14,
+            "size": "FIXED/FIXED",
+            "stroke": "#000000 4.398148059844971"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 8,
+            "h": 7,
+            "size": "FIXED/FIXED",
+            "stroke": "#000000 4.398148059844971"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 59,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "fill": "#000000"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "n": "Group 1410122014",
+        "t": "group",
+        "w": 512,
+        "h": 78,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "BETWEEN TWO SIZES?",
+          "t": "text",
+          "w": 385,
+          "h": 41,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#000000",
+           "align": "LEFT",
+           "value": "BETWEEN TWO SIZES?"
+          }
+         },
+         {
+          "n": "For a roomier fit, choose the larger size",
+          "t": "text",
+          "w": 512,
+          "h": 33,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "LEFT",
+           "value": "For a roomier fit, choose the larger size"
+          }
+         }
+        ]
+       },
+       {
+        "n": "Group 1410122015",
+        "t": "group",
+        "w": 248,
+        "h": 59,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "STILL NOT SURE?",
+          "t": "text",
+          "w": 200,
+          "h": 28,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#000000",
+           "align": "LEFT",
+           "value": "STILL NOT SURE?"
+          }
+         },
+         {
+          "n": "Our team is here to help.",
+          "t": "text",
+          "w": 248,
+          "h": 26,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "LEFT",
+           "value": "Our team is here to help."
+          }
+         }
+        ]
+       },
+       {
+        "n": "Line 27",
+        "t": "line",
+        "w": 106,
+        "h": 0,
+        "size": "FIXED/FIXED",
+        "stroke": "#636363 2.1111111640930176"
+       },
+       {
+        "n": "Vector",
+        "t": "vector",
+        "w": 68,
+        "h": 68,
+        "size": "FIXED/FIXED",
+        "fill": "#000000"
+       },
+       {
+        "n": "Frame 173",
+        "t": "frame",
+        "w": 232,
+        "h": 84,
+        "size": "FIXED/FIXED",
+        "radius": 10.55555534362793,
+        "fill": "#000000",
+        "kids": [
+         {
+          "n": "CHAT WITH US",
+          "t": "text",
+          "w": 181,
+          "h": 28,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#c7f126",
+           "align": "LEFT",
+           "value": "CHAT WITH US"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "2338:331",
+   "name": "09 Empty Cart page",
+   "originalName": "Empty Cart page",
+   "breakpoint": "desktop",
+   "tree": {
+    "n": "Empty Cart page",
+    "t": "frame",
+    "w": 1920,
+    "h": 2000,
+    "size": "FIXED/FIXED",
+    "fill": "#ffffff",
+    "kids": [
+     {
+      "n": "Frame 190",
+      "t": "frame",
+      "w": 1920,
+      "h": 86,
+      "size": "FIXED/FIXED",
+      "fill": "#000000",
+      "stroke": "#a3a3a3 ",
+      "kids": [
+       {
+        "n": "Group 53",
+        "t": "group",
+        "w": 240,
+        "h": 33,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 42,
+          "h": 26,
+          "size": "FIXED/FIXED",
+          "fill": "#ffffff"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 42,
+          "h": 25,
+          "size": "FIXED/FIXED",
+          "fill": "#c7f126"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 41,
+          "h": 26,
+          "size": "FIXED/FIXED",
+          "fill": "#c7f126"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 34,
+          "h": 18,
+          "size": "FIXED/FIXED",
+          "fill": "#ffffff"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 34,
+          "h": 18,
+          "size": "FIXED/FIXED",
+          "fill": "#c7f126"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 34,
+          "h": 18,
+          "size": "FIXED/FIXED",
+          "fill": "#ffffff"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 22,
+          "h": 26,
+          "size": "FIXED/FIXED",
+          "fill": "#ffffff"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 31,
+          "h": 18,
+          "size": "FIXED/FIXED",
+          "fill": "#c7f126"
+         }
+        ]
+       },
+       {
+        "n": "Group 1410121992",
+        "t": "group",
+        "w": 78,
+        "h": 24,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "Frame",
+          "t": "frame",
+          "w": 24,
+          "h": 23,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 23,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           }
+          ]
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 24,
+          "h": 24,
+          "size": "FIXED/FIXED",
+          "fill": "#ffffff"
+         }
+        ]
+       },
+       {
+        "n": "Group 1410122040",
+        "t": "group",
+        "w": 36,
+        "h": 32,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "Frame",
+          "t": "frame",
+          "w": 28,
+          "h": 28,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "Group",
+            "t": "group",
+            "w": 22,
+            "h": 24,
+            "size": "FIXED/FIXED",
+            "kids": [
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 22,
+              "h": 24,
+              "size": "FIXED/FIXED",
+              "fill": "#ffffff"
+             },
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 11,
+              "h": 5,
+              "size": "FIXED/FIXED",
+              "fill": "#ffffff"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "n": "Frame 199",
+          "t": "frame",
+          "w": 16,
+          "h": 16,
+          "size": "FIXED/FIXED",
+          "radius": 100,
+          "fill": "#c7f126",
+          "kids": [
+           {
+            "n": "2",
+            "t": "vector",
+            "w": 6,
+            "h": 8,
+            "size": "FIXED/FIXED",
+            "fill": "#000000"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "n": "Frame 139",
+      "t": "frame",
+      "w": 1920,
+      "h": 713,
+      "size": "FIXED/FIXED",
+      "fill": "#000000",
+      "kids": [
+       {
+        "n": "Stay in the drop",
+        "t": "text",
+        "w": 501,
+        "h": 65,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#ffffff",
+         "align": "LEFT",
+         "value": "Stay in the drop"
+        }
+       },
+       {
+        "n": "Be the first to know about new arrivals, exclusive deals and limited drops.",
+        "t": "text",
+        "w": 631,
+        "h": 22,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#a3a3a3",
+         "align": "LEFT",
+         "value": "Be the first to know about new arrivals, exclusive deals and limited drops."
+        }
+       },
+       {
+        "n": "Group 1410121986",
+        "t": "group",
+        "w": 103,
+        "h": 230,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "Shop",
+          "t": "text",
+          "w": 45,
+          "h": 22,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#a3a3a3",
+           "align": "LEFT",
+           "value": "Shop"
+          }
+         },
+         {
+          "n": "Group 1410121983",
+          "t": "group",
+          "w": 103,
+          "h": 178,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "New Arrival",
+            "t": "text",
+            "w": 103,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "New Arrival"
+            }
+           },
+           {
+            "n": "Brand New",
+            "t": "text",
+            "w": 96,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Brand New"
+            }
+           },
+           {
+            "n": "Pre-Loved",
+            "t": "text",
+            "w": 92,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Pre-Loved"
+            }
+           },
+           {
+            "n": "Sale",
+            "t": "text",
+            "w": 38,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Sale"
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "n": "Group 1410121985",
+        "t": "group",
+        "w": 144,
+        "h": 74,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "About Sole Drop",
+          "t": "text",
+          "w": 144,
+          "h": 22,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#a3a3a3",
+           "align": "LEFT",
+           "value": "About Sole Drop"
+          }
+         },
+         {
+          "n": "Our Story",
+          "t": "text",
+          "w": 85,
+          "h": 22,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#a3a3a3",
+           "align": "LEFT",
+           "value": "Our Story"
+          }
+         }
+        ]
+       },
+       {
+        "n": "Group 1410121987",
+        "t": "group",
+        "w": 124,
+        "h": 334,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "Group 1410121984",
+          "t": "group",
+          "w": 124,
+          "h": 282,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "Contact Us",
+            "t": "text",
+            "w": 99,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Contact Us"
+            }
+           },
+           {
+            "n": "FAQ",
+            "t": "text",
+            "w": 36,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "FAQ"
+            }
+           },
+           {
+            "n": "Size Guide",
+            "t": "text",
+            "w": 94,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Size Guide"
+            }
+           },
+           {
+            "n": "Shipping",
+            "t": "text",
+            "w": 79,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Shipping"
+            }
+           },
+           {
+            "n": "Returns",
+            "t": "text",
+            "w": 70,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Returns"
+            }
+           },
+           {
+            "n": "Privacy Policy",
+            "t": "text",
+            "w": 124,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Privacy Policy"
+            }
+           }
+          ]
+         },
+         {
+          "n": "Help",
+          "t": "text",
+          "w": 40,
+          "h": 22,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#a3a3a3",
+           "align": "LEFT",
+           "value": "Help"
+          }
+         }
+        ]
+       },
+       {
+        "n": "About",
+        "t": "text",
+        "w": 53,
+        "h": 22,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#a3a3a3",
+         "align": "LEFT",
+         "value": "About"
+        }
+       },
+       {
+        "n": "Frame 111",
+        "t": "frame",
+        "w": 220,
+        "h": 54,
+        "size": "FIXED/FIXED",
+        "fill": "#c7f126",
+        "kids": [
+         {
+          "n": "STAY CONNECTED",
+          "t": "text",
+          "w": 187,
+          "h": 24,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#000000",
+           "align": "LEFT",
+           "value": "STAY CONNECTED"
+          }
+         }
+        ]
+       },
+       {
+        "n": "Frame 112",
+        "t": "frame",
+        "w": 1920,
+        "h": 88,
+        "size": "FIXED/FIXED",
+        "fill": "#c7f126",
+        "kids": [
+         {
+          "n": "🚚 Free delivery on orders above PKR 5,000",
+          "t": "text",
+          "w": 485,
+          "h": 24,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#000000",
+           "align": "LEFT",
+           "value": "🚚 Free delivery on orders above PKR 5,000"
+          }
+         },
+         {
+          "n": "Frame 111",
+          "t": "frame",
+          "w": 180,
+          "h": 54,
+          "size": "FIXED/FIXED",
+          "fill": "#000000",
+          "kids": [
+           {
+            "n": "SHOP NOW",
+            "t": "text",
+            "w": 113,
+            "h": 24,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#c7f126",
+             "align": "LEFT",
+             "value": "SHOP NOW"
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "n": "Group 1410121982",
+        "t": "group",
+        "w": 714,
+        "h": 68,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "Frame 114",
+          "t": "frame",
+          "w": 160,
+          "h": 68,
+          "size": "FIXED/FIXED",
+          "fill": "#c7f126",
+          "kids": [
+           {
+            "n": "JOIN NOW",
+            "t": "text",
+            "w": 103,
+            "h": 24,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#000000",
+             "align": "LEFT",
+             "value": "JOIN NOW"
+            }
+           }
+          ]
+         },
+         {
+          "n": "Frame 113",
+          "t": "frame",
+          "w": 540,
+          "h": 68,
+          "size": "FIXED/FIXED",
+          "fill": "#ffffff",
+          "stroke": "#a3a3a3 1",
+          "kids": [
+           {
+            "n": "Enter your email address",
+            "t": "text",
+            "w": 237,
+            "h": 24,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Enter your email address"
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "n": "Group 1410121989",
+        "t": "group",
+        "w": 520,
+        "h": 392,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "Fresh finds. Fresh steps. New and pre-loved footwear from brands you love.",
+          "t": "text",
+          "w": 383,
+          "h": 44,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#a3a3a3",
+           "align": "LEFT",
+           "value": "Fresh finds. Fresh steps. New and pre-loved\nfootwear from brands you love."
+          }
+         },
+         {
+          "n": "Group 53",
+          "t": "group",
+          "w": 240,
+          "h": 33,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 42,
+            "h": 26,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 42,
+            "h": 25,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 41,
+            "h": 26,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 34,
+            "h": 18,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 34,
+            "h": 18,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 34,
+            "h": 18,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 22,
+            "h": 26,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 31,
+            "h": 18,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           }
+          ]
+         },
+         {
+          "n": "Group 1410122013",
+          "t": "group",
+          "w": 240,
+          "h": 69,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "Frame 168",
+            "t": "frame",
+            "w": 69,
+            "h": 69,
+            "size": "FIXED/FIXED",
+            "radius": 7.894752502441406,
+            "fill": "#c7f126",
+            "kids": [
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 46,
+              "h": 46,
+              "size": "FIXED/FIXED",
+              "fill": "#000000"
+             }
+            ]
+           },
+           {
+            "n": "Frame 169",
+            "t": "frame",
+            "w": 69,
+            "h": 69,
+            "size": "FIXED/FIXED",
+            "radius": 7.894752502441406,
+            "fill": "#c7f126",
+            "kids": [
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 24,
+              "h": 46,
+              "size": "FIXED/FIXED",
+              "fill": "#000000"
+             }
+            ]
+           },
+           {
+            "n": "Frame 170",
+            "t": "frame",
+            "w": 69,
+            "h": 69,
+            "size": "FIXED/FIXED",
+            "radius": 7.894752502441406,
+            "fill": "#c7f126",
+            "kids": [
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 40,
+              "h": 46,
+              "size": "FIXED/FIXED",
+              "fill": "#000000"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "n": "Frame 118",
+          "t": "frame",
+          "w": 520,
+          "h": 130,
+          "size": "FIXED/FIXED",
+          "fill": "#ffffff",
+          "stroke": "#c7f126 ",
+          "kids": [
+           {
+            "n": "Group 1410121988",
+            "t": "group",
+            "w": 298,
+            "h": 90,
+            "size": "FIXED/FIXED",
+            "kids": [
+             {
+              "n": "Address: 237, street no 5, Karachi",
+              "t": "text",
+              "w": 289,
+              "h": 22,
+              "size": "FIXED/FIXED",
+              "text": {
+               "style": null,
+               "color": "#ffffff",
+               "align": "LEFT",
+               "value": "Address: 237, street no 5, Karachi"
+              }
+             },
+             {
+              "n": "WhatsAPP: +9333-333333",
+              "t": "text",
+              "w": 237,
+              "h": 22,
+              "size": "FIXED/FIXED",
+              "text": {
+               "style": null,
+               "color": "#ffffff",
+               "align": "LEFT",
+               "value": "WhatsAPP: +9333-333333"
+              }
+             },
+             {
+              "n": "Email: Soledropofficial@gmail.com",
+              "t": "text",
+              "w": 297,
+              "h": 22,
+              "size": "FIXED/FIXED",
+              "text": {
+               "style": null,
+               "color": "#ffffff",
+               "align": "LEFT",
+               "value": "Email: Soledropofficial@gmail.com"
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "n": "© 2026 SOLE DROP. All Rights Reserved.",
+        "t": "text",
+        "w": 353,
+        "h": 22,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#a3a3a3",
+         "align": "LEFT",
+         "value": "© 2026 SOLE DROP. All Rights Reserved."
+        }
+       },
+       {
+        "n": "Line 26",
+        "t": "line",
+        "w": 1674,
+        "h": 0,
+        "size": "FIXED/FIXED",
+        "stroke": "#a3a3a3 1"
+       }
+      ]
+     },
+     {
+      "n": "Group 1410122039",
+      "t": "group",
+      "w": 715,
+      "h": 415,
+      "size": "FIXED/FIXED",
+      "kids": [
+       {
+        "n": "Looks like you haven’t added any shoes to your bag yet. Explore our latest drops and find your next favorite pair.",
+        "t": "text",
+        "w": 534,
+        "h": 68,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#636363",
+         "align": "CENTER",
+         "value": "Looks like you haven’t added any shoes to your bag yet.\nExplore our latest drops and find your next favorite pair."
+        }
+       },
+       {
+        "n": "Your bag is waiting for a pair",
+        "t": "text",
+        "w": 715,
+        "h": 65,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#000000",
+         "align": "LEFT",
+         "value": "Your bag is waiting for a pair"
+        }
+       },
+       {
+        "n": "Group 1410122036",
+        "t": "group",
+        "w": 674,
+        "h": 64,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "Frame 79",
+          "t": "frame",
+          "w": 320,
+          "h": 64,
+          "size": "FIXED/FIXED",
+          "radius": 12,
+          "fill": "#000000",
+          "kids": [
+           {
+            "n": "Shop Brand New",
+            "t": "text",
+            "w": 193,
+            "h": 29,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#ffffff",
+             "align": "LEFT",
+             "value": "Shop Brand New"
+            }
+           }
+          ]
+         },
+         {
+          "n": "Frame 191",
+          "t": "frame",
+          "w": 320,
+          "h": 64,
+          "size": "FIXED/FIXED",
+          "radius": 12,
+          "fill": "#000000",
+          "kids": [
+           {
+            "n": "Shop Pre-Loved",
+            "t": "text",
+            "w": 187,
+            "h": 29,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#ffffff",
+             "align": "LEFT",
+             "value": "Shop Pre-Loved"
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "n": "Group 1410122038",
+        "t": "group",
+        "w": 140,
+        "h": 108,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "Rectangle 18",
+          "t": "rectangle",
+          "w": 91,
+          "h": 91,
+          "size": "FIXED/FIXED",
+          "radius": 90.6617431640625,
+          "fill": "#c7f126"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 78,
+          "h": 94,
+          "size": "FIXED/FIXED",
+          "fill": "#000000"
+         },
+         {
+          "n": "Group 1410122037",
+          "t": "group",
+          "w": 29,
+          "h": 38,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "Line 27",
+            "t": "line",
+            "w": 19,
+            "h": 0,
+            "size": "FIXED/FIXED",
+            "stroke": "#000000 4.317225933074951"
+           },
+           {
+            "n": "Line 28",
+            "t": "line",
+            "w": 19,
+            "h": 0,
+            "size": "FIXED/FIXED",
+            "stroke": "#000000 4.317225933074951"
+           },
+           {
+            "n": "Line 29",
+            "t": "line",
+            "w": 19,
+            "h": 0,
+            "size": "FIXED/FIXED",
+            "stroke": "#000000 4.317225933074951"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "2338:427",
+   "name": "10 Cart page",
+   "originalName": "Cart page",
+   "breakpoint": "desktop",
+   "tree": {
+    "n": "Cart page",
+    "t": "frame",
+    "w": 1920,
+    "h": 2000,
+    "size": "FIXED/FIXED",
+    "fill": "#f6f6f6",
+    "kids": [
+     {
+      "n": "Frame 190",
+      "t": "frame",
+      "w": 1920,
+      "h": 86,
+      "size": "FIXED/FIXED",
+      "fill": "#000000",
+      "stroke": "#a3a3a3 ",
+      "kids": [
+       {
+        "n": "Group 53",
+        "t": "group",
+        "w": 240,
+        "h": 33,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 42,
+          "h": 26,
+          "size": "FIXED/FIXED",
+          "fill": "#ffffff"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 42,
+          "h": 25,
+          "size": "FIXED/FIXED",
+          "fill": "#c7f126"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 41,
+          "h": 26,
+          "size": "FIXED/FIXED",
+          "fill": "#c7f126"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 34,
+          "h": 18,
+          "size": "FIXED/FIXED",
+          "fill": "#ffffff"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 34,
+          "h": 18,
+          "size": "FIXED/FIXED",
+          "fill": "#c7f126"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 34,
+          "h": 18,
+          "size": "FIXED/FIXED",
+          "fill": "#ffffff"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 22,
+          "h": 26,
+          "size": "FIXED/FIXED",
+          "fill": "#ffffff"
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 31,
+          "h": 18,
+          "size": "FIXED/FIXED",
+          "fill": "#c7f126"
+         }
+        ]
+       },
+       {
+        "n": "Group 1410121992",
+        "t": "group",
+        "w": 136,
+        "h": 32,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "Group 1410122040",
+          "t": "group",
+          "w": 36,
+          "h": 32,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "Frame",
+            "t": "frame",
+            "w": 28,
+            "h": 28,
+            "size": "FIXED/FIXED",
+            "kids": [
+             {
+              "n": "Group",
+              "t": "group",
+              "w": 22,
+              "h": 24,
+              "size": "FIXED/FIXED",
+              "kids": [
+               {
+                "n": "Vector",
+                "t": "vector",
+                "w": 22,
+                "h": 24,
+                "size": "FIXED/FIXED",
+                "fill": "#ffffff"
+               },
+               {
+                "n": "Vector",
+                "t": "vector",
+                "w": 11,
+                "h": 5,
+                "size": "FIXED/FIXED",
+                "fill": "#ffffff"
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "n": "Frame 199",
+            "t": "frame",
+            "w": 16,
+            "h": 16,
+            "size": "FIXED/FIXED",
+            "radius": 100,
+            "fill": "#c7f126",
+            "kids": [
+             {
+              "n": "2",
+              "t": "vector",
+              "w": 6,
+              "h": 8,
+              "size": "FIXED/FIXED",
+              "fill": "#000000"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "n": "Frame",
+          "t": "frame",
+          "w": 24,
+          "h": 23,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 23,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           }
+          ]
+         },
+         {
+          "n": "Vector",
+          "t": "vector",
+          "w": 24,
+          "h": 24,
+          "size": "FIXED/FIXED",
+          "fill": "#ffffff"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "n": "Frame 139",
+      "t": "frame",
+      "w": 1920,
+      "h": 713,
+      "size": "FIXED/FIXED",
+      "fill": "#000000",
+      "kids": [
+       {
+        "n": "Stay in the drop",
+        "t": "text",
+        "w": 501,
+        "h": 65,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#ffffff",
+         "align": "LEFT",
+         "value": "Stay in the drop"
+        }
+       },
+       {
+        "n": "Be the first to know about new arrivals, exclusive deals and limited drops.",
+        "t": "text",
+        "w": 631,
+        "h": 22,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#a3a3a3",
+         "align": "LEFT",
+         "value": "Be the first to know about new arrivals, exclusive deals and limited drops."
+        }
+       },
+       {
+        "n": "Group 1410121986",
+        "t": "group",
+        "w": 103,
+        "h": 230,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "Shop",
+          "t": "text",
+          "w": 45,
+          "h": 22,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#a3a3a3",
+           "align": "LEFT",
+           "value": "Shop"
+          }
+         },
+         {
+          "n": "Group 1410121983",
+          "t": "group",
+          "w": 103,
+          "h": 178,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "New Arrival",
+            "t": "text",
+            "w": 103,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "New Arrival"
+            }
+           },
+           {
+            "n": "Brand New",
+            "t": "text",
+            "w": 96,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Brand New"
+            }
+           },
+           {
+            "n": "Pre-Loved",
+            "t": "text",
+            "w": 92,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Pre-Loved"
+            }
+           },
+           {
+            "n": "Sale",
+            "t": "text",
+            "w": 38,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Sale"
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "n": "Group 1410121985",
+        "t": "group",
+        "w": 144,
+        "h": 74,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "About Sole Drop",
+          "t": "text",
+          "w": 144,
+          "h": 22,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#a3a3a3",
+           "align": "LEFT",
+           "value": "About Sole Drop"
+          }
+         },
+         {
+          "n": "Our Story",
+          "t": "text",
+          "w": 85,
+          "h": 22,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#a3a3a3",
+           "align": "LEFT",
+           "value": "Our Story"
+          }
+         }
+        ]
+       },
+       {
+        "n": "Group 1410121987",
+        "t": "group",
+        "w": 124,
+        "h": 334,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "Group 1410121984",
+          "t": "group",
+          "w": 124,
+          "h": 282,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "Contact Us",
+            "t": "text",
+            "w": 99,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Contact Us"
+            }
+           },
+           {
+            "n": "FAQ",
+            "t": "text",
+            "w": 36,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "FAQ"
+            }
+           },
+           {
+            "n": "Size Guide",
+            "t": "text",
+            "w": 94,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Size Guide"
+            }
+           },
+           {
+            "n": "Shipping",
+            "t": "text",
+            "w": 79,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Shipping"
+            }
+           },
+           {
+            "n": "Returns",
+            "t": "text",
+            "w": 70,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Returns"
+            }
+           },
+           {
+            "n": "Privacy Policy",
+            "t": "text",
+            "w": 124,
+            "h": 22,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Privacy Policy"
+            }
+           }
+          ]
+         },
+         {
+          "n": "Help",
+          "t": "text",
+          "w": 40,
+          "h": 22,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#a3a3a3",
+           "align": "LEFT",
+           "value": "Help"
+          }
+         }
+        ]
+       },
+       {
+        "n": "About",
+        "t": "text",
+        "w": 53,
+        "h": 22,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#a3a3a3",
+         "align": "LEFT",
+         "value": "About"
+        }
+       },
+       {
+        "n": "Frame 111",
+        "t": "frame",
+        "w": 220,
+        "h": 54,
+        "size": "FIXED/FIXED",
+        "fill": "#c7f126",
+        "kids": [
+         {
+          "n": "STAY CONNECTED",
+          "t": "text",
+          "w": 187,
+          "h": 24,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#000000",
+           "align": "LEFT",
+           "value": "STAY CONNECTED"
+          }
+         }
+        ]
+       },
+       {
+        "n": "Frame 112",
+        "t": "frame",
+        "w": 1920,
+        "h": 88,
+        "size": "FIXED/FIXED",
+        "fill": "#c7f126",
+        "kids": [
+         {
+          "n": "🚚 Free delivery on orders above PKR 5,000",
+          "t": "text",
+          "w": 485,
+          "h": 24,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#000000",
+           "align": "LEFT",
+           "value": "🚚 Free delivery on orders above PKR 5,000"
+          }
+         },
+         {
+          "n": "Frame 111",
+          "t": "frame",
+          "w": 180,
+          "h": 54,
+          "size": "FIXED/FIXED",
+          "fill": "#000000",
+          "kids": [
+           {
+            "n": "SHOP NOW",
+            "t": "text",
+            "w": 113,
+            "h": 24,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#c7f126",
+             "align": "LEFT",
+             "value": "SHOP NOW"
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "n": "Group 1410121982",
+        "t": "group",
+        "w": 714,
+        "h": 68,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "Frame 114",
+          "t": "frame",
+          "w": 160,
+          "h": 68,
+          "size": "FIXED/FIXED",
+          "fill": "#c7f126",
+          "kids": [
+           {
+            "n": "JOIN NOW",
+            "t": "text",
+            "w": 103,
+            "h": 24,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#000000",
+             "align": "LEFT",
+             "value": "JOIN NOW"
+            }
+           }
+          ]
+         },
+         {
+          "n": "Frame 113",
+          "t": "frame",
+          "w": 540,
+          "h": 68,
+          "size": "FIXED/FIXED",
+          "fill": "#ffffff",
+          "stroke": "#a3a3a3 1",
+          "kids": [
+           {
+            "n": "Enter your email address",
+            "t": "text",
+            "w": 237,
+            "h": 24,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#a3a3a3",
+             "align": "LEFT",
+             "value": "Enter your email address"
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "n": "Group 1410121989",
+        "t": "group",
+        "w": 520,
+        "h": 392,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "Fresh finds. Fresh steps. New and pre-loved footwear from brands you love.",
+          "t": "text",
+          "w": 383,
+          "h": 44,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#a3a3a3",
+           "align": "LEFT",
+           "value": "Fresh finds. Fresh steps. New and pre-loved\nfootwear from brands you love."
+          }
+         },
+         {
+          "n": "Group 53",
+          "t": "group",
+          "w": 240,
+          "h": 33,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 42,
+            "h": 26,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 42,
+            "h": 25,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 41,
+            "h": 26,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 34,
+            "h": 18,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 34,
+            "h": 18,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 34,
+            "h": 18,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 22,
+            "h": 26,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           },
+           {
+            "n": "Vector",
+            "t": "vector",
+            "w": 31,
+            "h": 18,
+            "size": "FIXED/FIXED",
+            "fill": "#ffffff"
+           }
+          ]
+         },
+         {
+          "n": "Group 1410122013",
+          "t": "group",
+          "w": 240,
+          "h": 69,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "Frame 168",
+            "t": "frame",
+            "w": 69,
+            "h": 69,
+            "size": "FIXED/FIXED",
+            "radius": 7.894752502441406,
+            "fill": "#c7f126",
+            "kids": [
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 46,
+              "h": 46,
+              "size": "FIXED/FIXED",
+              "fill": "#000000"
+             }
+            ]
+           },
+           {
+            "n": "Frame 169",
+            "t": "frame",
+            "w": 69,
+            "h": 69,
+            "size": "FIXED/FIXED",
+            "radius": 7.894752502441406,
+            "fill": "#c7f126",
+            "kids": [
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 24,
+              "h": 46,
+              "size": "FIXED/FIXED",
+              "fill": "#000000"
+             }
+            ]
+           },
+           {
+            "n": "Frame 170",
+            "t": "frame",
+            "w": 69,
+            "h": 69,
+            "size": "FIXED/FIXED",
+            "radius": 7.894752502441406,
+            "fill": "#c7f126",
+            "kids": [
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 40,
+              "h": 46,
+              "size": "FIXED/FIXED",
+              "fill": "#000000"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "n": "Frame 118",
+          "t": "frame",
+          "w": 520,
+          "h": 130,
+          "size": "FIXED/FIXED",
+          "fill": "#ffffff",
+          "stroke": "#c7f126 ",
+          "kids": [
+           {
+            "n": "Group 1410121988",
+            "t": "group",
+            "w": 298,
+            "h": 90,
+            "size": "FIXED/FIXED",
+            "kids": [
+             {
+              "n": "Address: 237, street no 5, Karachi",
+              "t": "text",
+              "w": 289,
+              "h": 22,
+              "size": "FIXED/FIXED",
+              "text": {
+               "style": null,
+               "color": "#ffffff",
+               "align": "LEFT",
+               "value": "Address: 237, street no 5, Karachi"
+              }
+             },
+             {
+              "n": "WhatsAPP: +9333-333333",
+              "t": "text",
+              "w": 237,
+              "h": 22,
+              "size": "FIXED/FIXED",
+              "text": {
+               "style": null,
+               "color": "#ffffff",
+               "align": "LEFT",
+               "value": "WhatsAPP: +9333-333333"
+              }
+             },
+             {
+              "n": "Email: Soledropofficial@gmail.com",
+              "t": "text",
+              "w": 297,
+              "h": 22,
+              "size": "FIXED/FIXED",
+              "text": {
+               "style": null,
+               "color": "#ffffff",
+               "align": "LEFT",
+               "value": "Email: Soledropofficial@gmail.com"
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "n": "© 2026 SOLE DROP. All Rights Reserved.",
+        "t": "text",
+        "w": 353,
+        "h": 22,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#a3a3a3",
+         "align": "LEFT",
+         "value": "© 2026 SOLE DROP. All Rights Reserved."
+        }
+       },
+       {
+        "n": "Line 26",
+        "t": "line",
+        "w": 1674,
+        "h": 0,
+        "size": "FIXED/FIXED",
+        "stroke": "#a3a3a3 1"
+       }
+      ]
+     },
+     {
+      "n": "Frame 200",
+      "t": "frame",
+      "w": 1280,
+      "h": 260,
+      "size": "FIXED/FIXED",
+      "radius": 12,
+      "fill": "#ffffff",
+      "stroke": "#a3a3a3 1",
+      "kids": [
+       {
+        "n": "1 10",
+        "t": "rectangle",
+        "w": 220,
+        "h": 220,
+        "size": "FIXED/FIXED",
+        "radius": 12,
+        "fill": "image",
+        "image": "33f8864c07ee98797d7f421045cca9bd5f1ba2be"
+       },
+       {
+        "n": "Group 1410122052",
+        "t": "group",
+        "w": 274,
+        "h": 220,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "ASICS Gel-Kayano 30",
+          "t": "text",
+          "w": 274,
+          "h": 31,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#000000",
+           "align": "LEFT",
+           "value": "ASICS Gel-Kayano 30"
+          }
+         },
+         {
+          "n": "Frame 192",
+          "t": "frame",
+          "w": 148,
+          "h": 48,
+          "size": "FIXED/FIXED",
+          "radius": 6,
+          "fill": "#c7f126",
+          "kids": [
+           {
+            "n": "Brand New",
+            "t": "text",
+            "w": 106,
+            "h": 24,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#000000",
+             "align": "LEFT",
+             "value": "Brand New"
+            }
+           }
+          ]
+         },
+         {
+          "n": "Size: EUR 44",
+          "t": "text",
+          "w": 135,
+          "h": 27,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "LEFT",
+           "value": "Size: EUR 44"
+          }
+         },
+         {
+          "n": "Color: Black",
+          "t": "text",
+          "w": 126,
+          "h": 27,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "LEFT",
+           "value": "Color: Black"
+          }
+         },
+         {
+          "n": "Group 1410122051",
+          "t": "group",
+          "w": 106,
+          "h": 26,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "Remove",
+            "t": "text",
+            "w": 76,
+            "h": 24,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#ff0000",
+             "align": "LEFT",
+             "value": "Remove"
+            }
+           },
+           {
+            "n": "Group 1410122050",
+            "t": "group",
+            "w": 20,
+            "h": 24,
+            "size": "FIXED/FIXED",
+            "kids": [
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 20,
+              "h": 22,
+              "size": "FIXED/FIXED",
+              "fill": "#ff0000",
+              "stroke": "#ff0000 0.20000000298023224"
+             },
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 9,
+              "h": 14,
+              "size": "FIXED/FIXED",
+              "fill": "#ff0000",
+              "stroke": "#ff0000 0.20000000298023224"
+             },
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 8,
+              "h": 2,
+              "size": "FIXED/FIXED",
+              "fill": "#ff0000",
+              "stroke": "#ff0000 0.20000000298023224"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "n": "Rs. 12,000",
+        "t": "text",
+        "w": 176,
+        "h": 41,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#000000",
+         "align": "RIGHT",
+         "value": "Rs. 12,000"
+        }
+       },
+       {
+        "n": "Group 1410122054",
+        "t": "group",
+        "w": 215,
+        "h": 121,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "count",
+          "t": "frame",
+          "w": 172,
+          "h": 52,
+          "size": "FIXED/FIXED",
+          "radius": 100,
+          "fill": "#ffffff",
+          "stroke": "#636363 2",
+          "kids": [
+           {
+            "n": "Line 34",
+            "t": "line",
+            "w": 16,
+            "h": 0,
+            "size": "FIXED/FIXED",
+            "stroke": "#000000 2"
+           },
+           {
+            "n": "Group 1410122053",
+            "t": "group",
+            "w": 16,
+            "h": 16,
+            "size": "FIXED/FIXED",
+            "kids": [
+             {
+              "n": "Line 35",
+              "t": "line",
+              "w": 16,
+              "h": 0,
+              "size": "FIXED/FIXED",
+              "stroke": "#000000 2"
+             },
+             {
+              "n": "Line 36",
+              "t": "line",
+              "w": 16,
+              "h": 0,
+              "size": "FIXED/FIXED",
+              "stroke": "#000000 2"
+             }
+            ]
+           },
+           {
+            "n": "1",
+            "t": "vector",
+            "w": 6,
+            "h": 16,
+            "size": "FIXED/FIXED",
+            "fill": "#000000"
+           },
+           {
+            "n": "Line 37",
+            "t": "line",
+            "w": 20,
+            "h": 0,
+            "size": "FIXED/FIXED",
+            "stroke": "#a3a3a3 1"
+           },
+           {
+            "n": "Line 38",
+            "t": "line",
+            "w": 20,
+            "h": 0,
+            "size": "FIXED/FIXED",
+            "stroke": "#a3a3a3 1"
+           }
+          ]
+         },
+         {
+          "n": "Rs.12,000 Rs.9600",
+          "t": "text",
+          "w": 215,
+          "h": 29,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "align": "LEFT",
+           "value": "Rs.12,000 Rs.9600",
+           "segments": [
+            {
+             "text": "Rs.12,000",
+             "style": null,
+             "color": "#636363",
+             "font": "Inter Medium",
+             "decoration": "strikethrough"
+            },
+            {
+             "text": " ",
+             "style": null,
+             "color": "#636363",
+             "font": "Inter Medium"
+            },
+            {
+             "text": "Rs.9600",
+             "style": null,
+             "color": "#00ac2b",
+             "font": "Inter Medium"
+            }
+           ]
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "n": "Frame 202",
+      "t": "frame",
+      "w": 1280,
+      "h": 260,
+      "size": "FIXED/FIXED",
+      "radius": 12,
+      "fill": "#ffffff",
+      "stroke": "#a3a3a3 1",
+      "kids": [
+       {
+        "n": "1 8",
+        "t": "rectangle",
+        "w": 220,
+        "h": 220,
+        "size": "FIXED/FIXED",
+        "radius": 12,
+        "fill": "image",
+        "image": "d00f6740ae05f0ca62174b15ae9cc15782e14940"
+       },
+       {
+        "n": "Group 1410122052",
+        "t": "group",
+        "w": 616,
+        "h": 220,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "HOKA Bondi 7",
+          "t": "text",
+          "w": 176,
+          "h": 31,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#000000",
+           "align": "LEFT",
+           "value": "HOKA Bondi 7"
+          }
+         },
+         {
+          "n": "Frame 192",
+          "t": "frame",
+          "w": 148,
+          "h": 48,
+          "size": "FIXED/FIXED",
+          "radius": 6,
+          "fill": "#000000",
+          "kids": [
+           {
+            "n": "Pre-Loved",
+            "t": "text",
+            "w": 101,
+            "h": 24,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#ffffff",
+             "align": "LEFT",
+             "value": "Pre-Loved"
+            }
+           }
+          ]
+         },
+         {
+          "n": "Size: EUR 40",
+          "t": "text",
+          "w": 135,
+          "h": 27,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "LEFT",
+           "value": "Size: EUR 40"
+          }
+         },
+         {
+          "n": "Rs.12,000 Rs.9600",
+          "t": "text",
+          "w": 215,
+          "h": 29,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "align": "LEFT",
+           "value": "Rs.12,000 Rs.9600",
+           "segments": [
+            {
+             "text": "Rs.12,000",
+             "style": null,
+             "color": "#636363",
+             "font": "Inter Medium",
+             "decoration": "strikethrough"
+            },
+            {
+             "text": " ",
+             "style": null,
+             "color": "#636363",
+             "font": "Inter Medium"
+            },
+            {
+             "text": "Rs.9600",
+             "style": null,
+             "color": "#00ac2b",
+             "font": "Inter Medium"
+            }
+           ]
+          }
+         },
+         {
+          "n": "Condition: Premium",
+          "t": "text",
+          "w": 207,
+          "h": 27,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "LEFT",
+           "value": "Condition: Premium"
+          }
+         },
+         {
+          "n": "Group 1410122051",
+          "t": "group",
+          "w": 106,
+          "h": 26,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "Remove",
+            "t": "text",
+            "w": 76,
+            "h": 24,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#ff0000",
+             "align": "LEFT",
+             "value": "Remove"
+            }
+           },
+           {
+            "n": "Group 1410122050",
+            "t": "group",
+            "w": 20,
+            "h": 24,
+            "size": "FIXED/FIXED",
+            "kids": [
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 20,
+              "h": 22,
+              "size": "FIXED/FIXED",
+              "fill": "#ff0000",
+              "stroke": "#ff0000 0.20000000298023224"
+             },
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 9,
+              "h": 14,
+              "size": "FIXED/FIXED",
+              "fill": "#ff0000",
+              "stroke": "#ff0000 0.20000000298023224"
+             },
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 8,
+              "h": 2,
+              "size": "FIXED/FIXED",
+              "fill": "#ff0000",
+              "stroke": "#ff0000 0.20000000298023224"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "n": "Rs. 9,600",
+        "t": "text",
+        "w": 159,
+        "h": 41,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#000000",
+         "align": "RIGHT",
+         "value": "Rs. 9,600"
+        }
+       }
+      ]
+     },
+     {
+      "n": "Frame 203",
+      "t": "frame",
+      "w": 1280,
+      "h": 260,
+      "size": "FIXED/FIXED",
+      "radius": 12,
+      "fill": "#ffffff",
+      "stroke": "#a3a3a3 1",
+      "kids": [
+       {
+        "n": "3 (5) 1",
+        "t": "rectangle",
+        "w": 220,
+        "h": 220,
+        "size": "FIXED/FIXED",
+        "radius": 12,
+        "fill": "image",
+        "image": "811ff3dcddf1048128793b1d3f748667fb09db29"
+       },
+       {
+        "n": "Group 1410122052",
+        "t": "group",
+        "w": 242,
+        "h": 220,
+        "size": "FIXED/FIXED",
+        "kids": [
+         {
+          "n": "ADIDAS Duramo SL",
+          "t": "text",
+          "w": 242,
+          "h": 31,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#000000",
+           "align": "LEFT",
+           "value": "ADIDAS Duramo SL"
+          }
+         },
+         {
+          "n": "Frame 192",
+          "t": "frame",
+          "w": 148,
+          "h": 48,
+          "size": "FIXED/FIXED",
+          "radius": 6,
+          "fill": "#000000",
+          "kids": [
+           {
+            "n": "Pre-Loved",
+            "t": "text",
+            "w": 101,
+            "h": 24,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#ffffff",
+             "align": "LEFT",
+             "value": "Pre-Loved"
+            }
+           }
+          ]
+         },
+         {
+          "n": "Size: EUR 42",
+          "t": "text",
+          "w": 134,
+          "h": 27,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "LEFT",
+           "value": "Size: EUR 42"
+          }
+         },
+         {
+          "n": "Condition: Premium",
+          "t": "text",
+          "w": 207,
+          "h": 27,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#636363",
+           "align": "LEFT",
+           "value": "Condition: Premium"
+          }
+         },
+         {
+          "n": "Group 1410122051",
+          "t": "group",
+          "w": 106,
+          "h": 26,
+          "size": "FIXED/FIXED",
+          "kids": [
+           {
+            "n": "Remove",
+            "t": "text",
+            "w": 76,
+            "h": 24,
+            "size": "FIXED/FIXED",
+            "text": {
+             "style": null,
+             "color": "#ff0000",
+             "align": "LEFT",
+             "value": "Remove"
+            }
+           },
+           {
+            "n": "Group 1410122050",
+            "t": "group",
+            "w": 20,
+            "h": 24,
+            "size": "FIXED/FIXED",
+            "kids": [
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 20,
+              "h": 22,
+              "size": "FIXED/FIXED",
+              "fill": "#ff0000",
+              "stroke": "#ff0000 0.20000000298023224"
+             },
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 9,
+              "h": 14,
+              "size": "FIXED/FIXED",
+              "fill": "#ff0000",
+              "stroke": "#ff0000 0.20000000298023224"
+             },
+             {
+              "n": "Vector",
+              "t": "vector",
+              "w": 8,
+              "h": 2,
+              "size": "FIXED/FIXED",
+              "fill": "#ff0000",
+              "stroke": "#ff0000 0.20000000298023224"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "n": "Rs. 6,400",
+        "t": "text",
+        "w": 160,
+        "h": 41,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#000000",
+         "align": "RIGHT",
+         "value": "Rs. 6,400"
+        }
+       },
+       {
+        "n": "Rs.8000 Rs.6400",
+        "t": "text",
+        "w": 199,
+        "h": 29,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "align": "LEFT",
+         "value": "Rs.8000 Rs.6400",
+         "segments": [
+          {
+           "text": "Rs.8000",
+           "style": null,
+           "color": "#636363",
+           "font": "Inter Medium",
+           "decoration": "strikethrough"
+          },
+          {
+           "text": " ",
+           "style": null,
+           "color": "#636363",
+           "font": "Inter Medium"
+          },
+          {
+           "text": "Rs.6400",
+           "style": null,
+           "color": "#00ac2b",
+           "font": "Inter Medium"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "n": "Frame 201",
+      "t": "frame",
+      "w": 460,
+      "h": 760,
+      "size": "FIXED/FIXED",
+      "radius": 14,
+      "fill": "#ffffff",
+      "stroke": "#000000 1",
+      "kids": [
+       {
+        "n": "Frame 191",
+        "t": "frame",
+        "w": 400,
+        "h": 64,
+        "size": "FIXED/FIXED",
+        "radius": 10,
+        "fill": "#000000",
+        "kids": [
+         {
+          "n": "Proceed to Checkout",
+          "t": "text",
+          "w": 245,
+          "h": 29,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#ffffff",
+           "align": "LEFT",
+           "value": "Proceed to Checkout"
+          }
+         }
+        ]
+       },
+       {
+        "n": "Subtotal(3 items)",
+        "t": "text",
+        "w": 200,
+        "h": 29,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#636363",
+         "align": "LEFT",
+         "value": "Subtotal(3 items)"
+        }
+       },
+       {
+        "n": "Rs. 14,999",
+        "t": "text",
+        "w": 121,
+        "h": 29,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#000000",
+         "align": "RIGHT",
+         "value": "Rs. 14,999"
+        }
+       },
+       {
+        "n": "Rs. 250",
+        "t": "text",
+        "w": 87,
+        "h": 29,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#000000",
+         "align": "RIGHT",
+         "value": "Rs. 250"
+        }
+       },
+       {
+        "n": "Delivery",
+        "t": "text",
+        "w": 94,
+        "h": 29,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#636363",
+         "align": "LEFT",
+         "value": "Delivery"
+        }
+       },
+       {
+        "n": "Total",
+        "t": "text",
+        "w": 74,
+        "h": 36,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#000000",
+         "align": "LEFT",
+         "value": "Total"
+        }
+       },
+       {
+        "n": "Rs. 15,250",
+        "t": "text",
+        "w": 153,
+        "h": 36,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#000000",
+         "align": "RIGHT",
+         "value": "Rs. 15,250"
+        }
+       },
+       {
+        "n": "Order Summary",
+        "t": "text",
+        "w": 263,
+        "h": 41,
+        "size": "FIXED/FIXED",
+        "text": {
+         "style": null,
+         "color": "#000000",
+         "align": "LEFT",
+         "value": "Order Summary"
+        }
+       },
+       {
+        "n": "Frame 192",
+        "t": "frame",
+        "w": 400,
+        "h": 64,
+        "size": "FIXED/FIXED",
+        "radius": 10,
+        "fill": "#c7f126",
+        "kids": [
+         {
+          "n": "Continue Shopping",
+          "t": "text",
+          "w": 223,
+          "h": 29,
+          "size": "FIXED/FIXED",
+          "text": {
+           "style": null,
+           "color": "#000000",
+           "align": "LEFT",
+           "value": "Continue Shopping"
+          }
+         }
+        ]
+       },
+       {
+        "n": "Line 26",
+        "t": "line",
+        "w": 400,
+        "h": 0,
+        "size": "FIXED/FIXED",
+        "stroke": "#d3d3d3 1"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

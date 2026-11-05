@@ -1,0 +1,268 @@
+{
+  "$comment": "Derived tokens. The Figma file has no variables or styles (design/README.md), so every value below is a measured raw value from design/spec/geometry, named once. Counts are uses across the 10 screens (node scripts/design-analyse.mjs). Edit only when the design changes; then run node scripts/generate-theme.mjs.",
+  "colors": {
+    "background": {
+      "value": "#ffffff",
+      "uses": 472
+    },
+    "foreground": {
+      "value": "#000000",
+      "uses": 553
+    },
+    "brand": {
+      "value": "#c7f126",
+      "uses": 231,
+      "description": "lime: CTAs, highlights, badges text"
+    },
+    "brand-foreground": {
+      "value": "#000000"
+    },
+    "brand-tint": {
+      "value": "#f4fcd4",
+      "uses": 1,
+      "description": "lime at 20% over white: Size Guide help strip"
+    },
+    "muted-foreground": {
+      "value": "#a3a3a3",
+      "uses": 229,
+      "description": "muted text on dark, strokes, struck prices"
+    },
+    "subtle-foreground": {
+      "value": "#636363",
+      "uses": 56,
+      "description": "secondary text on light, brand list"
+    },
+    "faint-foreground": {
+      "value": "#717171",
+      "description": "AA replacement for #a3a3a3 / #939393 text on light surfaces (D-004); design value fails 4.5:1"
+    },
+    "surface": {
+      "value": "#f6f6f6",
+      "uses": 11,
+      "description": "section and page backgrounds"
+    },
+    "surface-sunken": {
+      "value": "#e8e8e8",
+      "uses": 5
+    },
+    "surface-stripe": {
+      "value": "#f0f0f0",
+      "uses": 4
+    },
+    "well": {
+      "value": "#dfdfdf",
+      "uses": 42,
+      "description": "product image well"
+    },
+    "well-dark": {
+      "value": "#313131",
+      "uses": 1
+    },
+    "border": {
+      "value": "#d3d3d3",
+      "uses": 88
+    },
+    "border-strong": {
+      "value": "#a3a3a3"
+    },
+    "success": {
+      "value": "#008a23",
+      "uses": 26,
+      "description": "design #00ac2b fails 4.5:1 with white text; nearest AA shade (D-004)"
+    },
+    "success-foreground": {
+      "value": "#ffffff"
+    },
+    "destructive": {
+      "value": "#ee0000",
+      "uses": 14,
+      "description": "design #ff0000 fails 4.5:1 on white; nearest AA shade (D-004)"
+    },
+    "ink-raised": {
+      "value": "#191919",
+      "description": "white 10 % over black (footer contact box), measured from the screenshot"
+    },
+    "ink-field": {
+      "value": "#333333",
+      "description": "white 20 % over black (newsletter input), measured"
+    },
+    "ring": {
+      "value": "#c7f126"
+    },
+    "track": {
+      "value": "#efefef",
+      "description": "price-range track (listing filters)"
+    },
+    "border-subtle": {
+      "value": "#e5e7eb",
+      "description": "view-toggle outline, measured from the toggle raster"
+    },
+    "ink-control": {
+      "value": "#131313",
+      "description": "active view-toggle cell, measured from the toggle raster"
+    },
+    "control-border": {
+      "value": "#949494",
+      "description": "AA replacement for the #a3a3a3 checkbox outline; design value is 2.5:1, needs 3:1 (WCAG 1.4.11, D-004)"
+    },
+    "guide-panel": {
+      "value": "#fafaf8",
+      "description": "Condition Guide panel, sampled from the guide raster (D-015)"
+    },
+    "guide-like-new": {
+      "value": "#f0fbeb",
+      "description": "Condition Guide card, sampled from the guide raster (D-015)"
+    },
+    "guide-excellent": {
+      "value": "#fef3ec",
+      "description": "Condition Guide card, sampled from the guide raster (D-015)"
+    },
+    "guide-great": {
+      "value": "#eaf3fe",
+      "description": "Condition Guide card, sampled from the guide raster (D-015)"
+    },
+    "guide-good": {
+      "value": "#f2f1fe",
+      "description": "Condition Guide card, sampled from the guide raster (D-015)"
+    },
+    "guide-minor-marks": {
+      "value": "#fef9e3",
+      "description": "Condition Guide card, sampled from the guide raster (D-015)"
+    },
+    "stroke-soft": {
+      "value": "#e5e5e5",
+      "description": "2 px rule on the contact page send button and hours box"
+    }
+  },
+  "radius": {
+    "xs": 4,
+    "sm": 6,
+    "md": 8,
+    "lg": 10,
+    "xl": 12,
+    "2xl": 14,
+    "3xl": 16,
+    "4xl": 18,
+    "panel": 20,
+    "callout": 16.89,
+    "card": 23.75,
+    "social": 7.894752502441406,
+    "full": 9999,
+    "chip": 5.05,
+    "banner": 40
+  },
+  "fonts": {
+    "sans": {
+      "family": "Inter",
+      "weights": [
+        400,
+        500,
+        600,
+        700,
+        800,
+        900
+      ]
+    },
+    "display": {
+      "family": "Montserrat",
+      "weights": [
+        500,
+        600,
+        700,
+        800
+      ]
+    }
+  },
+  "shadows": {
+    "offset-brand": "14px 14px 0 0 #c7f126",
+    "offset-brand-sm": "8px 8px 0 0 #c7f126",
+    "header-rule": "0 1px 0 0 #a3a3a3",
+    "card-lift": "8px 8px 4px 0 rgb(0 0 0 / 0.25)",
+    "table-head": "0 0 0 1px #a3a3a3",
+    "summary-lift": "12px 12px 0 0 #c7f126",
+    "highlight-bleed": "-8px 0 0 0 #c7f126, 8px 0 0 0 #c7f126"
+  },
+  "layout": {
+    "grid-template-columns-header": "1fr auto 1fr",
+    "grid-template-columns-footer": "669px 335px 363px 1fr",
+    "grid-template-columns-hero": "860px 1fr",
+    "leading-hero": "1.0667",
+    "grid-template-columns-why": "810px 810px",
+    "grid-template-columns-listing": "368px 1fr",
+    "grid-template-columns-cards": "repeat(4, 400px)",
+    "grid-template-columns-pdp": "820px 1fr",
+    "grid-template-columns-contact": "780px 695px",
+    "grid-template-columns-cart": "minmax(0, 1fr) 460px",
+    "grid-template-columns-mega": "minmax(0, 1fr) minmax(0, 1fr) minmax(0, 2.4fr) minmax(0, 1.3fr)",
+    "grid-template-columns-search": "minmax(0, 15rem) minmax(0, 1fr)"
+  },
+  "breakpoints": {
+    "3xl": "120rem"
+  },
+  "contrast": [
+    [
+      "foreground",
+      "background"
+    ],
+    [
+      "background",
+      "foreground"
+    ],
+    [
+      "brand-foreground",
+      "brand"
+    ],
+    [
+      "brand",
+      "foreground"
+    ],
+    [
+      "muted-foreground",
+      "foreground"
+    ],
+    [
+      "subtle-foreground",
+      "background"
+    ],
+    [
+      "success-foreground",
+      "success"
+    ],
+    [
+      "success",
+      "background"
+    ],
+    [
+      "destructive",
+      "background"
+    ],
+    [
+      "faint-foreground",
+      "background"
+    ],
+    [
+      "faint-foreground",
+      "surface"
+    ],
+    [
+      "foreground",
+      "surface"
+    ],
+    [
+      "subtle-foreground",
+      "surface"
+    ],
+    [
+      "subtle-foreground",
+      "guide-great"
+    ],
+    [
+      "subtle-foreground",
+      "guide-good"
+    ],
+    [
+      "subtle-foreground",
+      "guide-minor-marks"
+    ]
+  ]
+}

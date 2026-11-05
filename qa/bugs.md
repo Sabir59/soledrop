@@ -1,0 +1,55 @@
+# Phase 1 fix round — defect log
+
+Reproduced with Playwright against the standalone production build (`next build`, `node qa/serve.mjs 3200`).
+Widths 320 · 360 · 390 · 640 (200 % zoom of 1280) · 768 · 1024 · 1280 · 1440 · 1920, light and dark; the
+storefront is LTR-only (one locale), so RTL was not applicable. Screenshots: `qa/bugs/` (after-fix
+captures from `node qa/bug-shots.mjs`; the before state was captured only as failing assertions and
+violation lists, not as images). "Fix commit" is empty for every row: commits are blocked in this
+session, so the fixes are uncommitted in the working tree.
+
+| ID | Sev | Route / component | Steps | Expected | Actual | Root cause | Fix commit | Regression test |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| BUG-001 | major | every page · `SiteHeader` < lg | Open any page at 390 px | Menu button and logo fit the bar | Logo pushed past the edge | Below lg the bar was two equal grid columns, narrower than menu button + logo; the logo cell could not shrink | uncommitted — session policy | `e2e/overflow-audit.spec.ts` (closed header, all routes × 320–1920) |
+| BUG-002 | — | — | — | — | — | ID reserved during reproduction; the record was lost in a session context reset and no code change carries it. Listed so the numbering stays honest. | — | — |
+| BUG-003 | major | every page · `ThemeProvider` | Press "d" outside a text field | Nothing happens | Theme toggles | A single-key shortcut (fails WCAG 2.1.4 Character Key Shortcuts) | uncommitted — session policy | `e2e/header.spec.ts` "typing outside a field never changes the theme" |
+| BUG-004 | major | `/search?brand=…` | Filter search by brand only, no query | Brand results | "Search" hint and nothing | Page ran the search only when `q` had ≥ 2 characters; filter-only states were ignored | uncommitted — session policy | `e2e/header.spec.ts` "without JavaScript…" |
+| BUG-005 | blocker | every page · mega menu, overlays | Open a mega menu at 1440 | Panel and dimmer above the page | Hero painted over the panel; backdrop behind the page | Tailwind v4 has no `--z-*` theme namespace, so `z-nav` / `z-overlay` generated no CSS | uncommitted — session policy | `e2e/header.spec.ts` "the open panel and its backdrop sit above the page" |
+| BUG-006 | minor | header search, drawer search | Focus the search field | One focus ring around the field | Ring plus three white blocks | The global `:focus-visible` box-shadow drew on the inner input inside a styled container | uncommitted — session policy | `e2e/header.spec.ts` "the search field shows one focus ring…" |
+| BUG-007 | major | mega menu | Keyboard into a panel, then hover another item | Hovered panel opens | All panels close | The focused link was hidden; `blur` with a null `relatedTarget` was treated as focus leaving the nav | uncommitted — session policy | `e2e/header.spec.ts` "keeps one panel open at a time…" |
+| BUG-008 | blocker | `/search` without JavaScript | Submit the search form with JS off | Results page | "Loading…" forever | `search/loading.tsx` streams a fallback that only client JS replaces | uncommitted — session policy | `e2e/header.spec.ts` "without JavaScript…" |
+| BUG-009 | blocker | every page in Safari/WebKit (HTTP) | Open the production build over plain HTTP in WebKit | Page hydrates | Unstyled, no JS: every asset requested as `https://127.0.0.1` | CSP `upgrade-insecure-requests`: WebKit does not exempt loopback. Redundant in production (all URLs same-origin and relative, HSTS on) | uncommitted — session policy | `tests/unit/security-headers.test.ts`; `e2e/header.spec.ts` on WebKit |
+| BUG-010 | major | cart, sign-in (WebKit over HTTP) | Add to bag in WebKit, open the bag | Bag shows the line | "Your bag is empty" | Session and cart cookies are `Secure` in production; WebKit drops Secure cookies set over `http://127.0.0.1`. Production stays Secure; `COOKIE_SECURE=false` only for loopback QA (`qa/serve.mjs`) | uncommitted — session policy | `tests/unit/security-headers.test.ts`; `e2e/header.spec.ts` mini-cart on WebKit |
+| BUG-011 | minor | mobile drawer | Drill into "Men" | Focus moves to the level heading | Focus falls back to the dialog popup | The clicked row unmounts; Base UI's focus manager refocused the popup before the `requestAnimationFrame` focus ran | uncommitted — session policy | `e2e/header.spec.ts` "drills down with back, breadcrumb…" |
+| BUG-012 | major | every page · footer at 320 | Open any page at 320 px | Footer columns fit | Columns 314 px wide in a 300 px container | Footer grid had no explicit tracks below md: the implicit `auto` track grew to the address card's min-content (unbreakable email + 38 px padding) | uncommitted — session policy | `e2e/overflow-audit.spec.ts` (66 combinations) |
+| BUG-013 | major | `/contact` at 320–390 | Open /contact on a phone | Cards fit | Page scrolls sideways (402 px) | Same pattern: `grid` with no explicit tracks below lg; the nowrap email row's min-content sized the track | uncommitted — session policy | `e2e/overflow-audit.spec.ts` |
+| BUG-014 | minor | `/cart` empty at 640 | Empty bag at 640 px (200 % zoom) | Both buttons visible | Second button off-screen | Buttons went side by side at `sm` (600 px column) but need 674 px | uncommitted — session policy | `e2e/overflow-audit.spec.ts` |
+| BUG-015 | major (security) | every rate-limited API · `clientKey()` | 11 failed sign-ins, each with a different made-up first `X-Forwarded-For` entry | 11th answered 429 | Never limited: each forged address got a fresh bucket | The key was the *first* `X-Forwarded-For` entry, which the client writes; behind an appending proxy only the last `TRUSTED_PROXY_HOPS` entries are trustworthy. Now `forwardedClient()` takes the entry our own proxy appended (`TRUSTED_PROXY_HOPS`, default 1) | uncommitted — session policy | `tests/unit/security-headers.test.ts` (BUG-015); `e2e/security.spec.ts` "sign-in attempts are limited per address…" |
+| BUG-016 | blocker (performance) | every photo · `/_next/image` in the standalone build | Request `/_next/image?url=/images/site/hero-2.jpg&w=828` | AVIF/WebP of a few dozen KB | The original 2.8 MB JPEG (product PNGs 1.7 MB); phones download megabytes per page | File tracing copies sharp's `.node` addon but not `libvips-42.dll` / `libvips-cpp` (loaded by the OS, not `require`), so sharp failed to load and Next served originals. `outputFileTracingIncludes` now adds `@img/*/lib/**` | uncommitted — session policy | `e2e/images.spec.ts` (Chromium, Firefox, WebKit) |
+| BUG-017 | major (visual) | Home hero "New shoes", featured "Add to cart", newsletter "Join now", footer "SHOP NOW" on every page | Hover each button | The button stays visible as a button | Lime buttons on black sections hovered to black and the black button on the lime promo bar hovered to lime, so the fill vanished and only floating text was left (found by `qa/hover-audit.mjs`) | The button tones assumed a white page. New `brand-on-ink` and `ink-on-brand` tones hover to white; those four buttons use them | uncommitted — session policy | `e2e/hover.spec.ts` + `qa/hover-audit.mjs` (0 findings over 1,930 hovers, light and dark) |
+| BUG-018 | minor (a11y) | Quantity stepper (Home featured pair, product page, bag) | Hover "−" at quantity 1 | A disabled button doesn't react | It took the hover fill, dropping its faint "−" to 2.59:1 | Hover fills now apply only to `enabled:` buttons | uncommitted — session policy | `e2e/hover.spec.ts` |
+| BUG-019 | major | Home · Featured Drop slider (during D-048) | Open Home at 320–1920 | No sideways scroll | Page 481 px wide at 320 (2521 at 1440); found by `e2e/overflow-audit.spec.ts` before release | The slider track was `position: static`, so the `sr-only` spans (absolutely positioned) in the off-screen slide were placed against `<body>` and escaped the track's overflow clip. The track is now `relative` | uncommitted — session policy | `e2e/featured-drops.spec.ts` "the hidden slide never widens the page" + `e2e/overflow-audit.spec.ts` |
+
+## Open findings (not fixed in this round)
+
+| ID | Area | Measurement | Analysis | Next step |
+| --- | --- | --- | --- | --- |
+| PERF-01 | INP opening the menu drawer / search overlay | `qa/perf.mjs` (390 px, 4× CPU): 248–432 ms vs a 200 ms budget; 2× CPU 120–168 ms; unthrottled 48–80 ms | ~130 ms (4×) in React + Base UI dialog mount handlers, ~115 ms presentation (two layouts of ~200 objects, scroll lock, animation start). Only ~53 nodes are added, so there is no oversized tree | Profile Base UI's focus manager / scroll lock; consider opening the panel on `pointerdown` and deferring non-critical content with `startTransition` (docs/app/phase-2.md build item 9) |
+| PERF-02 | First-load JS on every route | 287–290 KB gzip vs a 200 KB budget | react-dom 72 KB, Base UI 50 + 8 KB, Next runtime 44 + 11 + 9 KB, zod 31 KB. zod reaches every route through the footer newsletter form and `lib/site` → `lib/env` | Move client-side schemas to `zod/mini` and read public env without zod in the browser (build item 10) |
+| GEO-01 | Header nav at 1920, closed | Geometry audit: New Arrival +1.39 px, Men +0.5, Women −0.27, Sale −0.92 (x); widths exact | The design spaces fixed-width, centre-aligned Figma text boxes 74 px apart; the build spaces the glyph runs 74 px apart, so the sub-pixel box padding accumulates. No pre-mega-menu geometry baseline exists to prove "0 px change" | Designer confirmation: keep (≤ 1.4 px) or size each trigger to its Figma box width (build item 13) |
+
+## Investigated, not a defect
+
+- **Slow client navigation under CPU contention.** The header suite flaked once per run when all three
+  engines ran with three workers each (navigation over 5 s). `qa/nav-race.mjs` measured: nothing is lost.
+  Navigations take 200–550 ms unthrottled and 1.4–3.5 s at 6× CPU throttling. Cross-browser suites run with
+  two workers. A pending-navigation indicator for slow phones is logged in `docs/app/phase-2.md`.
+- **Journeys on Firefox/WebKit after repeated runs.** "Sorry, that size just sold out." and "Too many
+  attempts": the fixture store keeps stock (6 per size) and rate limits for the server's lifetime, and
+  every test shared one address. Both are correct app behaviour. The journey now moves to the next size
+  like a shopper, and each test is its own shopper address behind the trusted proxy (which also exposed
+  BUG-015). Signing out on `/account` redirects to sign-in; the test now waits for that instead of racing it.
+- **WebKit renders Inter thin on Windows.** Playwright's WebKit (WinCairo) draws the variable font at its
+  default outline, but advance widths at 400/700/900 match Chromium and Firefox within 0.03 px, so
+  layout is identical. Engine limitation; Safari on macOS/iOS is under *Needs manual check*.
+- **Firefox size-chip click.** `check({ force: true })` on a visually hidden radio misses in Firefox;
+  shoppers click the visible chip. The tests select sizes with the keyboard instead.

@@ -1,0 +1,27 @@
+import { z } from "zod"
+
+import { currentStoreId } from "@/server/db/driver"
+import { apiV1 } from "@/server/http/api-v1"
+import { parseBody } from "@/server/http/route"
+import { orderService } from "@/server/orders"
+import { DomainError } from "@/server/shared/errors"
+
+type Context = { params: Promise<{ number: string }> }
+
+const schema = z.object({
+  amount: z.number().int().positive(),
+  reason: z.string().min(3).max(500),
+  lines: z.array(z.object({ orderLineId: z.uuid(), quantity: z.number().int().positive() })).default([]),
+  restock: z.boolean().default(false),
+  idempotencyKey: z.string().min(8).max(80),
+})
+
+export const POST = apiV1<Context>("write", async (request, _client, { params }) => {
+  const { number } = await params
+  const input = await parseBody(request, schema)
+  const service = orderService()
+  const order = await service.lookupByNumber(currentStoreId(), number)
+  if (!order) throw new DomainError("not_found", "Order not found.")
+  const refund = await service.refund({ ...input, orderId: order.id, idempotencyKey: `api:${input.idempotencyKey}` })
+  return Response.json({ refund }, { status: 201 })
+})
